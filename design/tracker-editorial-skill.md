@@ -26,3 +26,14 @@ Voice: a senior regulatory analyst who respects the reader's time. WaPo clarity,
 - Full-page editorial layout (Halcyon-grade restraint: whitespace, one accent, editorial type).
 - Inline citation links on the claims themselves; PDF opens split-screen at the passage.
 - Summary box up top for skimmers; depth below for analysts.
+
+## Two registers (owner-set 2026-09-12)
+
+ANALYST REGISTER - docket summaries, filing detail, query answers, technical sections:
+- Technical analyst level, written for lawyers and consultants. No jokes, no catchy framing, no dumbing down. Precision over accessibility.
+
+NEWS REGISTER - News/Latest section, X, LinkedIn:
+- Explanatory and accessible: catchy headline, hero image, plain-English "what happened and why it matters" that a smart outsider can follow. Still sharp-analyst credibility: no memes, no bullshit jokes, no hype adjectives. A lawyer reading it should nod, not wince.
+- Selection gate: only stories that pass the so-what test go social. Not every filing is a post.
+
+Same evidence and citations underneath both. News register translates; it never distorts.

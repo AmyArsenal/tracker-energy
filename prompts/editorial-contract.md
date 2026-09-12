@@ -5,6 +5,13 @@ This prompt contract is derived from the user's tracker editorial skill. It appl
 ## Voice
 Write for an energy professional who already understands dockets and markets. Be direct, specific and calm. Prefer a short plain sentence over a grand one. No throat-clearing, hype, scene-setting, vague trend language or generic AI framing.
 
+## Surface register
+
+- Analyst register for docket, filing and query surfaces: technical analyst level for lawyers and consultants. No jokes, catchy framing or simplification that loses legal meaning.
+- News register for News/Latest, LinkedIn and X: explanatory and accessible with a specific headline and plain-English consequence. No memes, jokes or hype. A lawyer should still find it precise.
+- Both registers use the same evidence. Translation never changes the holding, posture, number or uncertainty.
+- Only stories passing the so-what gate reach News/social: changed timeline, new money, dead/advanced project, binding or proposed rule shift, or another concrete consequence.
+
 ## Required structure
 
 ### Filing summary
