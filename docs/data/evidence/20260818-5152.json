@@ -1,0 +1,158 @@
+[
+  {
+    "evidence_id": "ev:fded70cc0ed8f6fa49d92c26ebf622a55a0b02eb826dbf8326936dc0fc9773cd",
+    "passage_id": "psg:682b4a578d446c3cf2a3c27634b7482e3751ab62d285671ca62058ce31489a1d",
+    "component_id": "E11808",
+    "source_sha256": "f9c5d6e391132c81088abfb805f53bf3006d8990325cde3be59b9d32e7452eaf",
+    "extraction_version": "pdftotext version 22.02.0",
+    "kind": "pdf_bbox",
+    "page_start": 1,
+    "page_end": 1,
+    "token_start": 77,
+    "token_end": 84,
+    "quote": "to establish a Zero Injection Generator Interconnection Agreement",
+    "method": "digital_text",
+    "confidence": 1.0,
+    "created_at": "2026-09-12T15:06:01.702536+00:00",
+    "boxes": [
+      [
+        0.3391013071895425,
+        0.4759570707070707,
+        0.88231045751634,
+        0.492729797979798
+      ]
+    ]
+  },
+  {
+    "evidence_id": "ev:82b21b56fb8bc4c46ca4ede49aacb2b568a79fe3f5460b6d6c2f9d9a62c8e2a5",
+    "passage_id": "psg:930e910e083f9b0d21ddaa4581f1eeb6f1c43908ba88c284e1b6deb198af2b54",
+    "component_id": "E11808",
+    "source_sha256": "f9c5d6e391132c81088abfb805f53bf3006d8990325cde3be59b9d32e7452eaf",
+    "extraction_version": "pdftotext version 22.02.0",
+    "kind": "pdf_bbox",
+    "page_start": 2,
+    "page_end": 2,
+    "token_start": 259,
+    "token_end": 272,
+    "quote": "MISO requests that the Tariff revisions submitted herewith be made effective October 18 2026",
+    "method": "digital_text",
+    "confidence": 1.0,
+    "created_at": "2026-09-12T15:06:01.704551+00:00",
+    "boxes": [
+      [
+        0.1765032679738562,
+        0.4945934343434344,
+        0.8823202614379085,
+        0.5113661616161617
+      ],
+      [
+        0.11768627450980393,
+        0.5120176767676767,
+        0.16180392156862744,
+        0.5287904040404041
+      ]
+    ]
+  },
+  {
+    "evidence_id": "ev:7bb9ffee8ce3d038c2a5b5690832a8dce1fdac5820796be8528206ac363987b8",
+    "passage_id": "psg:29ffcba1f41f9c2cfb821de5cc5f7a4887f32fd664bd1b653edcfd4225dd8081",
+    "component_id": "E11808",
+    "source_sha256": "f9c5d6e391132c81088abfb805f53bf3006d8990325cde3be59b9d32e7452eaf",
+    "extraction_version": "pdftotext version 22.02.0",
+    "kind": "pdf_bbox",
+    "page_start": 11,
+    "page_end": 11,
+    "token_start": 85,
+    "token_end": 99,
+    "quote": "The ZGIA construct allows for generation to connect to the Transmission System without injection rights",
+    "method": "digital_text",
+    "confidence": 1.0,
+    "created_at": "2026-09-12T15:06:01.706820+00:00",
+    "boxes": [
+      [
+        0.1765032679738562,
+        0.2528888888888889,
+        0.8826339869281046,
+        0.26966161616161616
+      ],
+      [
+        0.11768627450980393,
+        0.2703131313131313,
+        0.24238562091503268,
+        0.2870858585858586
+      ]
+    ]
+  },
+  {
+    "evidence_id": "ev:842acaa2aa71b4efd371eee4818edb99b56a75e1b31b2f0ee166e0ca6b0a068f",
+    "passage_id": "psg:4f1a6a570a761ebfc48f9c0c42331454d6ed03d98f448da338e300e1f87e977d",
+    "component_id": "E11808",
+    "source_sha256": "f9c5d6e391132c81088abfb805f53bf3006d8990325cde3be59b9d32e7452eaf",
+    "extraction_version": "pdftotext version 22.02.0",
+    "kind": "pdf_bbox",
+    "page_start": 12,
+    "page_end": 12,
+    "token_start": 92,
+    "token_end": 131,
+    "quote": "ZG Interconnection Service is service limited to serving specifically designated load that is either at the same Points of Interconnection POI or has a Points of Withdrawal POW on the same voltage side of the same substation as the ZGIA",
+    "method": "digital_text",
+    "confidence": 1.0,
+    "created_at": "2026-09-12T15:06:01.708881+00:00",
+    "boxes": [
+      [
+        0.11768627450980393,
+        0.2528888888888889,
+        0.8821176470588236,
+        0.26966161616161616
+      ],
+      [
+        0.11768627450980393,
+        0.2703131313131313,
+        0.8823986928104576,
+        0.2870858585858586
+      ],
+      [
+        0.11768627450980393,
+        0.28773737373737374,
+        0.5814869281045751,
+        0.304510101010101
+      ]
+    ]
+  },
+  {
+    "evidence_id": "ev:1a08f20a47696de9db699fb68d93f66c76196c5834c2f67f769c9db5969e02d5",
+    "passage_id": "psg:4f1a6a570a761ebfc48f9c0c42331454d6ed03d98f448da338e300e1f87e977d",
+    "component_id": "E11808",
+    "source_sha256": "f9c5d6e391132c81088abfb805f53bf3006d8990325cde3be59b9d32e7452eaf",
+    "extraction_version": "pdftotext version 22.02.0",
+    "kind": "pdf_bbox",
+    "page_start": 12,
+    "page_end": 12,
+    "token_start": 132,
+    "token_end": 149,
+    "quote": "ZG Interconnection Service is not Transmission Service and does not exempt a Transmission Customer from procuring Transmission Service",
+    "method": "digital_text",
+    "confidence": 1.0,
+    "created_at": "2026-09-12T15:06:01.710865+00:00",
+    "boxes": [
+      [
+        0.5999183006535947,
+        0.28773737373737374,
+        0.8826535947712418,
+        0.304510101010101
+      ],
+      [
+        0.11768627450980393,
+        0.30516161616161613,
+        0.8824084967320261,
+        0.32193434343434346
+      ],
+      [
+        0.11768627450980393,
+        0.3226237373737374,
+        0.18119607843137253,
+        0.33939646464646467
+      ]
+    ]
+  }
+]
