@@ -5,7 +5,7 @@ Moat #1 is UX/workflow. Moat #2 is passage-level citation quality. The cited reg
 
 ## Current scope
 
-**Build now:** FERC eLibrary; public stakeholder meetings and their agendas, minutes, presentations, vote records and revision requests from PJM, CAISO, ERCOT, MISO, SPP, NYISO and ISO-NE; full text and passage citations; entity/relationship graph; Smart Reader; graph-bounded questions.
+**Build now:** FERC eLibrary; public stakeholder meetings and their agendas, minutes, presentations, vote records and revision requests from PJM, CAISO, ERCOT, MISO, SPP, NYISO and ISO-NE; every current and historical ISO/RTO tariff, manual and governing rule document; full text and passage citations; entity/relationship graph; Smart Reader; graph-bounded questions.
 
 **Maintenance only:** existing EIA, HIFLD, power-plant, transmission-map and interconnection-queue layers remain live as free marketing surfaces. Do not delete them, but make no new product investment in them unless the user changes scope. Keep only the minimum operational checks needed to avoid publishing broken or stale-looking pages.
 
@@ -57,10 +57,16 @@ V1 establishes the cited reading and document workspace. Graph-powered free-form
 
 **Done when:** the article is fully readable without an open PDF; every inline reference opens the correct document, page and passage; keyboard/mobile behavior is tested; closing the source restores the full article; and related reads appear below without displacing the primary reading flow.
 
-## 4. All ISO/RTO stakeholder corpora
-Build source-specific crawlers for PJM, CAISO, ERCOT, MISO, SPP, NYISO and ISO-NE. Ingest public meeting records and all linked agendas, minutes, presentations, vote records and revision requests. Preserve meeting/committee hierarchy, original URL, posted/revised timestamps, file relationships, cancellation/reschedule status and source freshness. Generic scraping is not a substitute for connector-specific completeness accounting.
+## 4. All ISO/RTO lifecycle corpora
+Build source-specific crawlers for PJM, CAISO, ERCOT, MISO, SPP, NYISO and ISO-NE. The first-class corpus includes stakeholder meetings and every linked agenda, minutes, presentation, vote/action and revision request, plus current and historical tariff sheets, business-practice manuals, planning manuals, market manuals, interconnection procedures and other governing rule documents.
 
-**Done when:** all seven connectors expose live/partial/blocked status; each reconciles meetings and expected linked documents; revisions retain history; time zones and cancellations are tested; documents pass the same component, full-text, citation and graph pipeline as FERC; and source failures do not silently publish partial current data as complete.
+Preserve meeting/committee hierarchy, original URL, posted/effective/revised timestamps, file and section relationships, cancellation/reschedule status and source freshness. Manuals and tariffs are versioned by immutable source checksum. For each revision, produce a section-aware textual diff with exact old/new passage citations; page-number-only comparison is insufficient. Detect additions, deletions, moves and renumbering separately from substantive wording changes. Generic scraping is not a substitute for connector-specific completeness accounting.
+
+The graph models the regulatory lifecycle: stakeholder proposal/discussion -> vote or revision request -> ISO/RTO filing at FERC -> FERC action -> effective tariff/manual/rule version. Edges such as `PROPOSES`, `VOTED_ON`, `RESULTED_IN_FILING`, `AMENDS_SECTION`, `ACCEPTED_BY_ORDER`, `IMPLEMENTS` and `SUPERSEDES` require passage or official-metadata evidence. Sequence/timing alone never proves causation.
+
+A user can watch a committee, initiative, docket, filing, tariff/manual, section or graph chain. One watch follows evidence-backed changes across stages and reports the exact source diff, status and unresolved implications.
+
+**Done when:** all seven connectors expose live/partial/blocked status; each reconciles meetings and expected linked documents plus registered manuals/tariffs; revision history is immutable; section diffs round-trip to both old and new passages; graph lifecycle links pass evidence review; time zones, effective dates and cancellations are tested; documents pass the same component/full-text/citation pipeline as FERC; and source failures do not silently publish partial current data as complete.
 
 ## 5. Graph-powered `Tell me more`
 Let a user select source text or a graph object and ask a bounded question. Retrieve the selected passage, surrounding section, document, connected entities/edges and relevant related sources. Clearly separate current-document evidence from wider-corpus evidence. Every factual answer claim links to an exact supporting passage; unresolved identity, chronology or authority is stated.

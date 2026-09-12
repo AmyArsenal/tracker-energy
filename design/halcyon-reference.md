@@ -29,3 +29,6 @@ Observed from six user-supplied screenshots on 2026-09-12. These notes describe 
 - every citation is backed by page/passage coordinates, checksums and extraction version;
 - docket chronology, party position and agency action remain distinct;
 - depth, trust and workflow are optimized before raw corpus-count theatre.
+
+## Visual design bar
+The user set Halcyon's website as a direct quality bar alongside Legora and The Washington Post: clean, quiet and confident. Apply the principle, not the brand skin. Prioritize generous whitespace, restrained colour, strong editorial typography, clear hierarchy, few primary actions, consistent metadata and progressive disclosure. Avoid dashboard clutter, dense chip walls, novelty motion and fake activity. The article is the default reading surface; tools appear when invoked.
