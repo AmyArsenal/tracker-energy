@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-12T12:25:20Z",
+ "built_at": "2026-09-12T17:06:58Z",
  "stats": {
-  "docs": 1644,
+  "docs": 1647,
   "venues": 6,
-  "new_7d": 170,
-  "eligible": 1415
+  "new_7d": 176,
+  "eligible": 1419
  },
  "filed": [
   {
@@ -38,14 +38,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260904-5197"
   },
   {
-   "id": "ferc:20260903-5212",
+   "id": "ferc:20260903-5243",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-09-03",
-   "title": "Protest and Comments of Joint Consumer Advocates on the 08/13/2026 filing by PJM Interconnection, L.L.C. under ER26-3515.",
-   "plain": "New Jersey Division of Rate Counsel challenges PJM's data-center resource-adequacy fast track.",
+   "title": "Protest of the Independent Market Monitor for PJM to the 08/13/2026 filing by PJM Interconnection, L.L.C. proposing to establish Interim Resource Adequacy Service under ER26-3515.",
+   "plain": "Monitoring Analytics challenges PJM's data-center resource-adequacy fast track.",
    "docket": "ER26-3515-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5212"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5243"
   },
   {
    "id": "va-scc:PUR-2026-00132:docket",
