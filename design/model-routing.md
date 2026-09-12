@@ -53,3 +53,6 @@ Observed from authenticated `/api/v1/models` on 2026-09-12; refresh before use:
 - `deepseek/deepseek-r1-0528`: $0.50/M prompt, $2.15/M completion, $0.35/M cache read.
 
 Temporal/provider overrides can apply. These rates are evidence for estimates, not permanent configuration.
+
+## Editorial prompt dependency
+Every summary, article and alert-brief candidate is wrapped with `prompts/editorial-contract.md`, derived from `design/tracker-editorial-skill.md`. Editorial style never overrides evidence scope or strict structured output. Style violations and allegation/holding errors are separate eval dimensions.
