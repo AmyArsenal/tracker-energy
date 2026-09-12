@@ -1,13 +1,19 @@
 name: Nightly data refresh
+
 on:
   schedule:
     - cron: '30 5 * * *'
   workflow_dispatch:
+
 concurrency:
   group: nightly-data-refresh
   cancel-in-progress: false
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -41,8 +47,7 @@ jobs:
           node --check docs/grid-map.js
           python -m py_compile scripts/*.py
       - name: Build provenance manifest
-        run: |
-          python scripts/build_manifest.py
+        run: python scripts/build_manifest.py
       - name: Upload nightly data artifact
         uses: actions/upload-artifact@v4
         with:
@@ -61,6 +66,29 @@ jobs:
           git config user.name 'tracker.energy data bot'
           git config user.email 'data-bot@tracker.energy'
           git add -A
-          git diff --cached --quiet && exit 0
-          git commit -m "data: nightly refresh $(date -u +%F)"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "data: nightly refresh $(date -u +%F)"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
