@@ -74,18 +74,6 @@
    "has_document": false
   },
   {
-   "accession": "20260623-5084",
-   "date": "06/23/2026",
-   "party": "NATURAL GAS SUPPLY ASSOCIATION",
-   "role": "intervenor",
-   "phase": "interventions",
-   "filing_type": "Motion/Notice of Intervention",
-   "summary": "NATURAL GAS SUPPLY ASSOCIATION enters the docket as a party without stating a merits position.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260623-5084",
-   "has_document": false
-  },
-  {
    "accession": "20260624-5163",
    "date": "06/24/2026",
    "party": "Electric Power Supply Association",
@@ -684,6 +672,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260709-5023",
    "has_document": true
+  },
+  {
+   "accession": "20260709-5030",
+   "date": "07/09/2026",
+   "party": "Electricity Customer Alliance",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Electricity Customer Alliance enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260709-5030",
+   "has_document": false
   },
   {
    "accession": "20260709-5030",
