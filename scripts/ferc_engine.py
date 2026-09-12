@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS ingest_runs(
  accessions_seen INTEGER DEFAULT 0, components_seen INTEGER DEFAULT 0,
  components_downloaded INTEGER DEFAULT 0, components_extracted INTEGER DEFAULT 0,
  errors INTEGER DEFAULT 0, detail TEXT);
+CREATE TABLE IF NOT EXISTS engine_state(key TEXT PRIMARY KEY,value TEXT NOT NULL,updated_at TEXT NOT NULL);
 CREATE TABLE IF NOT EXISTS ingest_pages(
  run_id TEXT NOT NULL REFERENCES ingest_runs(run_id), filed_date TEXT NOT NULL,
  page INTEGER NOT NULL, expected_hits INTEGER NOT NULL, hits_seen INTEGER NOT NULL,
@@ -154,6 +155,7 @@ def run_search(db,start_date,end_date,page_size=100,fixture=None):
   db.execute("""UPDATE ingest_runs SET finished_at=?,status='ok',expected_hits=?,pages_fetched=?,accessions_seen=?,components_seen=? WHERE run_id=?""",(now(),expected,total_pages,seen,comps,run_id));db.commit()
  except Exception as e:
   errors+=1;db.execute("UPDATE ingest_runs SET finished_at=?,status='failed',expected_hits=?,pages_fetched=?,accessions_seen=?,components_seen=?,errors=?,detail=? WHERE run_id=?",(now(),expected,total_pages,seen,comps,errors,str(e),run_id));db.commit();raise
+ set_state(db,'last_complete_filed_date',end_date);db.commit()
  return run_id
 
 def download_pending(db,store,limit=0,max_bytes=15_000_000):
@@ -205,6 +207,42 @@ def extract_pending(db,limit=0):
   except Exception as e:
    db.execute("UPDATE ferc_components SET extraction_status='retry' WHERE component_id=?",(r['component_id'],));db.execute("INSERT INTO engine_events(at,level,subject,message) VALUES(?,?,?,?)",(now(),'error',r['component_id'],str(e)));db.commit()
  return done
+
+def normword(s): return re.sub(r'[^a-z0-9]+','',s.lower())
+
+def create_evidence(db,component_id,page,quote):
+ rows=db.execute("SELECT * FROM tokens WHERE component_id=? AND page=? ORDER BY token_index",(component_id,page)).fetchall()
+ want=[normword(x) for x in quote.split() if normword(x)]
+ got=[normword(r['text']) for r in rows]
+ found=None
+ for i in range(len(got)-len(want)+1):
+  if got[i:i+len(want)]==want: found=(i,i+len(want)-1);break
+ if found is None: raise ValueError('exact normalized quote not found on page')
+ a,b=found; chosen=rows[a:b+1]
+ # Group adjacent words on the same visual line into minimal highlight rectangles.
+ groups=[]
+ for r in chosen:
+  if not groups or abs(groups[-1][1]-r['y0'])>0.006:
+   groups.append([r['x0'],r['y0'],r['x1'],r['y1']])
+  else:
+   groups[-1][0]=min(groups[-1][0],r['x0']);groups[-1][1]=min(groups[-1][1],r['y0']);groups[-1][2]=max(groups[-1][2],r['x1']);groups[-1][3]=max(groups[-1][3],r['y1'])
+ comp=db.execute("SELECT source_sha256,extraction_version FROM ferc_components WHERE component_id=?",(component_id,)).fetchone()
+ if not comp or not comp['source_sha256']: raise ValueError('component is not checksum-backed')
+ key=f"{comp['source_sha256']}:{page}:{a}:{b}:{quote}";eid='ev:'+sha(key.encode())
+ pid=db.execute("SELECT passage_id FROM passages WHERE component_id=? AND page_start<=? AND page_end>=? ORDER BY length(text) LIMIT 1",(component_id,page,page)).fetchone()
+ if not pid: raise ValueError('no passage for page')
+ db.execute("""INSERT OR REPLACE INTO evidence VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+ (eid,pid[0],component_id,comp['source_sha256'],comp['extraction_version'] or 'unknown','pdf_bbox',page,page,a,b,quote,json.dumps(groups,separators=(',',':')),'digital_text',1.0,now()))
+ db.commit();return eid
+
+def set_state(db,key,value):
+ db.execute("INSERT INTO engine_state VALUES(?,?,?) ON CONFLICT(key) DO UPDATE SET value=excluded.value,updated_at=excluded.updated_at",(key,value,now()))
+
+def incremental_dates(db,through,overlap_days=2):
+ end=dt.date.fromisoformat(through)
+ row=db.execute("SELECT value FROM engine_state WHERE key='last_complete_filed_date'").fetchone()
+ start=(dt.date.fromisoformat(row[0])-dt.timedelta(days=overlap_days)) if row else end
+ return start.isoformat(),end.isoformat()
 
 def report(db):
  return {k:db.execute(q).fetchone()[0] for k,q in {
