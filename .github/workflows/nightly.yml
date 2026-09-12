@@ -65,8 +65,3 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -m "data: nightly refresh $(date -u +%F)"
           git push
-      - name: Deploy live site
-        if: ${{ env.SURGE_TOKEN != '' }}
-        env:
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-        run: npx --yes surge docs tracker-energy.surge.sh --token "$SURGE_TOKEN"
