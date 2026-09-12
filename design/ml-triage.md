@@ -23,10 +23,10 @@ Use source metadata, docket mapping and high-precision textual rules. This is th
 ### Layer 2: local statistical models
 Train/evaluate cheap CPU models where enough labels exist: sparse TF-IDF word/character features with calibrated logistic regression or linear SVM for multi-label topics and procedural/substantive class. Use dictionaries plus token/span models for entities. This layer is deterministic by artefact checksum, cheap to run corpus-wide and useful for comparison against the LLM.
 
-### Layer 3: DeepSeek structured-output tagger
+### Layer 3: model-swappable structured-output tagger via OpenRouter
 Send only the bounded filing metadata and selected full-text passages needed for classification. Require a strict JSON schema with per-label confidence, evidence passage IDs and abstention. Reject unknown labels, missing evidence, malformed output and claims unsupported by cited passages.
 
-DeepSeek is not the authority. Its predictions are candidates that must pass schema/evidence gates and the version's evaluated confidence thresholds. Paid calls are blocked until the key, current official pricing, projected per-filing cost and $5 hard-budget controls are in place.
+DeepSeek models can be evaluated through OpenRouter, but provider/model is a versioned setting and no model is the authority. Its predictions are candidates that must pass schema/evidence gates and the version's evaluated confidence thresholds. Paid calls are blocked until the key, current official pricing, projected per-filing cost and $5 hard-budget controls are in place.
 
 ### Resolution policy
 - deterministic high-precision labels can be accepted directly;
@@ -66,4 +66,4 @@ Small-support labels are reported as insufficient evidence, not a flattering per
 A tagger version identifies code commit, rules/model/prompt/schema checksum, training set version, evaluation set version and dependency versions. Every accepted/rejected prediction remains reconstructible. Re-scoring writes a new version; it does not overwrite the earlier decision. Promotion and rollback are explicit.
 
 ## Cost controls
-Before any DeepSeek call, estimate uncached/cached input and maximum output tokens using current official prices. Maintain an append-only usage ledger by job and model. Reserve projected cost atomically; refuse the job if it could cross the user's $5 lifetime ceiling. Reconcile reservation to provider-reported usage. Cache by source checksum + prompt/schema/version. Procedural templates and local models consume no API budget.
+Before any paid OpenRouter call, estimate uncached/cached input and maximum output tokens using current official prices. Maintain an append-only usage ledger by job, provider and model. Reserve projected cost atomically; refuse the job if it could cross the user's $5 lifetime ceiling. Set the OpenRouter key's own credit limit to the same ceiling so provider and application controls are independent. Reconcile reservation to provider-reported usage. Cache by source checksum + prompt/schema/version. Procedural templates and local models consume no API budget.
