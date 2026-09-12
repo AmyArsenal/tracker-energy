@@ -40,6 +40,8 @@ Mirror every retrievable filing component subject to documented safety limits, e
 No paid service is needed for this phase. Storage/hosting impact must be measured before expanding the historical backfill.
 
 ## 2. Entity extraction and graph foundation
+
+Classification and evaluation contract: [`design/ml-triage.md`](design/ml-triage.md).
 Run cheap local, non-LLM extraction over every document. Produce separate, confidence-scored entities for companies, SPVs, dockets, committees, people, technologies, projects and regions/ISO/RTOs, plus document category and substantive-versus-procedural status. Preserve raw mentions, text offsets, aliases, model/rule version and provenance.
 
 The graph uses explicit nodes and evidence-bearing edges. Example edges include `FILED_BY`, `IN_DOCKET`, `MENTIONS`, `PRESENTED_AT`, `MEMBER_OF`, `REVISES`, `RESPONDS_TO`, `VOTED_ON`, `AFFECTS_PROJECT` and `SAME_AS`. A relationship is not accepted merely because two names are similar. Low-confidence identity resolution remains a candidate for review.
