@@ -33,6 +33,8 @@ Create a summary record for each filing for the FERC page, with claims grounded 
 **Done when:** every summary sentence links to supporting passages; unsupported output fails closed; substantive and procedural records are clearly distinguished; regeneration is versioned; and actual cost per filing and per month is observable.
 
 ### 1E. FERC reading experience
+
+Detailed interaction and evidence contract: [`design/smart-reader.md`](design/smart-reader.md). Reference-screen notes: [`design/halcyon-reference.md`](design/halcyon-reference.md).
 Replace the PDF-centered article design. The default is a full-width, full-page editorial article with inline references to exact source passages. Selecting a reference opens a split view: article on one side, source document on the other, scrolled to and highlighting the cited passage. Put related/also-read records below the article.
 
 **Execution gate:** record and design this now; implement after the repository push and after the underlying page-anchored citation contract is stable.
