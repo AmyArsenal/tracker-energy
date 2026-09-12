@@ -1,7 +1,7 @@
 # tracker.energy roadmap
 
 ## Product moat
-The moat is the cited regulatory knowledge graph plus UX and workflow. Every public FERC filing and every public stakeholder-meeting document from the seven U.S. ISO/RTOs should become a source-grounded, searchable, tagged record connected to the people, companies, projects, proceedings, committees, technologies and decisions it names. The graph makes `Tell me more` answer from relationships across the corpus rather than from one isolated PDF.
+Moat #1 is UX/workflow. Moat #2 is passage-level citation quality. The cited regulatory knowledge graph connects both: Every public FERC filing and every public stakeholder-meeting document from the seven U.S. ISO/RTOs should become a source-grounded, searchable, tagged record connected to the people, companies, projects, proceedings, committees, technologies and decisions it names. The graph makes `Tell me more` answer from relationships across the corpus rather than from one isolated PDF.
 
 ## Current scope
 
@@ -47,7 +47,7 @@ The graph uses explicit nodes and evidence-bearing edges. Example edges include 
 **Done when:** a labelled set reports precision/recall by entity and relationship; every edge resolves to a source passage; motions to intervene are not represented as merits positions; manual corrections survive rebuilds; and graph history is versioned rather than overwritten.
 
 ## 3. Smart Reader v1
-Detailed interaction and evidence contract: [`design/smart-reader.md`](design/smart-reader.md). Reference-screen notes: [`design/halcyon-reference.md`](design/halcyon-reference.md).
+Detailed interaction and evidence contract: [`design/smart-reader.md`](design/smart-reader.md). Citation architecture: [`design/citation-system.md`](design/citation-system.md). Reference-screen notes: [`design/halcyon-reference.md`](design/halcyon-reference.md).
 
 Replace the PDF-centered article design. The default is a full-width, full-page editorial article with inline references to exact source passages. Selecting a reference opens a split view: article on one side, source document on the other, scrolled to and highlighting the cited passage. Put related/also-read records below the article. Include official metadata plus View, Download, Share and Query actions.
 
