@@ -65,5 +65,9 @@ Small-support labels are reported as insufficient evidence, not a flattering per
 ## Versioning and audit
 A tagger version identifies code commit, rules/model/prompt/schema checksum, training set version, evaluation set version and dependency versions. Every accepted/rejected prediction remains reconstructible. Re-scoring writes a new version; it does not overwrite the earlier decision. Promotion and rollback are explicit.
 
+## Model selection
+
+Candidate models follow [`design/model-routing.md`](model-routing.md): each stage graduates the cheapest open-weight model that passes its own frozen evaluation gate.
+
 ## Cost controls
 Before any paid OpenRouter call, estimate uncached/cached input and maximum output tokens using current official prices. Maintain an append-only usage ledger by job, provider and model. Reserve projected cost atomically; refuse the job if it could cross the user's $5 lifetime ceiling. Set the OpenRouter key's own credit limit to the same ceiling so provider and application controls are independent. Reconcile reservation to provider-reported usage. Cache by source checksum + prompt/schema/version. Procedural templates and local models consume no API budget.
