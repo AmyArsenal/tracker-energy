@@ -28,11 +28,7 @@ python -m py_compile scripts/*.py
 No credentials belong in this repository. Deployment tokens are repository-scoped GitHub Actions secrets.
 
 ## Feature Channel
-After the initial push, feature delivery does not require a user PAT or external push access. The nightly workflow reads the repository variable `FEATURE_MANIFEST_URL`, fetches the latest control-plane manifest, downloads its time-limited `bundle_url`, verifies the declared SHA-256, rejects unsafe archive entries, applies the repository-relative overlay, validates it, and commits it with the built-in `GITHUB_TOKEN`.
 
-Manifest contract:
-```json
-{"version":"2026-09-12.1","bundle_url":"https://<controlled-origin>/feature-channel/bundles/<signed-token>","sha256":"<64 lowercase hex>"}
-```
+After this migration, feature delivery requires no user PAT, repository variable, or third-party deploy token. The nightly workflow reads owner-authored comments from the public [feature channel issue](https://github.com/AmyArsenal/tracker-energy/issues/1), ignores every other author, decodes the newest v1 manifest, verifies its declared SHA-256, rejects unsafe archive entries, applies the repository-relative overlay, validates it, and commits it with the built-in `GITHUB_TOKEN`.
 
-Channel URL shape: `https://<controlled-origin>/feature-channel/stable/manifest.json`. If the endpoint requires authentication, add the repository secret `FEATURE_BUNDLE_TOKEN`; it is not a user credential. Until `FEATURE_MANIFEST_URL` is set, the feature pull is skipped. Publishing uses GitHub Pages through `.github/workflows/pages.yml` and the built-in `GITHUB_TOKEN`; no third-party deployment secret is required.
+A valid owner comment begins with `<!-- tracker-feature-channel:v1 -->` and contains a JSON object with `version`, `sha256`, and either `bundle_base64` or `bundle_url`. Inline bundles are capped at 40 MiB after decoding. Publishing uses GitHub Pages through `.github/workflows/pages.yml` and needs no third-party deployment secret.

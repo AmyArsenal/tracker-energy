@@ -20,10 +20,9 @@ jobs:
       - name: Install pipeline dependencies
         run: pip install -r requirements.txt
       - name: Pull latest feature bundle
-        if: ${{ env.FEATURE_MANIFEST_URL != '' }}
         env:
-          FEATURE_MANIFEST_URL: ${{ vars.FEATURE_MANIFEST_URL }}
-          FEATURE_BUNDLE_TOKEN: ${{ secrets.FEATURE_BUNDLE_TOKEN }}
+          FEATURE_MANIFEST_URL: https://api.github.com/repos/AmyArsenal/tracker-energy/issues/1/comments?per_page=100
+          FEATURE_CHANNEL_OWNER: AmyArsenal
         run: python scripts/pull_feature_channel.py
       - name: Refresh public sources
         run: |
