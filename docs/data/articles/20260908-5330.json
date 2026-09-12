@@ -1,0 +1,47 @@
+{
+  "title": "ArcLight to FERC: don't turn our power-plant deal into a data-center policy case",
+  "dek": "The Independent Market Monitor wants conditions on a generation transfer to stop resources being pulled out of PJM's markets for data centers. ArcLight's answer: that is an industry-wide issue, and this Section 203 proceeding is not the place for it.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>Buried in a routine generation-transfer docket (EC26-115) is one of the most consequential arguments of the year for data-center power. PJM's market monitor has been urging FERC to condition approval of ArcLight's transaction on a <a class=\"annolink\" data-anno=\"a2\">'commitment to not remove resources from the markets to serve data centers'</a> - in plain terms, a rule against taking power plants behind the meter for co-located campuses.</p><p>ArcLight's answer is jurisdictional judo. <a class=\"annolink\" data-anno=\"a1\">Industry-wide data-center issues are outside the scope of a Section 203 review</a>, it argues - the Commission's public-interest test for a transfer is competition, rates and regulation, and FERC 'routinely rejects' attempts to bolt wider policy fights onto it. The IMM's fear is real, ArcLight says; this docket is just not where it gets settled.</p><h2>The stakes behind the procedural point</h2><p>Co-location is the fastest route to power for AI campuses, and every gigawatt that goes behind the meter is a gigawatt the capacity market no longer sees. If FERC ever accepted the IMM's conditioning theory, every generation transaction in PJM becomes a venue for litigating co-location - a de facto permit regime. The Commission's treatment of this argument is an early signal of whether co-location gets regulated case-by-case or through the big rulemaking dockets like ER26-3515.</p>",
+  "key_points": [
+    "IMM wants the ArcLight transaction conditioned against removing generation from PJM markets to serve data centers.",
+    "ArcLight: Section 203 review covers competition, rates and regulation - industry-wide data-center policy is out of scope.",
+    "This is the co-location fight arriving in transactional clothing; the theory would touch every plant sale in PJM.",
+    "A signal docket for whether co-location gets regulated ad hoc or through ER26-3515-style rulemakings."
+  ],
+  "watch": [
+    "Whether the Commission even addresses the IMM's proposed condition in its order - silence means out-of-scope wins.",
+    "Parallel co-location fights: the PJM large-load docket and any FERC action on behind-the-meter rates."
+  ],
+  "deep_dives": [
+    {
+      "title": "Why co-location scares the market monitor",
+      "body_html": "<p>PJM's capacity market prices reliability for everyone based on the resources in the market. A data center that plugs directly into a power plant removes that plant's output from the shared pool while the campus still leans on the grid for backup. Done at scale, capacity tightens and prices rise for everyone else - the exact 'cost shift to the public' the IMM says utilities controlled by data-center operators would be incentivized to accept.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 17,
+      "rect": [
+        68.0,
+        67.7,
+        544.1,
+        145.0
+      ],
+      "label": "'Outside the scope of this Section 203 proceeding'"
+    },
+    {
+      "id": "a2",
+      "page": 7,
+      "rect": [
+        68.0,
+        67.7,
+        544.3,
+        172.6
+      ],
+      "label": "The IMM's proposed data-center condition"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

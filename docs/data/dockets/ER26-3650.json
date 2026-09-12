@@ -1,0 +1,293 @@
+{
+ "docket": "ER26-3650",
+ "caption": "MISO interconnection reliability requirements for large loads",
+ "status": "Awaiting Commission action",
+ "updated": "",
+ "source": "https://elibrary.ferc.gov/eLibrary/dockets?docket_number=ER26-3650-000",
+ "phases": [
+  {
+   "id": "application",
+   "label": "Application",
+   "description": "The filing that opens the proceeding."
+  },
+  {
+   "id": "notices",
+   "label": "Notice and schedule",
+   "description": "Commission notices and deadline changes."
+  },
+  {
+   "id": "interventions",
+   "label": "Party formation",
+   "description": "Who entered the docket. Intervention alone is not a merits position."
+  },
+  {
+   "id": "protests",
+   "label": "Protests and comments",
+   "description": "Positions on the filing."
+  },
+  {
+   "id": "answers",
+   "label": "Answers and replies",
+   "description": "Responses to protests and other pleadings."
+  },
+  {
+   "id": "order",
+   "label": "Commission order",
+   "description": "The final disposition and conditions."
+  }
+ ],
+ "rows": [
+  {
+   "accession": "20260828-5278",
+   "date": "08/28/2026",
+   "party": "Midcontinent Independent System Operator, Inc.",
+   "role": "applicant",
+   "phase": "application",
+   "filing_type": "Tariff Filing",
+   "summary": "Midcontinent Independent System Operator, Inc. submits tariff filing per 35.13(a)(2)(iii: 2026-08-28_Interconnection Reliability Requirements for Large Loads to be effective 12/4/2026 under ER26-3650 Filing Type : 10",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260828-5278",
+   "has_document": true
+  },
+  {
+   "accession": "20260831-3080",
+   "date": "08/31/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "Combined Notice of Filings #1, August 31, 2026: This notice contains information concerning multiple filings received by FERC.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-3080",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5055",
+   "date": "08/31/2026",
+   "party": "Solar Energy Industries Association",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Solar Energy Industries Association enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5055",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5061",
+   "date": "08/31/2026",
+   "party": "Coalition of MISO Transmission Customers",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Coalition of MISO Transmission Customers enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5061",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5079",
+   "date": "08/31/2026",
+   "party": "Alliant Energy Corporate Services, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Alliant Energy Corporate Services, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5079",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5120",
+   "date": "08/31/2026",
+   "party": "Cooperative Energy",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Cooperative Energy enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5120",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5248",
+   "date": "08/31/2026",
+   "party": "Vistra Corp.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Vistra Corp. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5248",
+   "has_document": false
+  },
+  {
+   "accession": "20260901-5005",
+   "date": "09/01/2026",
+   "party": "Electricity Consumers Resource Council",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Electricity Consumers Resource Council enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260901-5005",
+   "has_document": false
+  },
+  {
+   "accession": "20260901-5130",
+   "date": "09/01/2026",
+   "party": "PUBLIC CITIZEN, INC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "PUBLIC CITIZEN, INC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260901-5130",
+   "has_document": false
+  },
+  {
+   "accession": "20260902-5105",
+   "date": "09/02/2026",
+   "party": "Midwest Large Energy Consumers",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Midwest Large Energy Consumers enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260902-5105",
+   "has_document": false
+  },
+  {
+   "accession": "20260903-5054",
+   "date": "09/03/2026",
+   "party": "Cleco Power LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Cleco Power LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5054",
+   "has_document": false
+  },
+  {
+   "accession": "20260903-5088",
+   "date": "09/03/2026",
+   "party": "Entergy Arkansas, LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Entergy Arkansas, LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5088",
+   "has_document": false
+  },
+  {
+   "accession": "20260903-5152",
+   "date": "09/03/2026",
+   "party": "Public Utility Commission of Texas",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Public Utility Commission of Texas enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5152",
+   "has_document": false
+  },
+  {
+   "accession": "20260908-5118",
+   "date": "09/08/2026",
+   "party": "Municipal Energy Agency of Nebraska",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Municipal Energy Agency of Nebraska enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5118",
+   "has_document": false
+  },
+  {
+   "accession": "20260908-5152",
+   "date": "09/08/2026",
+   "party": "Louisiana Public Service Commission",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Louisiana Public Service Commission enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5152",
+   "has_document": false
+  },
+  {
+   "accession": "20260908-5313",
+   "date": "09/08/2026",
+   "party": "Pelican Power LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Pelican Power LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5313",
+   "has_document": false
+  },
+  {
+   "accession": "20260909-5035",
+   "date": "09/09/2026",
+   "party": "Constellation Energy Generation, LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Constellation Energy Generation, LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260909-5035",
+   "has_document": false
+  },
+  {
+   "accession": "20260909-5156",
+   "date": "09/09/2026",
+   "party": "Illinois Municipal Electric Agency",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Illinois Municipal Electric Agency enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260909-5156",
+   "has_document": false
+  },
+  {
+   "accession": "20260910-5253",
+   "date": "09/10/2026",
+   "party": "Michigan Public Power Agency",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Michigan Public Power Agency enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260910-5253",
+   "has_document": false
+  },
+  {
+   "accession": "20260911-5040",
+   "date": "09/11/2026",
+   "party": "Verrus LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Verrus LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260911-5040",
+   "has_document": false
+  },
+  {
+   "accession": "20260911-5258",
+   "date": "09/11/2026",
+   "party": "Sustainable FERC Project",
+   "role": "commission",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Sustainable FERC Project enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260911-5258",
+   "has_document": false
+  }
+ ]
+}

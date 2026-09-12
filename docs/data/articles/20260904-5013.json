@@ -1,0 +1,28 @@
+{
+  "title": "The cover letter: Equinix's wrong-document confession, in its own words",
+  "dek": "The companion piece to Equinix's out-of-time motion - a one-page letter from its senior counsel admitting he filed PJM's document instead of his own protest in ER26-3515.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>Regulatory filings are usually bloodless. This one is not. Equinix's senior counsel for global regulatory affairs tells the Secretary of the Commission, plainly, that after several failed upload attempts <a class=\"annolink\" data-anno=\"a1\">'I inadvertently attached the wrong document'</a> - the original PJM filing rather than Equinix's protest - and asks that the intended document 'be accepted for the Commission's consideration'.</p><p>Two details are worth noting. First, the honesty is strategic: a clean, immediate confession is exactly what makes an out-of-time acceptance easy to grant. Second, the letter reveals how close this came to mattering. If the error had surfaced days later, Equinix - the largest data-center operator in the world - would have had no protest on the record in the docket that will shape its economics for a decade.</p><p>For the full story and what happens next, read our analysis of the accompanying <a href=\"article.html?acc=20260904-5197\">out-of-time motion</a>.</p>",
+  "key_points": [
+    "A direct admission of a clerical error, filed with the corrected protest attached.",
+    "The 4:20pm rejected submission vs the 4:13pm save timestamp anchors the equity argument.",
+    "Companion to the formal out-of-time motion - together they almost certainly cure the miss."
+  ],
+  "watch": [
+    "Acceptance of the corrected protest, then whether Equinix's substantive positions align with Google and the Data Center Coalition."
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 1,
+      "rect": [
+        68.0,
+        151.6,
+        250.5,
+        256.3
+      ],
+      "label": "'I inadvertently attached the wrong document'"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

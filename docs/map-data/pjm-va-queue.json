@@ -1,0 +1,312 @@
+[
+ {
+  "id": "AE1-148",
+  "poi": "Kerr Dam-Ridge Rd 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "90.0",
+  "mw": "90.0",
+  "capacity": "54.0"
+ },
+ {
+  "id": "AE2-053",
+  "poi": "Kerr Dam-Ridge Road 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "110.0",
+  "mw": "20.0",
+  "capacity": "20.0"
+ },
+ {
+  "id": "AE2-123",
+  "poi": "Birdneck-Landstown 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "800.1",
+  "mw": "800.1",
+  "capacity": "163.3"
+ },
+ {
+  "id": "AE2-124",
+  "poi": "Landstown 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "800.1",
+  "mw": "800.1",
+  "capacity": "148.5"
+ },
+ {
+  "id": "AE2-156",
+  "poi": "Yadkin 115 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "100.0",
+  "mw": "100.0",
+  "capacity": "100.0"
+ },
+ {
+  "id": "AE2-185",
+  "poi": "Gladys DP-Stonemill Switching Station 69 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "60.0",
+  "mw": "60.0",
+  "capacity": "36.0"
+ },
+ {
+  "id": "AE2-187",
+  "poi": "Shockoe DP-Chatham 69 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "60.0",
+  "mw": "60.0",
+  "capacity": "36.0"
+ },
+ {
+  "id": "AE2-250",
+  "poi": "Purdy Sw.-Reams 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "82.5",
+  "mw": "82.5",
+  "capacity": "54.0"
+ },
+ {
+  "id": "AE2-270",
+  "poi": "Hopewell-Surry 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "150.0",
+  "mw": "150.0",
+  "capacity": "150.0"
+ },
+ {
+  "id": "AE2-283",
+  "poi": "Gladys-Stone Mill 69 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "53.0",
+  "mw": "53.0",
+  "capacity": "28.0"
+ },
+ {
+  "id": "AE2-291",
+  "poi": "Grit DP-Perth 115 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "102.0",
+  "mw": "102.0",
+  "capacity": "61.2"
+ },
+ {
+  "id": "AE2-292",
+  "poi": "Grit DP-Perth 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "127.0",
+  "mw": "127.0",
+  "capacity": "76.2"
+ },
+ {
+  "id": "AE2-313",
+  "poi": "Carson-Rawlings 500 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "314.0",
+  "mw": "314.0",
+  "capacity": "188.4"
+ },
+ {
+  "id": "AF1-123",
+  "poi": "Harper 230 kV",
+  "state": "VA",
+  "status": "UC",
+  "owner": "Dominion",
+  "mfo": "833.0",
+  "mw": "833.0",
+  "capacity": "253.2"
+ },
+ {
+  "id": "AF1-124",
+  "poi": "Harper 230 kV",
+  "state": "VA",
+  "status": "UC-ISP",
+  "owner": "Dominion",
+  "mfo": "836.0",
+  "mw": "836.0",
+  "capacity": "254.1"
+ },
+ {
+  "id": "AF1-125",
+  "poi": "Harper 230 kV",
+  "state": "VA",
+  "status": "UC-ISP",
+  "owner": "Dominion",
+  "mfo": "820.0",
+  "mw": "820.0",
+  "capacity": "249.3"
+ },
+ {
+  "id": "AF1-128",
+  "poi": "Chesterfield 230 kV",
+  "state": "VA",
+  "status": "UC",
+  "owner": "Dominion",
+  "mfo": "569.0",
+  "mw": "569.0",
+  "capacity": "569.0"
+ },
+ {
+  "id": "AF1-201",
+  "poi": "Hayes-White Marsh 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "150.0",
+  "mw": "150.0",
+  "capacity": "90.0"
+ },
+ {
+  "id": "AF1-266",
+  "poi": "Clubhouse-Sapony 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "223.5",
+  "mw": "74.5",
+  "capacity": "74.5"
+ },
+ {
+  "id": "AF1-293",
+  "poi": "Kidds Store-Fort Union 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "127.86",
+  "mw": "127.86",
+  "capacity": "108.37"
+ },
+ {
+  "id": "AF1-294",
+  "poi": "Jetersville-Ponton 115 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "41.0",
+  "mw": "41.0",
+  "capacity": "22.2"
+ },
+ {
+  "id": "AF1-301",
+  "poi": "Louisa-South Anna 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "117.0",
+  "mw": "117.0",
+  "capacity": "70.0"
+ },
+ {
+  "id": "AF1-323",
+  "poi": "Scottsville-Colleen 138 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "AEP",
+  "mfo": "55.0",
+  "mw": "55.0",
+  "capacity": "33.0"
+ },
+ {
+  "id": "AF2-035",
+  "poi": "St. Johns 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "72.0",
+  "mw": "72.0",
+  "capacity": "48.0"
+ },
+ {
+  "id": "AF2-037",
+  "poi": "Louisa-North Anna 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "94.0",
+  "mw": "94.0",
+  "capacity": "56.4"
+ },
+ {
+  "id": "AF2-042",
+  "poi": "Clover-Rawlings 500 kV",
+  "state": "VA",
+  "status": "UC",
+  "owner": "Dominion",
+  "mfo": "500.0",
+  "mw": "500.0",
+  "capacity": "300.0"
+ },
+ {
+  "id": "AF2-063",
+  "poi": "Louisa-North Anna 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "150.0",
+  "mw": "150.0",
+  "capacity": "90.0"
+ },
+ {
+  "id": "AF2-065",
+  "poi": "Surry-Hopewell 230 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "300.0",
+  "mw": "150.0",
+  "capacity": "76.5"
+ },
+ {
+  "id": "AF2-115",
+  "poi": "Jetersville-Ponton 115 kV",
+  "state": "VA",
+  "status": "EP",
+  "owner": "Dominion",
+  "mfo": "66.0",
+  "mw": "25.0",
+  "capacity": "13.5"
+ },
+ {
+  "id": "AF2-120",
+  "poi": "Garner-Northern Neck 115 kV",
+  "state": "VA",
+  "status": "UC-ISP",
+  "owner": "Dominion",
+  "mfo": "62.0",
+  "mw": "62.0",
+  "capacity": "37.2"
+ },
+ {
+  "id": "AF2-171",
+  "poi": "Madisonville 115 kV",
+  "state": "VA",
+  "status": "Withdrawn",
+  "owner": "Dominion",
+  "mfo": "150.0",
+  "mw": "150.0",
+  "capacity": "90.0"
+ }
+]

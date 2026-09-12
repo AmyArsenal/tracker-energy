@@ -1,0 +1,93 @@
+{
+ "built_at": "2026-09-12T12:25:20Z",
+ "stats": {
+  "docs": 1644,
+  "venues": 6,
+  "new_7d": 170,
+  "eligible": 1415
+ },
+ "filed": [
+  {
+   "id": "ferc:20260908-5083",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-08",
+   "title": "Protest and Comments of Towering Concerns, LLC requesting FERC to reject or defer PJM Interconnection, L.L.C.'s 08/14/2026 filing ER26-3525.",
+   "plain": "Towering Concerns asks FERC to reject or change grid interconnection rules.",
+   "docket": "ER26-3525-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5083"
+  },
+  {
+   "id": "ferc:20260908-5341",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-08",
+   "title": "Protest of Community Collaboration on Climate Change, et al. re the Midcontinent Independent System Operator, Inc.\u2019s filing proposing revisions to establish the Zero Injection Generator Interconnection Agreement under ER26-3552.",
+   "plain": "Midwest Tribal Energy Resources Association challenges MISO's zero-injection interconnection proposal.",
+   "docket": "ER26-3552-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5341"
+  },
+  {
+   "id": "ferc:20260904-5197",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-04",
+   "title": "Motion of Equinix Inc. for Leave to Protest, Seek Clarification on and Comment Out-of-Time on the Proposal of PJM Interconnection, L.L.C. to Establish Interim Resource Adequacy, et al. under ER26-3515.",
+   "plain": "EQUINIX challenges PJM's data-center resource-adequacy fast track.",
+   "docket": "ER26-3515-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260904-5197"
+  },
+  {
+   "id": "ferc:20260903-5212",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-03",
+   "title": "Protest and Comments of Joint Consumer Advocates on the 08/13/2026 filing by PJM Interconnection, L.L.C. under ER26-3515.",
+   "plain": "New Jersey Division of Rate Counsel challenges PJM's data-center resource-adequacy fast track.",
+   "docket": "ER26-3515-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260903-5212"
+  },
+  {
+   "id": "va-scc:PUR-2026-00132:docket",
+   "src": "va-scc",
+   "src_name": "Virginia State Corporation Commission",
+   "date": "2026-09-04",
+   "title": "Appalachian Power Company - Daleville Area Transmission Improvements Project",
+   "plain": "A Virginia utility asks Virginia regulators to approve transmission planning.",
+   "docket": "PUR-2026-00132",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00132"
+  }
+ ],
+ "calendar": [
+  {
+   "id": "pjm:cifp-rbp:20260914-agenda.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-09-14",
+   "title": "Critical Issue Fast Path - Reliability Backstop Procurement - 20260914 agenda",
+   "plain": "Critical Issue Fast Path - Reliability Backstop Procurement will take up grid reliability rules.",
+   "docket": "CIFP-RBP",
+   "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260914/20260914-agenda.pdf"
+  },
+  {
+   "id": "caiso:interconnection-customer-user-group-sep-15-2026-0100-pm",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-15",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-15-2026-0100-pm"
+  },
+  {
+   "id": "caiso:joint-market-seams-workshop-sep-16-2026-0900-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-16",
+   "title": "Joint Market Seams Workshop",
+   "plain": "Joint Market Seams Workshop will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/joint-market-seams-workshop-sep-16-2026-0900-am"
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "docket": "ER26-3525",
+ "caption": "PJM Schedule 12 baseline-upgrade cost responsibility revisions",
+ "status": "Awaiting Commission action",
+ "updated": "",
+ "source": "https://elibrary.ferc.gov/eLibrary/dockets?docket_number=ER26-3525-000",
+ "phases": [
+  {
+   "id": "application",
+   "label": "Application",
+   "description": "The filing that opens the proceeding."
+  },
+  {
+   "id": "notices",
+   "label": "Notice and schedule",
+   "description": "Commission notices and deadline changes."
+  },
+  {
+   "id": "interventions",
+   "label": "Party formation",
+   "description": "Who entered the docket. Intervention alone is not a merits position."
+  },
+  {
+   "id": "protests",
+   "label": "Protests and comments",
+   "description": "Positions on the filing."
+  },
+  {
+   "id": "answers",
+   "label": "Answers and replies",
+   "description": "Responses to protests and other pleadings."
+  },
+  {
+   "id": "order",
+   "label": "Commission order",
+   "description": "The final disposition and conditions."
+  }
+ ],
+ "rows": [
+  {
+   "accession": "20260814-3081",
+   "date": "08/14/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "FERC publishes the filing in its combined notice.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260814-3081",
+   "has_document": false
+  },
+  {
+   "accession": "20260814-5186",
+   "date": "08/14/2026",
+   "party": "PJM Interconnection, L.L.C.",
+   "role": "applicant",
+   "phase": "application",
+   "filing_type": "Tariff Filing",
+   "summary": "PJM asks FERC to accept revised Schedule 12, Appendix A cost responsibility for July 2026 RTEP baseline upgrades, effective 12 November.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260814-5186",
+   "has_document": true
+  },
+  {
+   "accession": "20260817-3042",
+   "date": "08/17/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "FERC extends the comment period for PJM\u2019s filing.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260817-3042",
+   "has_document": false
+  },
+  {
+   "accession": "20260817-5073",
+   "date": "08/17/2026",
+   "party": "Dominion Energy Services, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Dominion Energy Services, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260817-5073",
+   "has_document": false
+  },
+  {
+   "accession": "20260817-5166",
+   "date": "08/17/2026",
+   "party": "American Electric Power Service Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "American Electric Power Service Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260817-5166",
+   "has_document": false
+  },
+  {
+   "accession": "20260818-5126",
+   "date": "08/18/2026",
+   "party": "Exelon Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Exelon Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260818-5126",
+   "has_document": false
+  },
+  {
+   "accession": "20260821-5230",
+   "date": "08/21/2026",
+   "party": "CONSOLIDATED EDISON COMPANY OF NEW YORK, INC.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "CONSOLIDATED EDISON COMPANY OF NEW YORK, INC. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5230",
+   "has_document": false
+  },
+  {
+   "accession": "20260821-5250",
+   "date": "08/21/2026",
+   "party": "East Kentucky Power Cooperative, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "East Kentucky Power Cooperative, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5250",
+   "has_document": false
+  },
+  {
+   "accession": "20260901-5154",
+   "date": "09/01/2026",
+   "party": "Old Dominion Electric Cooperative",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Old Dominion Electric Cooperative enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260901-5154",
+   "has_document": false
+  },
+  {
+   "accession": "20260902-5023",
+   "date": "09/02/2026",
+   "party": "Buckeye Power, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Buckeye Power, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260902-5023",
+   "has_document": false
+  },
+  {
+   "accession": "20260908-5083",
+   "date": "09/08/2026",
+   "party": "Towering Concerns, LLC",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Towering Concerns asks FERC to reject or defer the tariff filing.",
+   "responds_to": "20260814-5186",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5083",
+   "has_document": true
+  },
+  {
+   "accession": "20260908-5274",
+   "date": "09/08/2026",
+   "party": "PPL Electric Utilities Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "PPL Electric Utilities Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5274",
+   "has_document": false
+  }
+ ]
+}

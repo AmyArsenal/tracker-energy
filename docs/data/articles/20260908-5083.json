@@ -1,0 +1,47 @@
+{
+  "title": "'Our homes and farms and schools are at stake': the citizen protest taking on Dominion's Kraken line",
+  "dek": "No lawyers, no lobbyists - a Virginia group hand-wrote a protest claiming every local data-center application has died while Dominion expands the transmission project anyway.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>'We can not afford an attorney, so we've written this protest ourselves.' Towering Concerns LLC's filing against Dominion's Kraken transmission project (ER26-3525) is the ground-level view of the data-center buildout - and it lands a punch the big players have been hinting at: the group's area has seen <a class=\"annolink\" data-anno=\"a1\">every data-center application 'withdrawn, rejected, or downsized'</a>, yet Dominion is using PJM's supplemental process to expand the project on data-center demand.</p><p>The protest makes three claims: the project's scope and location are inconsistently represented across filings; the need case is broken because local data-center demand is shrinking; and Dominion cannot show site control over several miles of the proposed route, so construction readiness is in doubt. It asks FERC to reject or defer - explicitly not to obstruct, but 'because we believe the public record should be accurate'.</p><h2>Why FERC will read this one</h2><p>Citizen protests rarely move dockets on their own, but this one aligns with the institutional argument of the year - load-forecast attrition, the same point Sierra Club makes with commissioned studies in the pipeline dockets and the IMM makes with market models in PJM. When the homeowner letter and the market monitor are making the same point, the need case for AI-justified transmission gets a genuinely hard look. And the site-control claim, if it holds, is a procedural problem Dominion has to answer regardless of the demand debate.</p><p>The last line is the one to remember: <a class=\"annolink\" data-anno=\"a2\">'Our homes and farms and schools are at stake.'</a></p>",
+  "key_points": [
+    "Self-represented Virginia group protests Dominion's Kraken transmission project in ER26-3525.",
+    "Claims every local data-center application has been withdrawn, rejected or downsized while the project expands on data-center demand.",
+    "Alleges inconsistent scope representations and missing site control over miles of the route.",
+    "Same attrition argument as the IMM and Sierra Club - from the farmhouse, not the law firm."
+  ],
+  "watch": [
+    "Dominion's answer on site control - the one claim that is checkable and hard to spin.",
+    "Whether FERC asks PJM to reconcile the supplemental-approval record with what was filed."
+  ],
+  "deep_dives": [
+    {
+      "title": "What 'supplemental application' expansion means here",
+      "body_html": "<p>PJM approves transmission projects with a defined scope. When a project grows afterward - bigger conductor, new taps, rerouted segments - the sponsor goes back through a supplemental process. The protest's charge is that this back channel let the Kraken project grow on the strength of data-center demand that, locally at least, has evaporated - without the scrutiny an original application would get.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 1,
+      "rect": [
+        68.0,
+        612.0,
+        545.0,
+        658.0
+      ],
+      "label": "'Every data center application... withdrawn, rejected, or downsized'"
+    },
+    {
+      "id": "a2",
+      "page": 2,
+      "rect": [
+        68.0,
+        276.0,
+        545.0,
+        306.0
+      ],
+      "label": "'Our homes and farms and schools are at stake'"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

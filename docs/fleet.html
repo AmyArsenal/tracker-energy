@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Data - US battery fleet - tracker.energy</title>
+<meta name="description" content="Every grid-scale battery in the EIA-860M generator inventory - operating plants and the build pipeline, mapped and refreshed nightly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='18' y='18' width='64' height='64' fill='%23356ff2'/></svg>">
+</head>
+<body>
+<header><div class="wrap hd">
+  <a class="wordmark" href="/" style="text-decoration:none;color:inherit">tracker<em>.energy</em></a>
+  <nav>
+    <a href="/">Watch</a>
+    <a href="/ferc.html">FERC</a>
+    <a href="/iso.html">ISOs</a>
+    <a href="/puc.html">PUCs</a>
+    <a href="/fleet.html" class="on">Data</a>
+    <a href="/news.html">News</a>
+    <a href="/search.html" class="navsearch" aria-label="Search">⌕</a>
+  </nav>
+  <span class="hdate" id="hdate"></span>
+</div></header>
+
+<div class="pagehead"><div class="wrap">
+  <div class="kick">Data · EIA-860M generator inventory</div>
+  <h1>The US grid-scale battery fleet.</h1>
+  <p class="sub">Every grid-scale battery in the EIA-860M inventory - operating plants and the construction pipeline - mapped, measured and refreshed nightly. Click a column to sort; filter to any slice of the market.</p>
+  <div class="stamp" id="stamp"></div>
+</div></div>
+
+<section class="band" style="border-top:0;padding-top:26px"><div class="wrap">
+  <div class="mapbox">
+    <canvas id="map" width="1000" height="640"></canvas>
+    <div class="maptip" id="maptip"></div>
+    <div class="maplegend">
+      <span><i style="background:#356ff2"></i>Operating plant</span>
+      <span><i style="background:#a8a8a2"></i>Planned project</span>
+      <span><i style="background:#deded9"></i>1,536 sites</span>
+    </div>
+  </div>
+  <div class="kpis" id="kpis"></div>
+  <div class="grid">
+    <div class="panel"><h3>Operating capacity by state</h3><div class="hint">Top 12 states, GW. Tinted bar = planned pipeline on top.</div><div id="ch-state"></div>
+      <div class="legend"><span><i style="background:var(--ink)"></i>Operating</span><span><i style="background:var(--accent);opacity:.55"></i>Planned pipeline</span></div></div>
+    <div class="panel"><h3>By grid operator</h3><div class="hint">Top 10 balancing authorities, GW operating + planned</div><div id="ch-ba"></div></div>
+    <div class="panel wide"><h3>Annual capacity additions</h3><div class="hint">MW of nameplate capacity entering service each year (orange = current year to date)</div><div id="ch-year"></div></div>
+  </div>
+  <div class="filters">
+    <input id="f-q" type="search" placeholder="Search project or developer...">
+    <select id="f-state"><option value="">All states</option></select>
+    <select id="f-ba"><option value="">All grid operators</option></select>
+    <select id="f-kind"><option value="">Operating + pipeline</option><option value="operating">Operating only</option><option value="pipeline">Pipeline only</option></select>
+    <select id="f-min"><option value="0">Any size</option><option value="100">≥ 100 MW</option><option value="200">≥ 200 MW</option><option value="400">≥ 400 MW</option></select>
+    <span class="count" id="f-count"></span>
+  </div>
+  <div class="tablewrap">
+    <table id="tbl"><thead><tr>
+      <th data-k="name">Project <span class="arw"></span></th>
+      <th data-k="state">State</th>
+      <th data-k="ba">Grid op.</th>
+      <th data-k="mw" class="num">MW</th>
+      <th data-k="mwh" class="num">MWh</th>
+      <th data-k="status">Status</th>
+      <th data-k="year" class="num">Year</th>
+    </tr></thead><tbody id="tbody"></tbody></table>
+    <button class="more" id="more">Show more</button>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <div class="fcols">
+    <div>
+      <div class="fmark">tracker<em>.energy</em></div>
+      <div class="fcol"><div>The daily record for large-load interconnection: FERC dockets, ISO stakeholder meetings and state commission filings, normalized nightly, with staff analysis cited to the exact passage in the source document.</div></div>
+    </div>
+    <div>
+      <h5>Product</h5>
+      <div class="fcol">
+        <div><a href="/">The Watch</a></div>
+        <div><a href="/fleet.html">The battery fleet</a></div>
+        <div><a href="/iso.html">ISO stakeholder tracker</a></div>
+        <div><a href="/puc.html">PUC tracker</a></div>
+        <div><a href="/search.html">Document search</a></div>
+      </div>
+    </div>
+    <div>
+      <h5>Method &amp; sources</h5>
+      <div class="fcol">
+        <div><a href="https://www.eia.gov/electricity/data/eia860m/">EIA-860M generator inventory</a></div>
+        <div><a href="https://elibrary.ferc.gov/eLibrary/search">FERC eLibrary</a></div>
+        <div><a href="https://www.caiso.com/">CAISO</a> · <a href="https://www.ercot.com/">ERCOT</a> · <a href="https://www.pjm.com/">PJM</a></div>
+        <div><a href="https://www.scc.virginia.gov/">Virginia SCC</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="fbot">
+    <span>Battery counts cover electrochemical storage (EIA technology "Batteries") at plant level. Not investment advice.</span>
+    <span>Refreshed nightly at 05:30 UTC.</span>
+  </div>
+</div></footer>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script>
+<script src="fleet.js"></script>
+</body>
+</html>

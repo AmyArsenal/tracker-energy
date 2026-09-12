@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Search - tracker.energy</title>
+<meta name="description" content="Full-text search with combinable facets across every FERC filing, PUC docket and ISO meeting we track.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23356ff2'/></svg>">
+<style>
+.pagehead .hsearch{margin-top:22px;max-width:680px}
+.pagehead .stamp{margin-top:14px}
+.disc{display:grid;grid-template-columns:230px 1fr;gap:36px;padding:36px 0 70px;align-items:start}
+@media(max-width:900px){.disc{grid-template-columns:1fr}}
+.facet{margin-bottom:24px}
+.facet h5{font:600 10px var(--mono);letter-spacing:.13em;text-transform:uppercase;color:var(--ink3);margin-bottom:8px;border-top:1px solid var(--line);padding-top:10px}
+.facet label{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--ink2);padding:3px 0;cursor:pointer}
+.facet label:hover{color:var(--ink)}
+.facet input{accent-color:var(--accent)}
+.facet .n{margin-left:auto;font:400 11px var(--mono);color:var(--ink3)}
+.results-meta{display:flex;align-items:baseline;gap:14px;margin-bottom:14px;flex-wrap:wrap}
+.results-meta .count{font:600 20px var(--disp);font-stretch:115%}
+.results-meta .q{color:var(--ink2);font-size:13px}
+.results-meta .clear{margin-left:auto;font-size:12.5px}
+.star{color:var(--ink3);text-decoration:none;font-size:14px}
+.star:hover{color:var(--accent);text-decoration:none}
+.res{border-top:1px solid var(--line);padding:14px 4px}
+.res:hover{background:#fff}
+.res .rline{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:5px}
+.res .date{font:400 11.5px var(--mono);color:var(--ink3)}
+.res h3{font:500 16px/1.45 var(--serif)}
+.res h3 a{color:var(--ink)}
+.res .who{color:var(--ink2);font-size:12.5px;margin-top:4px}
+.res .cap{color:var(--ink3);font-size:12px;margin-top:3px}
+.res .links{margin-top:8px;display:flex;gap:14px;font-size:12.5px;font-weight:600}
+.conf-low{color:#777772;font:500 10.5px var(--mono)}
+.empty{color:var(--ink2);padding:40px 0;text-align:center}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+  <div class="wordmark"><a href="/" style="color:inherit">tracker<em>.energy</em></a></div>
+  <nav>
+    <a href="/">Watch</a>
+    <a href="/ferc.html">FERC</a>
+    <a href="/iso.html">ISOs</a>
+    <a href="/puc.html">PUCs</a>
+    <a href="/fleet.html">Data</a>
+    <a href="/news.html">News</a>
+    <a href="/search.html" class="navsearch on" aria-label="Search">⌕</a>
+  </nav>
+  <span class="hdate" id="hdate"></span>
+</div></header>
+
+<div class="pagehead"><div class="wrap">
+  <div class="kick">Document discovery</div>
+  <h1>Every filing, docket and meeting. One search.</h1>
+  <p class="dek">Full-text search with combinable facets across the FERC filings, state commission dockets and ISO stakeholder meetings we track. Every result links to the authoritative source - the docket is always the complete record.</p>
+  <form class="hsearch" onsubmit="return false"><input id="q" type="search" placeholder="Try 'large load interconnection', a docket number, or a party name..." autofocus></form>
+  <div class="stamp" id="stamp"></div>
+</div></div>
+
+<div class="wrap disc">
+  <div id="facets"></div>
+  <div>
+    <div class="results-meta"><span class="count" id="rcount"></span><span class="q" id="rq"></span><a class="clear" id="clear" href="/search.html">Clear all</a></div>
+    <div id="results"></div>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <div class="fmark">tracker<em>.energy</em></div>
+  <div>Results are drawn from official public sources and refreshed nightly. Always open the source docket for the complete record. Not legal or investment advice.</div>
+</div></footer>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script>
+<script src="search.js"></script>
+</body>
+</html>
+<style>.star,.conf-low{color:var(--ink3)}.star:hover{color:var(--accent)}</style>

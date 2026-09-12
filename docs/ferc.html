@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FERC large-load filings - tracker.energy</title><meta name="description" content="The full large-load and data-center FERC filing record, cleaned and linked to eLibrary.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23356ff2'/></svg>">
+</head><body>
+<header><div class="wrap hd"><a class="wordmark" href="/">tracker<em>.energy</em></a><nav>
+<a href="/">Watch</a><a href="/ferc.html" class="on">FERC</a><a href="/iso.html">ISOs</a><a href="/puc.html">PUCs</a><a href="/fleet.html">Data</a><a href="/news.html">News</a><a href="/search.html" class="navsearch" aria-label="Search">⌕</a>
+</nav><span class="hdate" id="hdate"></span></div></header>
+<section class="pagehead"><div class="wrap"><div class="kick">Federal record</div><h1>Large-load filings at FERC.</h1><p class="sub">The full cleaned federal stream: filings that directly concern data centers, large loads and their grid connections. Routine federal noise stays searchable but does not enter this view.</p><div class="pstats" id="stats"></div></div></section>
+<div class="filters venuefilters"><div class="wrap"><div class="row" id="venueFilters"><span class="lbl">Venue</span></div><div class="row" id="isoFilters"><span class="lbl">ISO / RTO</span></div><div class="row" id="topicFilters"><span class="lbl">Topic</span></div></div></div>
+<main class="wrap venuebody"><div class="venuecount" id="count"></div><div id="list"></div></main><div class="fresh" id="fresh"></div>
+<footer><div class="wrap"><div class="fmark">tracker<em>.energy</em></div><div>Every record links to FERC eLibrary. Open the source docket for the complete record.</div></div></footer>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script><script src="ferc.js"></script></body></html>

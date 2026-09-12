@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Filing analysis - tracker.energy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23356ff2'/></svg>">
+<style>
+.arthead{background:var(--paper);border-bottom:1px solid var(--line);padding:42px 0 34px}
+.arthead .eyebrow{margin-bottom:12px}
+.arthead h1{font:500 clamp(26px,3vw,38px)/1.25 var(--serif);letter-spacing:-.005em;max-width:26ch;margin-bottom:14px;color:var(--ink)}
+.arthead .dek{color:var(--ink2);font-size:15px;max-width:65ch}
+.arthead .chips{margin-top:16px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.storylayout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:start}.split{display:grid;grid-template-columns:minmax(0,1fr);gap:30px;padding:40px 0 60px;align-items:start}.storylayout:has(.docpane) .split{grid-template-columns:minmax(0,1fr) minmax(0,.95fr)}.relatedrail{position:sticky;top:76px;margin-top:40px;border-top:1px solid var(--ink);padding-top:12px}.relatedrail h2{font:500 20px var(--serif);margin-bottom:4px}.relatedrail .rintro{font-size:12px;color:var(--ink3);margin-bottom:14px}.relitem{border-top:1px solid var(--line);padding:15px 0}.relitem:first-of-type{border-top:0}.relitem .rk{font:600 9px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}.relitem h3{font:500 16px/1.35 var(--serif);margin:5px 0}.relitem h3 a{color:var(--ink)}.relitem p{font-size:11.5px;color:var(--ink3)}@media(max-width:1180px){.storylayout{grid-template-columns:1fr}.relatedrail{position:static;margin:0 0 48px}.storylayout:has(.docpane) .split{grid-template-columns:minmax(0,1fr) minmax(0,.95fr)}}@media(max-width:1000px){.storylayout:has(.docpane) .split{grid-template-columns:1fr}}
+.article{max-width:68ch;font-size:16.5px;line-height:1.68}
+.byline{display:flex;align-items:center;gap:12px;margin-bottom:22px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.byline .ava{width:36px;height:36px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:center;font:600 12px var(--mono)}
+.byline .who{font-size:13.5px;font-weight:600}
+.byline .role{font-size:12px;color:var(--ink3)}
+.article h2{font:600 18px var(--serif);margin:26px 0 10px}
+.article p{margin:12px 0;color:#2c2820}
+.article ul{margin:12px 0 12px 20px;color:#2c2820}
+.article li{margin:6px 0}
+.kpoints{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);padding:16px 20px;margin:20px 0}
+.kpoints h3{font:600 10.5px var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin-bottom:8px}
+.watch{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--data2);padding:16px 20px;margin:20px 0}
+.watch h3{font:600 10.5px var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--data2);margin-bottom:8px}
+.factbox{background:var(--paper2);padding:16px 20px;margin:20px 0;font-size:13px}
+.factbox table{width:100%;border-collapse:collapse}
+.factbox td{padding:4px 0;border:0;white-space:normal;vertical-align:top}
+.factbox td:first-child{color:var(--ink3);width:130px;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.docpane{position:sticky;top:70px}
+@media(max-width:1000px){.docpane{position:static}}
+.docpane .bar{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.docpane .bar .t{font-size:12.5px;color:var(--ink2);font-weight:600}
+.docpane iframe{width:100%;height:78vh;min-height:480px;border:1px solid var(--ink);background:#fff}
+.nodoc{background:var(--card);border:1px dashed var(--line2);padding:34px;text-align:center;color:var(--ink2);font-size:13.5px}
+.mobdoc{display:none;margin:22px 0}
+@media(max-width:1000px){.mobdoc{display:block}}
+a.src{font-size:12.5px}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+  <div class="wordmark"><a href="/" style="color:inherit">tracker<em>.energy</em></a></div>
+  <nav>
+    <a href="/">Watch</a>
+    <a href="/ferc.html">FERC</a>
+    <a href="/iso.html">ISOs</a>
+    <a href="/puc.html">PUCs</a>
+    <a href="/fleet.html">Data</a>
+    <a href="/news.html">News</a>
+    <a href="/search.html" class="navsearch" aria-label="Search">⌕</a>
+  </nav>
+  <span class="hdate" id="hdate"></span>
+</div></header>
+
+<div class="arthead"><div class="wrap" id="arthead"></div></div>
+<div class="wrap storylayout"><main class="split" id="split"></main><aside class="relatedrail" id="related"></aside></div>
+
+<footer><div class="wrap">
+  <div class="fmark">tracker<em>.energy</em></div>
+  <div>Analysis is generated from the public FERC filing record - always read the underlying document for the definitive text. Not legal or investment advice.</div>
+</div></footer>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script>
+<script src="article.js"></script>
+</body>
+</html>

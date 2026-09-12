@@ -1,0 +1,36 @@
+{
+  "title": "Sierra Club to FERC: the data-center demand behind this pipeline may not exist",
+  "dek": "Environmental groups are now using the AI boom's own uncertainty against gas infrastructure - citing studies that say data-center load projections are systematically biased upward.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>The fight over the Mountain Valley Pipeline Boost expansion has become a proxy war over a bigger question: how much of the data-center demand forecast is real? Joint comments from Sierra Club and allies on the project's Environmental Assessment argue that the demand case underpinning new Appalachian-to-Southeast pipeline capacity is built on <a class=\"annolink\" data-anno=\"a1\">projections with 'systemic upward bias'</a> - and they arrive with receipts.</p><p>The centerpiece is a London Economics International study filed in another docket: chip manufacturing capacity is a hard constraint on data-center growth, the study argues, so utility load forecasts built on unconstrained demand will overbuild infrastructure and stick captive ratepayers with the bill. Duke Energy - an MVP Boost anchor shipper - is named in the analysis. A second LEI study challenges firm capacity demand on MVP Southgate. The logic is sharp: if the AI load is over-forecast, the pipeline is over-built, and the EA's need case collapses.</p><h2>Why this cuts both ways</h2><p>The same attrition argument data-center skeptics use against pipelines also applies to the generation and transmission projects being justified by AI load - including some the industry wants. If load forecasts get haircut, speculative gas and wires projects die first, but so do parts of the reliability case for rushing large-load rules through. Everyone in the PJM dockets is citing the same uncertainty to opposite ends. Watch who cites London Economics next.</p>",
+  "key_points": [
+    "Sierra Club et al. attack the need case for MVP Boost by attacking data-center demand forecasts themselves.",
+    "Key evidence: London Economics study arguing chip supply caps data-center growth and forecasts carry systemic upward bias.",
+    "Duke Energy, an anchor shipper on the expansion, is named in the overbuilding analysis.",
+    "Attrition risk is becoming the shared weapon of pipeline opponents and large-load rule skeptics alike."
+  ],
+  "watch": [
+    "Whether FERC's final EA engages with the attrition studies or waves them off as out of scope.",
+    "The same studies surfacing in PUC proceedings in Virginia, Georgia and the Carolinas against utility capex plans."
+  ],
+  "deep_dives": [
+    {
+      "title": "The attrition problem in AI load forecasts",
+      "body_html": "<p>Utility and grid-operator load forecasts are built from interconnection queues - and queues are full of projects that will never be built. Developers file multiple requests for the same campus, hold positions speculatively, and downsize as chip supply and capital tighten. Forecasters apply attrition factors, but they are guesses. London Economics' twist is to argue a physical ceiling - semiconductor manufacturing capacity - makes the upper forecasts not just uncertain but impossible.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 5,
+      "rect": [
+        104.0,
+        69.5,
+        491.1,
+        130.2
+      ],
+      "label": "The upward-bias study, summarized in the comments"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

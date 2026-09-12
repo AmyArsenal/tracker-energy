@@ -1,0 +1,68 @@
+{
+  "title": "The data-center industry just told FERC to reject PJM's data-center plan",
+  "dek": "The Data Center Coalition's protest of PJM's IRAS filing flips the frame: the industry wants to bring its own capacity, but says mandatory federal curtailment of retail customers is illegal - and offers a state-led model instead.",
+  "byline": "Data Center Desk",
+  "written_at": "10 Sep 2026",
+  "body_html": "<p>The day after PJM's own market monitor called the Interim Resource Adequacy Service a plan that <a href=\"/article.html?acc=20260903-5243\">'does none of these things'</a>, the data-center industry weighed in itself. The Data Center Coalition - the trade group for the largest owners and operators of US data centers - told FERC on 3 September that PJM's IRAS proposal is <a class=\"annolink\" data-anno=\"a1\">legally defective and must be rejected</a>. The industry's problem is not the obligation to bring capacity. It is who gets to cut the power, and under whose law.</p>\n<p>The legal core is jurisdictional. DCC argues the Federal Power Act reserves retail service - including the decision of which customers get curtailed, in what order, on what terms - to the states. PJM's IRAS would let the ISO mandate curtailment of 'Eligible New Large Loads' that fail its bring-your-own-new-capacity (BYONC) tests, which DCC says compels states to conform their retail frameworks to a federal tariff. That inverts cooperative federalism, and DCC is explicit that it is a rejection-worthy defect, not a fixable detail.</p>\n<h2>Not 'we won't pay' - 'we will, but not like this'</h2>\n<p>What makes this protest politically significant is what DCC concedes. It supports BYONC requirements in principle. It supports large loads funding new capacity. It even proposes curtailment of its own members - but through <a class=\"annolink\" data-anno=\"a2\">a 'State Opt-In' model</a>: states and utilities set interruptible customer classes and tariffs, PJM issues a wholesale reliability signal, and the utility executes curtailment under state rules. The industry is offering to be curtailed, provided the switch stays in state hands.</p>\n<p>DCC also lands a market-design punch: under IRAS, a new large load that hasn't met BYONC <a class=\"annolink\" data-anno=\"a3\">gets curtailed <em>before</em> PJM dispatches demand response resources</a> that are already being paid capacity revenues to curtail. Worse, the same load can escape the penalty by registering as a demand resource - moving from paying-for-capacity-and-curtailed-first to paid-for-capacity-and-curtailed-later by changing its market status. That is an arbitrage PJM's filing does not address.</p>\n<p>The protest closes with a pragmatic offer: a phased manual load-shed protocol under which large commercial and industrial customers are asked to curtail before residential customers are interrupted - implementable immediately, no tariff changes required. It is the industry volunteering for the front of the load-shed queue, on its own terms.</p>",
+  "key_points": [
+    "DCC asks FERC to reject IRAS outright, or impose a transition mechanism - arguing federal mandatory curtailment of retail large loads violates the FPA's state/federal divide.",
+    "The industry supports BYONC capacity obligations but demands a state-led 'State Opt-In' curtailment framework: states set interruptible tariffs, PJM sends a wholesale signal, utilities execute.",
+    "DCC exposes a design flaw: non-compliant large loads are curtailed before paid demand response, and can dodge the regime entirely by registering as demand resources.",
+    "Offered immediately: phased load shed that curtails large C&I before residential customers - no rulemaking needed."
+  ],
+  "watch": [
+    "Whether FERC treats the jurisdictional argument as fatal or fixable - a Section 206 proceeding on emergency procedures is DCC's fallback ask.",
+    "State commissions' responses to the State Opt-In model, especially Virginia (an SCC chair letter is attached as DCC's Exhibit A).",
+    "How PJM's answer due later this month handles the demand-response-priority arbitrage DCC identified.",
+    "Alignment or friction between DCC's position and the consumer-advocate and environmental protests filed the same day."
+  ],
+  "deep_dives": [
+    {
+      "title": "What BYONC means in practice",
+      "body_html": "<p>Bring-your-own-new-capacity is PJM's proposed test for whether a new large load gets firm service: procure (or contract for) capacity equal to your needs, or accept curtailment during scarcity. DCC's protest accepts the principle but attacks the implementation timeline - no transition mechanism for projects that signed up under the old paradigm. For developers mid-interconnection, the difference between 'BYONC with a ramp' and 'BYONC immediately' is the difference between financeable and dead.</p>"
+    },
+    {
+      "title": "The state-federal fault line this case sits on",
+      "body_html": "<p>FERC regulates wholesale rates; states regulate retail service, including who gets curtailed and when. PJM's IRAS blurs that line by letting the ISO order curtailment of specific retail customers based on tariff compliance. DCC's protest is the latest and highest-profile attempt to force that boundary - the same fault line runs through the co-location dockets and the Order 2023 implementation fights. If FERC lets IRAS stand, expect every large-load tariff in the footprint to be re-litigated as a jurisdictional question.</p>"
+    },
+    {
+      "title": "Why the demand-response arbitrage matters",
+      "body_html": "<p>PJM pays demand resources capacity revenue to curtail when called. IRAS would curtail non-compliant new large loads <em>before</em> calling those paid resources - and a large load can flip its position by registering as DR. DCC's point is that the filing therefore doesn't procure reliability, it procures gaming. Watch for PJM to either re-sequence the curtailment order or close the DR-registration door in its answer.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 3,
+      "rect": [
+        68.0,
+        68.4,
+        544.0,
+        171.6
+      ],
+      "label": "DCC: the IRAS proposal is 'legally defective and must be rejected'"
+    },
+    {
+      "id": "a2",
+      "page": 16,
+      "rect": [
+        104.0,
+        69.5,
+        544.0,
+        169.8
+      ],
+      "label": "The State Opt-In model, in DCC's own words"
+    },
+    {
+      "id": "a3",
+      "page": 22,
+      "rect": [
+        228.0,
+        69.5,
+        355.3,
+        88.8
+      ],
+      "label": "Curtailed before paid demand response"
+    }
+  ]
+}

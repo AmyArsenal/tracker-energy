@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+canonical/.watchlist_seen.json
+.deploy/
+canonical/tracker.db
+canonical/*.db
+canonical/.watchlist_seen.json
+raw/
+archives/
+*.tar.gz
+*.zip
+*.xlsx
+*.xls
+.env
+.env.*

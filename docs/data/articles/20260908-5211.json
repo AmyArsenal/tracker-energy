@@ -1,0 +1,36 @@
+{
+  "title": "Wisconsin Electric tells FERC its data-center deals are bulletproof - Microsoft disagrees",
+  "dek": "The utility's answer in ER26-3265 defends its Large Load Project Commitment Agreements as 'immediate, project-specific protections against cost-shifting' while the Commission weighs wider reforms.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>This is the Midwestern front of the data-center cost fight. Wisconsin Electric amended its Large Load Project Commitment Agreements and a Minimum Transmission Charge Agreement - the contracts that decide what a new hyperscale campus pays for the network upgrades it triggers. Microsoft, the Data Center Coalition, the Citizens Utility Board and the Wisconsin industrial group all filed protests or comments in August. This is the utility's answer to all of them.</p><p>The argument is deliberately narrow: whatever FERC eventually does about large loads nationally, these agreements are <a class=\"annolink\" data-anno=\"a1\">project-specific protections against cost-shifting</a> that work today. Wisconsin Electric is telling the Commission it can approve the contracts without prejudging the MISO show-cause proceeding on large-load reform - accept the deals as just and reasonable on this record, fix the system later.</p><h2>Why data-center developers should care</h2><p>Microsoft protesting a utility's large-load agreement is a tell. Hyperscalers want commitment agreements that are strict enough to keep costs off residential bills - political survival - but flexible enough on ramp schedules, collateral and exit terms to match how campuses actually get built. The details being fought over here, minimum transmission charges and commitment lengths, are the template other utilities will copy. What FERC accepts in Wisconsin becomes the default ask in Ohio, Indiana and Georgia.</p>",
+  "key_points": [
+    "Wisconsin Electric defends its amended Large Load Project Commitment Agreements + Minimum Transmission Charge Agreement as just and reasonable.",
+    "Protesters include Microsoft, the Data Center Coalition, CUB of Wisconsin and industrial customers - an unusual operator-vs-utility alignment to watch.",
+    "Utility frames the deals as immediate cost-shifting protection pending the MISO-wide large-load show-cause order.",
+    "The terms at stake (minimum charges, commitment length) are the national template for hyperscale interconnection contracts."
+  ],
+  "watch": [
+    "Whether FERC accepts the agreements outright or sets them for hearing - a hearing signals sympathy for the operator/customer side.",
+    "What Microsoft actually objected to: if it is ramp flexibility rather than price, expect copycat protests elsewhere."
+  ],
+  "deep_dives": [
+    {
+      "title": "What a Large Load Project Commitment Agreement does",
+      "body_html": "<p>An LLPCA is the pre-construction contract between a utility and a very large new customer. It locks in who pays for the transmission upgrades the project triggers, over what period, and what happens if the load never materializes - the 'take-or-pay' core that protects other ratepayers from stranded network costs. The fight is over how tight those protections are: too loose and households fund speculative campuses, too tight and developers cannot stage real projects.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 3,
+      "rect": [
+        236.5,
+        69.5,
+        326.4,
+        88.8
+      ],
+      "label": "The amended Large Load Project Commitment Agreements"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

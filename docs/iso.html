@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ISO meetings - tracker.energy</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23356ff2'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.filters{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 0}.filters .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.fbtn{font:500 12px var(--sans);padding:6px 11px;border:1px solid var(--line2);background:var(--card);color:var(--ink2);cursor:pointer}.fbtn.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}.filters .lbl{font:600 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-right:2px}
+.calwrap{padding-top:26px}.calbar{display:flex;align-items:center;border-top:2px solid var(--ink);padding:12px 0}.calbar h2{font:600 24px var(--disp);font-stretch:116%;flex:1}.calnav{border:1px solid var(--line2);background:var(--card);color:var(--ink);font:600 18px var(--mono);width:36px;height:32px;cursor:pointer}.weekdays,.monthgrid{display:grid;grid-template-columns:repeat(7,1fr)}.weekdays span{padding:7px 8px;border-bottom:1px solid var(--ink);font:600 9.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}.calday{position:relative;min-height:90px;text-align:left;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:transparent;padding:8px;cursor:pointer;color:var(--ink)}.calday:nth-child(7n+1){border-left:1px solid var(--line)}.calday:hover{background:#fff}.calday.other{color:#aaa49a;background:rgba(0,0,0,.018)}.calday.selected{box-shadow:inset 0 0 0 2px var(--accent);background:#fff}.calday.today .dn{background:var(--accent);color:white}.dn{display:inline-grid;place-items:center;min-width:24px;height:24px;font:500 11px var(--mono)}.dots{display:flex;gap:4px;align-items:center;margin-top:18px;flex-wrap:wrap}.dot{width:8px;height:8px;background:var(--ink2)}.dot.CAISO{background:#777772}.dot.ERCOT{background:var(--data2)}.dot.PJM{background:var(--accent)}.dot.MISO{background:#777772}.dots b{font:500 9px var(--mono);color:var(--ink3)}.daycount{display:none}.agendahead{margin:38px 0 0;border-top:2px solid var(--ink);padding-top:11px;font:600 20px var(--disp);font-stretch:115%}.agendahead small{font:500 10px var(--mono);color:var(--ink3);margin-left:10px}.agendahead button{border:0;background:transparent;padding:0;color:var(--accent-ink);font:inherit;cursor:pointer;text-decoration:underline}.agday{margin:24px 0 0;font:600 12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}.mtg{display:grid;grid-template-columns:58px 100px 1fr;gap:14px;border-top:1px solid var(--line);padding:14px 4px;align-items:start}.mtg:hover{background:#fff}.mtg .tm{font:500 11px/1.5 var(--mono);color:var(--ink2)}.mtg h3{font:600 15px/1.4 var(--sans)}.mtg h3 a{color:var(--ink)}.mtg .meta{font-size:12px;color:var(--ink3);margin-top:3px}.mtg .tags{margin-top:7px;display:flex;gap:12px;flex-wrap:wrap}.tg{font:500 10.5px var(--mono);color:var(--ink2)}.tg::before{content:"[";color:var(--ink3)}.tg::after{content:"]";color:var(--ink3)}.tg.hl{color:var(--accent-ink)}.isob{font:600 10px var(--mono);letter-spacing:.08em;padding:4px 7px;border:1px solid var(--line2);color:var(--ink2)}.isob.CAISO{border-color:#777772;color:#777772}.isob.ERCOT{border-color:var(--data2);color:var(--data2)}.isob.PJM{border-color:var(--accent);color:var(--accent)}.isob.MISO{border-color:#777772;color:#777772}.empty{padding:42px 0;color:var(--ink3)}.fresh{font:500 11px/1.6 var(--mono);color:var(--ink3);margin:34px 0 60px;text-align:center}
+@media(max-width:640px){.filters{position:static}.filters .row{flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px}.fbtn{white-space:nowrap}.calwrap{padding-top:18px}.calday{min-height:58px;padding:4px}.weekdays span{padding:6px 2px;text-align:center;font-size:8px}.dots{display:none}.daycount{display:block;margin-top:7px;font:600 11px var(--mono);color:var(--accent-ink)}.calday.other .daycount{color:var(--ink3)}.mtg{grid-template-columns:56px 1fr;gap:6px 10px}.mtg .tm{grid-column:2}.mtg .bd{grid-column:1/-1}.agendahead{font-size:18px}.agendahead small{display:block;margin:5px 0 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+  <a class="wordmark" href="/" style="text-decoration:none">tracker<em>.energy</em></a>
+  <nav>
+    <a href="/">Watch</a>
+    <a href="/ferc.html">FERC</a>
+    <a href="/iso.html" class="on">ISOs</a>
+    <a href="/puc.html">PUCs</a>
+    <a href="/fleet.html">Data</a>
+    <a href="/news.html">News</a>
+    <a href="/search.html" class="navsearch" aria-label="Search">⌕</a>
+  </nav>
+  <span class="hdate" id="hdate"></span>
+</div></header>
+
+<section class="pagehead"><div class="wrap">
+  <div class="kick">Stakeholder watch</div>
+  <h1>The committee calendar is where market rules actually get written.</h1>
+  <p class="sub">Every upcoming ISO stakeholder meeting that touches interconnection, large loads, planning and markets - refreshed nightly from the ISOs' own calendars. If it matters to a queue position or a tariff, it belongs on this page.</p>
+  <div class="pstats" id="stats"></div>
+  <div class="cov" id="cov"></div>
+</div></section>
+
+<div class="filters"><div class="wrap">
+  <div class="row" id="isoFilters"><span class="lbl">ISO</span></div>
+  <div class="row" id="topicFilters" style="margin-top:8px"><span class="lbl">Topic</span></div>
+</div></div>
+
+<main class="wrap calwrap" style="min-height:300px">
+  <div class="calbar"><button class="calnav" id="prevMonth" aria-label="Previous month">‹</button><h2 id="monthLabel"></h2><button class="calnav" id="nextMonth" aria-label="Next month">›</button></div>
+  <div class="weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div>
+  <div class="monthgrid" id="monthGrid"></div>
+  <h2 class="agendahead" id="agendaTitle"></h2><div id="agenda"></div>
+</main>
+<div class="fresh" id="fresh"></div>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script>
+<script src="iso.js"></script>
+</body>
+</html>
+<style>
+.calnav{color:var(--accent);border-color:var(--line);background:#fff}.calday.selected{box-shadow:inset 0 0 0 1px var(--accent)}.calday.today .dn{background:var(--accent)}
+.dot{border-radius:50%}.dot.CAISO{background:#555}.dot.ERCOT{background:#888}.dot.PJM{background:#aaa}.dot.MISO{background:#ccc}
+.isob,.isob.CAISO,.isob.ERCOT,.isob.PJM,.isob.MISO{border-color:var(--line2);color:var(--ink3)}
+.agendahead,.calbar{border-top-width:1px}
+</style>

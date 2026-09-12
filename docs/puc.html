@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>State PUC filings - tracker.energy</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23356ff2'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.filters{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line);padding:12px 0}
+.filters .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.fbtn{font:500 12px var(--sans);padding:6px 11px;border:1px solid var(--line2);background:var(--card);color:var(--ink2);cursor:pointer}
+.fbtn.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.fbtn:hover{border-color:var(--ink)}
+.filters .lbl{font:600 10px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);margin-right:2px}
+.day{margin:30px 0 6px;font:600 19px/1.2 var(--disp);font-stretch:115%;display:flex;align-items:baseline;gap:10px;border-top:2px solid var(--ink);padding-top:10px}
+.day small{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.dk{display:flex;gap:16px;border-top:1px solid var(--line);padding:14px 4px;align-items:baseline}
+.dk:hover{background:#fff}
+.dk .tm{flex:0 0 92px;font:500 11.5px/1.5 var(--mono);color:var(--ink2)}
+.dk .bd{flex:1;min-width:0}
+.dk h3{font:600 15px/1.4 var(--sans);margin:0}
+.dk h3 a{color:var(--ink)}
+.dk h3 a:hover{color:var(--accent-ink)}
+.dk .meta{font-size:12px;color:var(--ink3);margin-top:3px}
+.dk .tags{margin-top:7px;display:flex;gap:12px;flex-wrap:wrap}
+.tg{font:500 10.5px var(--mono);color:var(--ink2)}
+.tg::before{content:"[";color:var(--ink3)} .tg::after{content:"]";color:var(--ink3)}
+.tg.hl{color:var(--accent-ink)}
+.stb{flex:0 0 auto;font:600 10px var(--mono);letter-spacing:.08em;padding:4px 7px;border:1px solid var(--line2);color:var(--ink2);align-self:flex-start}
+.stb.CAISO{border-color:#777772;color:#777772}
+.stb.ERCOT{border-color:var(--data2);color:var(--data2)}
+.stb.PJM{border-color:var(--accent);color:var(--accent)}
+.empty{padding:48px 0;text-align:center;color:var(--ink3)}
+.fresh{font:500 11px/1.6 var(--mono);letter-spacing:.04em;color:var(--ink3);margin:34px 0 60px;text-align:center}
+@media(max-width:640px){.dk{flex-wrap:wrap}.dk .tm{flex-basis:auto}}
+.stb.VA{border-color:#777772;color:#777772}
+.stb.GA{border-color:#777772;color:#777772}
+.stb.TX{border-color:var(--data2);color:var(--data2)}
+.stb.OH{border-color:#777772;color:#777772}
+.note{background:#f7f7f5;border:1px solid #d6d6d1;color:#5f5f5b;padding:12px 16px;margin:16px 0;font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="wrap hd">
+  <a class="wordmark" href="/" style="text-decoration:none">tracker<em>.energy</em></a>
+  <nav>
+    <a href="/">Watch</a>
+    <a href="/ferc.html">FERC</a>
+    <a href="/iso.html">ISOs</a>
+    <a href="/puc.html" class="on">PUCs</a>
+    <a href="/fleet.html">Data</a>
+    <a href="/news.html">News</a>
+    <a href="/search.html" class="navsearch" aria-label="Search">⌕</a>
+  </nav>
+  <span class="hdate" id="hdate"></span>
+</div></header>
+
+<section class="pagehead"><div class="wrap">
+  <div class="kick">State watch</div>
+  <h1>The data-center fight is moving to the state commissions.</h1>
+  <p class="sub">Dockets at state utility commissions with recent filings on data centers, large loads and interconnection - refreshed nightly. Where ratepayer questions get decided before FERC ever sees them.</p>
+  <div class="pstats" id="stats"></div>
+  <div class="cov" id="cov"></div>
+</div></section>
+
+<div class="filters"><div class="wrap">
+  <div class="row" id="stateFilters"><span class="lbl">State</span></div>
+  <div class="row" id="topicFilters" style="margin-top:8px"><span class="lbl">Topic</span></div>
+</div></div>
+
+<main class="wrap" id="list" style="min-height:300px"></main>
+<div class="fresh" id="fresh"></div>
+<script>document.getElementById('hdate').textContent=new Date().toLocaleDateString('en-GB',{weekday:'short',day:'2-digit',month:'short',year:'numeric'}).toUpperCase().replace(/,/g,'');</script>
+<script src="puc.js"></script>
+</body>
+</html>
+<style>
+.stb,.stb.CAISO,.stb.ERCOT,.stb.PJM,.stb.VA,.stb.GA,.stb.TX,.stb.OH{border-color:var(--line2);color:var(--ink3)}
+.fbtn.on{background:var(--accent);border-color:var(--accent);color:#fff}.day{border-top-width:1px}
+</style>

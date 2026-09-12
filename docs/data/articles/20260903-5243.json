@@ -1,0 +1,52 @@
+{
+  "title": "PJM's data-center plan 'does none of these things', says its own market monitor",
+  "dek": "Monitoring Analytics' protest of PJM's Interim Resource Adequacy Service is the sharpest attack yet on how the grid's biggest market plans to pay for the AI buildout - and it leans on the White House's own pledge to do it.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>PJM's 13 August filing - the Interim Resource Adequacy Service (IRAS) plus a Large Load Registry - was supposed to answer the question everyone in this market is asking: who pays for the power the data-center boom needs? The Independent Market Monitor's answer, filed 3 September, is that PJM still has not answered it. The protest says the filing <a class=\"annolink\" data-anno=\"a1\">'does none of these things'</a> - does not procure new capacity for data centers, does not make data centers pay for it, does not stop the costs landing on other customers.</p><p>What makes this protest more than the usual IMM broadside is the ammunition it picks up. It quotes the March 2026 <a class=\"annolink\" data-anno=\"a2\">Ratepayer Protection Pledge</a> - hyperscalers guaranteeing that data-center energy needs 'will not increase household electricity costs' - and the National Energy Dominance Council's January principles for PJM, which call for 15-year price certainty through a 'Reliability Backstop Auction' and for costs to be allocated to load-serving entities with new data centers that have not self-procured capacity or agreed to curtail. The IMM's point: the federal government and twelve PJM-state governors have already written the policy; PJM's filing just does not implement it.</p><h2>Why it matters for data-center operators</h2><p>Everything operators care about - interconnection timelines, capacity charges, curtailment terms - is being repriced in this docket. If FERC pushes PJM toward the backstop-auction model, large loads that do not bring their own capacity face a direct, visible charge instead of smeared capacity-market costs. That favors operators with real procurement options (PPAs, behind-the-meter, curtailment capability) and penalizes speculative interconnection requests.</p><h2>Where this sits in the fight</h2><p>The IMM is one voice, but it is PJM's official one, and its protests have form in reshaping settlements. Equinix, Google, the Data Center Coalition and the state commissions are all in the same docket. The September comment window has turned ER26-3515 into the central front of the 2026 large-load fight.</p>",
+  "key_points": [
+    "IMM says PJM's IRAS filing fails all three federal tests: no new capacity procurement for data centers, no data-center cost causation, no protection for other ratepayers.",
+    "It anchors on the White House Ratepayer Protection Pledge (Mar 2026, 200+ signatories by July) and the NEDC's 12-governor principles for PJM.",
+    "Preferred remedy on the table: a Reliability Backstop Auction with 15-year price certainty, costs allocated to LSEs serving non-curtailable data centers.",
+    "ER26-3515 is now the reference docket for US large-load policy - every hyperscaler and coalition is in it."
+  ],
+  "watch": [
+    "Whether FERC orders PJM to show cause again or sets IRAS for hearing - that decides if the backstop-auction model gets a real hearing.",
+    "The Data Center Coalition and Equinix positions on curtailment credits; their flexibility demand will shape any settlement.",
+    "State commission filings: the 12 pledge-governor states vs. the rest of the PJM footprint."
+  ],
+  "deep_dives": [
+    {
+      "title": "What the IRAS actually is",
+      "body_html": "<p>The Interim Resource Adequacy Service is PJM's bridge product: a way to keep large new loads connected and counted for reliability while the permanent market redesign is argued out. The Large Load Registry is the data layer - forcing visibility of who is connecting, where, and on what terms. The fight is not over whether these exist, but over who funds the capacity behind them.</p>"
+    },
+    {
+      "title": "The Ratepayer Protection Pledge, in one paragraph",
+      "body_html": "<p>Announced 4 March 2026 and expanded in July to 200+ companies: hyperscalers and AI firms commit to build, bring or buy the generation their data centers need, pay for delivery upgrades, negotiate separate rate structures, and pay those rates whether they use the power or not. It is a political commitment, not a tariff - which is exactly why the IMM is using it as a stick: it shows what the market rules are supposed to achieve.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 3,
+      "rect": [
+        68.0,
+        69.0,
+        544.1,
+        160.3
+      ],
+      "label": "IMM: the filing 'does none of these things'"
+    },
+    {
+      "id": "a2",
+      "page": 3,
+      "rect": [
+        68.0,
+        69.0,
+        544.1,
+        113.8
+      ],
+      "label": "The Ratepayer Protection Pledge quoted in full"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

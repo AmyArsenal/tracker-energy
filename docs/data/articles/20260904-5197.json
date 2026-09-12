@@ -1,0 +1,36 @@
+{
+  "title": "Equinix filed the wrong document to FERC - then asked for mercy in the biggest data-center docket",
+  "dek": "A procedural comedy with real stakes: Equinix's protest of PJM's large-load plan missed the deadline because it uploaded PJM's own filing instead of its response. Now it is asking to be heard out of time.",
+  "written_at": "9 Sep 2026",
+  "body_html": "<p>At 4:20pm on 3 September, forty minutes before the comment deadline in ER26-3515, Equinix submitted what it thought was its protest of PJM's Interim Resource Adequacy Service. What it actually uploaded was <a class=\"annolink\" data-anno=\"a1\">a copy of PJM's own filing</a>. FERC Online bounced it - the document carried FERC watermarks - and the corrected version only landed at 10:40pm, after the 5pm cutoff.</p><p>This motion asks the Commission to accept the late protest anyway. FERC routinely grants out-of-time motions where the error is clerical, the delay is hours not days, and no party is prejudiced - and Equinix has a timestamped 4:13pm save to prove the real document existed before the deadline. Expect it to be granted.</p><h2>Why it is more than a blooper</h2><p>Equinix operates more data centers than anyone else in this fight. Its substantive protest - now attached to this motion - is one of the few operator-side documents in the docket, alongside Google and the Data Center Coalition. If the IMM's attack on IRAS is the prosecution's case, Equinix's corrected filing is part of the defense: operators want interconnection certainty and curtailment credit, not a capacity tax. The wrong-PDF episode delayed that voice by a news cycle, not more.</p>",
+  "key_points": [
+    "Equinix uploaded PJM's own IRAS filing instead of its protest; FERC Online rejected it for watermarks at the deadline.",
+    "Corrected protest filed 10:40pm, 5h40m late, with a 4:13pm save timestamp as evidence.",
+    "Out-of-time acceptance is routine for clerical errors of hours with no prejudice to other parties.",
+    "The underlying protest matters: Equinix is the largest operator voice in the PJM large-load docket."
+  ],
+  "watch": [
+    "The Commission's short order granting (or, unlikely, denying) the out-of-time motion.",
+    "The substance of Equinix's corrected protest once accepted - especially anything on curtailment credit."
+  ],
+  "deep_dives": [
+    {
+      "title": "How FERC eFiling actually fails",
+      "body_html": "<p>eLibrary submissions are PDF uploads checked against docket rules. FERC Online's systems stamp received documents with watermarks; uploading an already-stamped document (like a copy of someone else's filing) triggers exactly the rejection Equinix hit. The 5pm cutoff is a server timestamp, which is why the 4:13pm local save time matters for the equity argument but not for the deadline itself.</p>"
+    }
+  ],
+  "annotations": [
+    {
+      "id": "a1",
+      "page": 1,
+      "rect": [
+        104.0,
+        83.0,
+        452.5,
+        157.5
+      ],
+      "label": "The moment Equinix realised it filed PJM's own document"
+    }
+  ],
+  "byline": "Data Center Desk"
+}

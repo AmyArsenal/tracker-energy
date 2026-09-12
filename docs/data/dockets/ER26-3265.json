@@ -1,0 +1,317 @@
+{
+ "docket": "ER26-3265",
+ "caption": "ATC large-load project commitment agreements",
+ "status": "Awaiting Commission action",
+ "updated": "",
+ "source": "https://elibrary.ferc.gov/eLibrary/dockets?docket_number=ER26-3265-000",
+ "phases": [
+  {
+   "id": "application",
+   "label": "Application",
+   "description": "The filing that opens the proceeding."
+  },
+  {
+   "id": "notices",
+   "label": "Notice and schedule",
+   "description": "Commission notices and deadline changes."
+  },
+  {
+   "id": "interventions",
+   "label": "Party formation",
+   "description": "Who entered the docket. Intervention alone is not a merits position."
+  },
+  {
+   "id": "protests",
+   "label": "Protests and comments",
+   "description": "Positions on the filing."
+  },
+  {
+   "id": "answers",
+   "label": "Answers and replies",
+   "description": "Responses to protests and other pleadings."
+  },
+  {
+   "id": "order",
+   "label": "Commission order",
+   "description": "The final disposition and conditions."
+  }
+ ],
+ "rows": [
+  {
+   "accession": "20260724-3069",
+   "date": "07/24/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "Combined Notice of Filings #1, July 24, 2026: This notice contains information concerning multiple filings received by FERC.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260724-3069",
+   "has_document": false
+  },
+  {
+   "accession": "20260724-5251",
+   "date": "07/24/2026",
+   "party": "American Transmission Company LLC",
+   "role": "applicant",
+   "phase": "application",
+   "filing_type": "Tariff Filing",
+   "summary": "American Transmission Company LLC submits tariff filing per 35.13(a)(2)(iii: 2026-07-24_SA 4200-4202, 4205 & 4810 ATC-WEPCo 1st & 2nd Rev LLPCAs & MTCA to be effective 7/1/2026 under ER26-3265 Filing Type : 10",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260724-5251",
+   "has_document": true
+  },
+  {
+   "accession": "20260724-5252",
+   "date": "07/24/2026",
+   "party": "American Transmission Company LLC",
+   "role": "applicant",
+   "phase": "application",
+   "filing_type": "Tariff Filing",
+   "summary": "American Transmission Company LLC submits tariff filing per 35.13(a)(2)(iii: 2026-07-24_SA 4200-4202, 4205 & 4810 ATC-WEPCo 1st & 2nd Rev LLPCAs & MTCA to be effective 7/1/2026 under ER26-3265 Filing Type : 10",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260724-5252",
+   "has_document": false
+  },
+  {
+   "accession": "20260729-5009",
+   "date": "07/29/2026",
+   "party": "Microsoft Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Microsoft Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260729-5009",
+   "has_document": false
+  },
+  {
+   "accession": "20260729-5060",
+   "date": "07/29/2026",
+   "party": "Wisconsin Electric Power Company",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Wisconsin Electric Power Company enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260729-5060",
+   "has_document": false
+  },
+  {
+   "accession": "20260730-5176",
+   "date": "07/30/2026",
+   "party": "American Transmission Company LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "American Transmission Company LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260730-5176",
+   "has_document": false
+  },
+  {
+   "accession": "20260731-5097",
+   "date": "07/31/2026",
+   "party": "Public Service Commission of Wisconsin",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Public Service Commission of Wisconsin enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260731-5097",
+   "has_document": false
+  },
+  {
+   "accession": "20260731-5235",
+   "date": "07/31/2026",
+   "party": "Citizens Utility Board of Wisconsin",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Citizens Utility Board of Wisconsin enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260731-5235",
+   "has_document": false
+  },
+  {
+   "accession": "20260811-5151",
+   "date": "08/11/2026",
+   "party": "Microsoft Corporation",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Unopposed Motion of Microsoft Corporation for Extension of Comment Date and Shortened Answer Period under ER26-3265.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260811-5151",
+   "has_document": true
+  },
+  {
+   "accession": "20260814-5213",
+   "date": "08/14/2026",
+   "party": "Data Center Coalition",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Data Center Coalition enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260814-5213",
+   "has_document": false
+  },
+  {
+   "accession": "20260814-5240",
+   "date": "08/14/2026",
+   "party": "Public Service Commission - Wisconsin",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of the Public Service Commission of Wisconsin to American Transmission Company LLC's 07/24/2026 tariff filing under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260814-5240",
+   "has_document": true
+  },
+  {
+   "accession": "20260814-5249",
+   "date": "08/14/2026",
+   "party": "Wisconsin Electric Power Company",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Wisconsin Electric Power Company in Support of the Large Load Project Commitment Agreements et al. filed by American Transmission Company LLC under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260814-5249",
+   "has_document": true
+  },
+  {
+   "accession": "20260817-5204",
+   "date": "08/17/2026",
+   "party": "Data Center Coalition",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Motion for Leave to File Comments Out of Time, Comments, and Limited Protest of Data Center Coalition in response to American Transmission Company LLC's 07/24/2026 tariff filing under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260817-5204",
+   "has_document": true
+  },
+  {
+   "accession": "20260818-3006",
+   "date": "08/18/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "Notice of Extension of Time re American Transmission Company LLC under ER26-3265.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260818-3006",
+   "has_document": false
+  },
+  {
+   "accession": "20260821-5282",
+   "date": "08/21/2026",
+   "party": "Microsoft Corporation",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Protest and Motion of Microsoft Corporation for Hearing and Settlement Judge Procedures under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5282",
+   "has_document": true
+  },
+  {
+   "accession": "20260821-5305",
+   "date": "08/21/2026",
+   "party": "Wisconsin Industrial Energy Group",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Wisconsin Industrial Energy Group enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5305",
+   "has_document": true
+  },
+  {
+   "accession": "20260821-5321",
+   "date": "08/21/2026",
+   "party": "Citizens Utility Board of Wisconsin",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments and Limited Protest of Citizens Utility Board of Wisconsin in response to American Transmission Company LLC's 07/24/2026 tariff filing under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5321",
+   "has_document": true
+  },
+  {
+   "accession": "20260825-5014",
+   "date": "08/25/2026",
+   "party": "PERSISTENCE ANALYTICS GROUP LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "PERSISTENCE ANALYTICS GROUP LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260825-5014",
+   "has_document": true
+  },
+  {
+   "accession": "20260825-5016",
+   "date": "08/25/2026",
+   "party": "PERSISTENCE ANALYTICS GROUP LLC",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Motion for Leave to File Comments Out of Time and Comments of Persistence Analytics Group LLC re American Transmission Company LLC's 07/24/2026 tariff filing under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260825-5016",
+   "has_document": true
+  },
+  {
+   "accession": "20260826-5016",
+   "date": "08/26/2026",
+   "party": "WIRES",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "WIRES enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260826-5016",
+   "has_document": false
+  },
+  {
+   "accession": "20260831-5280",
+   "date": "08/31/2026",
+   "party": "Exelon Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "Exelon Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260831-5280",
+   "has_document": false
+  },
+  {
+   "accession": "20260908-5211",
+   "date": "09/08/2026",
+   "party": "Wisconsin Electric Power Company",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Wisconsin Electric Power Company to the protests and comments filed by Microsoft Corporation, et al. under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5211",
+   "has_document": true
+  },
+  {
+   "accession": "20260908-5290",
+   "date": "09/08/2026",
+   "party": "American Transmission Company LLC",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of American Transmission Company LLC to the Comments and Protests filed by Microsoft Corporation et al. under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5290",
+   "has_document": true
+  }
+ ]
+}

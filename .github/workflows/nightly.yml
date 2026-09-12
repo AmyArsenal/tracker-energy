@@ -1,0 +1,72 @@
+name: Nightly data refresh
+on:
+  schedule:
+    - cron: '30 5 * * *'
+  workflow_dispatch:
+concurrency:
+  group: nightly-data-refresh
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install pipeline dependencies
+        run: pip install -r requirements.txt
+      - name: Pull latest feature bundle
+        if: ${{ env.FEATURE_MANIFEST_URL != '' }}
+        env:
+          FEATURE_MANIFEST_URL: ${{ vars.FEATURE_MANIFEST_URL }}
+          FEATURE_BUNDLE_TOKEN: ${{ secrets.FEATURE_BUNDLE_TOKEN }}
+        run: python scripts/pull_feature_channel.py
+      - name: Refresh public sources
+        run: |
+          python scripts/update_data.py
+          python scripts/update_pjm.py
+          python scripts/update_miso.py
+          python scripts/update_iso.py
+          python scripts/update_puc.py
+          python scripts/build_powerplants.py
+          python scripts/build_iso_queues.py
+      - name: Build indexes and validate
+        run: |
+          python scripts/build_canonical.py
+          python scripts/build_search.py
+          python scripts/validate_articles.py
+          node --check docs/grid-map.js
+          python -m py_compile scripts/*.py
+      - name: Build provenance manifest
+        run: |
+          python scripts/build_manifest.py
+      - name: Upload nightly data artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tracker-data-${{ github.run_id }}
+          path: |
+            docs/data
+            docs/map-data
+            canonical/manifest.json
+          retention-days: 30
+      - name: Validate feature overlay
+        run: |
+          node --check docs/grid-map.js
+          python -m py_compile scripts/*.py
+      - name: Commit feature and derived-data changes
+        run: |
+          git config user.name 'tracker.energy data bot'
+          git config user.email 'data-bot@tracker.energy'
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "data: nightly refresh $(date -u +%F)"
+          git push
+      - name: Deploy live site
+        if: ${{ env.SURGE_TOKEN != '' }}
+        env:
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+        run: npx --yes surge docs tracker-energy.surge.sh --token "$SURGE_TOKEN"
