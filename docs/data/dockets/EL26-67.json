@@ -74,18 +74,6 @@
    "has_document": false
   },
   {
-   "accession": "20260622-5057",
-   "date": "06/22/2026",
-   "party": "PJM Power Providers Group",
-   "role": "intervenor",
-   "phase": "interventions",
-   "filing_type": "Motion/Notice of Intervention",
-   "summary": "PJM Power Providers Group enters the docket as a party without stating a merits position.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260622-5057",
-   "has_document": false
-  },
-  {
    "accession": "20260622-5094",
    "date": "06/22/2026",
    "party": "Pennsylvania Public Utility Commission",
@@ -155,6 +143,18 @@
    "summary": "Southern Maryland Electric Cooperative, Inc. enters the docket as a party without stating a merits position.",
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260623-5053",
+   "has_document": false
+  },
+  {
+   "accession": "20260623-5063",
+   "date": "06/23/2026",
+   "party": "New Jersey Board of Public Utilities",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "New Jersey Board of Public Utilities enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260623-5063",
    "has_document": false
   },
   {
