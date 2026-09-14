@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-12T18:55:17Z",
+ "built_at": "2026-09-14T10:56:12Z",
  "stats": {
-  "docs": 1644,
+  "docs": 1652,
   "venues": 6,
-  "new_7d": 175,
-  "eligible": 1415
+  "new_7d": 179,
+  "eligible": 1419
  },
  "filed": [
   {
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "pjm:cifp-rbp:20260914-agenda.pdf",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-09-14",
-   "title": "Critical Issue Fast Path - Reliability Backstop Procurement - 20260914 agenda",
-   "plain": "Critical Issue Fast Path - Reliability Backstop Procurement will take up grid reliability rules.",
-   "docket": "CIFP-RBP",
-   "url": "https://www.pjm.com/-/media/DotCom/committees-groups/cifp-rbp/2026/20260914/20260914-agenda.pdf"
-  },
-  {
    "id": "caiso:interconnection-customer-user-group-sep-15-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
@@ -88,6 +78,16 @@
    "plain": "Joint Market Seams Workshop will take up wholesale-market rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/joint-market-seams-workshop-sep-16-2026-0900-am"
+  },
+  {
+   "id": "miso:large-load-working-group-llwg---september-23-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-09-23",
+   "title": "Large Load Working Group (LLWG) - September 23, 2026",
+   "plain": "Large Load Working Group will take up large-load grid connections.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---september-23-2026/"
   }
  ]
 }

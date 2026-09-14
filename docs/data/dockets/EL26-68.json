@@ -1646,6 +1646,18 @@
    "has_document": true
   },
   {
+   "accession": "20260727-5238",
+   "date": "07/27/2026",
+   "party": "Infrastructure Masons, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "Infrastructure Masons, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260727-5238",
+   "has_document": false
+  },
+  {
    "accession": "20260803-5209",
    "date": "08/03/2026",
    "party": "Southwest Power Pool, Inc.",
