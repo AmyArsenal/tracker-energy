@@ -1,9 +1,9 @@
 {
- "built_at": "2026-09-14T10:56:12Z",
+ "built_at": "2026-09-15T10:21:01Z",
  "stats": {
-  "docs": 1652,
+  "docs": 1648,
   "venues": 6,
-  "new_7d": 179,
+  "new_7d": 187,
   "eligible": 1419
  },
  "filed": [
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-customer-user-group-sep-15-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-15",
-   "title": "Interconnection Customer User Group",
-   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-15-2026-0100-pm"
-  },
-  {
    "id": "caiso:joint-market-seams-workshop-sep-16-2026-0900-am",
    "src": "caiso",
    "src_name": "California ISO",
@@ -80,14 +70,24 @@
    "url": "https://www.caiso.com/meetings-events/calendar/joint-market-seams-workshop-sep-16-2026-0900-am"
   },
   {
-   "id": "miso:large-load-working-group-llwg---september-23-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-09-23",
-   "title": "Large Load Working Group (LLWG) - September 23, 2026",
+   "id": "ercot:09172026-Workshop-for-Data-Center",
+   "src": "ercot",
+   "src_name": "ERCOT",
+   "date": "2026-09-17",
+   "title": "Workshop for Data Center State and Community Impacts - RFI Collection Intake Tool - Webex Only",
    "plain": "Large Load Working Group will take up large-load grid connections.",
    "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---september-23-2026/"
+   "url": "https://www.ercot.com/calendar/09172026-Workshop-for-Data-Center"
+  },
+  {
+   "id": "caiso:market-update-sep-17-2026-1000-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-17",
+   "title": "Market Update",
+   "plain": "Market Update will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/market-update-sep-17-2026-1000-am"
   }
  ]
 }

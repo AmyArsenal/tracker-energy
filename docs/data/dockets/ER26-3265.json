@@ -312,6 +312,18 @@
    "responds_to": "20260724-5251",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5290",
    "has_document": true
+  },
+  {
+   "accession": "20260914-5205",
+   "date": "09/14/2026",
+   "party": "Microsoft Corporation",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Microsoft Corporation to American Transmission Company LLC's et al. 09/08/2026 responsive pleadings under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5205",
+   "has_document": true
   }
  ]
 }

@@ -288,6 +288,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260911-5258",
    "has_document": false
+  },
+  {
+   "accession": "20260914-5087",
+   "date": "09/14/2026",
+   "party": "IIEC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "IIEC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5087",
+   "has_document": false
+  },
+  {
+   "accession": "20260914-5195",
+   "date": "09/14/2026",
+   "party": "Louisiana Energy Users Group",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Louisiana Energy Users Group enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5195",
+   "has_document": false
   }
  ]
 }

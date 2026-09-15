@@ -110,30 +110,6 @@
    "has_document": false
   },
   {
-   "accession": "20260803-5102",
-   "date": "08/03/2026",
-   "party": "Office of the Illinois Attorney General",
-   "role": "intervenor",
-   "phase": "interventions",
-   "filing_type": "Motion/Notice of Intervention",
-   "summary": "Office of the Illinois Attorney General enters the docket as a party without stating a merits position.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260803-5102",
-   "has_document": false
-  },
-  {
-   "accession": "20260803-5118",
-   "date": "08/03/2026",
-   "party": "Shell Energy North America (US), L.P.",
-   "role": "intervenor",
-   "phase": "interventions",
-   "filing_type": "Motion/Notice of Intervention",
-   "summary": "Shell Energy North America (US), L.P. enters the docket as a party without stating a merits position.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260803-5118",
-   "has_document": false
-  },
-  {
    "accession": "20260803-5131",
    "date": "08/03/2026",
    "party": "New Jersey Board of Public Utilities",
@@ -1526,6 +1502,18 @@
    "has_document": true
   },
   {
+   "accession": "20260821-5313",
+   "date": "08/21/2026",
+   "party": "Tract Holding Company I, LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Tract Holding Company I, LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260821-5313",
+   "has_document": true
+  },
+  {
    "accession": "20260821-5314",
    "date": "08/21/2026",
    "party": "Old Dominion Electric Cooperative",
@@ -1643,6 +1631,18 @@
    "summary": "Motion for Leave to Answer and Answer of Constellation Energy Generation, LLC to certain comments and protests re the PJM Reliability Backstop Procurement Proposal et al. under ER26-3380.",
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260908-5260",
+   "has_document": true
+  },
+  {
+   "accession": "20260910-5296",
+   "date": "09/10/2026",
+   "party": "PJM Interconnection, L.L.C.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of PJM Interconnection, L.L.C. to Comments and Protests re the 07/31/2026 revised Open Access Transmission Tariff filing et al. under ER26-3380.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260910-5296",
    "has_document": true
   }
  ]

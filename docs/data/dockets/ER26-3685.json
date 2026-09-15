@@ -72,6 +72,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260909-5038",
    "has_document": false
+  },
+  {
+   "accession": "20260914-5179",
+   "date": "09/14/2026",
+   "party": "Western Farmers Electric Cooperative",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Western Farmers Electric Cooperative enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5179",
+   "has_document": false
   }
  ]
 }
