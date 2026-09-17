@@ -326,18 +326,6 @@
    "has_document": false
   },
   {
-   "accession": "20260817-5173",
-   "date": "08/17/2026",
-   "party": "PUBLIC CITIZEN, INC",
-   "role": "intervenor",
-   "phase": "interventions",
-   "filing_type": "Motion/Notice of Intervention",
-   "summary": "PUBLIC CITIZEN, INC enters the docket as a party without stating a merits position.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260817-5173",
-   "has_document": false
-  },
-  {
    "accession": "20260818-5011",
    "date": "08/18/2026",
    "party": "Verrus LLC",
@@ -1682,6 +1670,18 @@
    "has_document": true
   },
   {
+   "accession": "20260904-5200",
+   "date": "09/04/2026",
+   "party": "CyrusOne LP",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "CyrusOne LP enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260904-5200",
+   "has_document": false
+  },
+  {
    "accession": "20260908-5273",
    "date": "09/08/2026",
    "party": "Virginia State Corporation Commission",
@@ -1715,6 +1715,30 @@
    "summary": "Motion for Leave to File Comments Out-of-Time and Comments of CyrusOne, LP on the proposal of PJM Interconnection, L.L.C. to Establish Interim Resource Adequacy, et al. under ER26-3515.",
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260911-5298",
+   "has_document": true
+  },
+  {
+   "accession": "20260915-5111",
+   "date": "09/15/2026",
+   "party": "Industrial Energy Consumers of America",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of the Industrial Energy Consumers of America in response to PJM Interconnection, L.L.C.\u2019s proposal to Establish Interim Resources Adequacy, et al. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5111",
+   "has_document": true
+  },
+  {
+   "accession": "20260916-5131",
+   "date": "09/16/2026",
+   "party": "Josh Shapiro, Governor of the Commonwealth of Pennsylvania",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion for Leave to Answer and Answer of Josh Shapiro, Governor of the Commonwealth of Pennsylvania in Support of PJM Interconnection, LLC\u2019s proposal to Establish Interim Resources Adequacy, et al. under ER26-3515.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5131",
    "has_document": true
   }
  ]

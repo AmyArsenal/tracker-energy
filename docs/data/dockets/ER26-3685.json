@@ -84,6 +84,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5179",
    "has_document": false
+  },
+  {
+   "accession": "20260916-5057",
+   "date": "09/16/2026",
+   "party": "American Electric Power Service Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "American Electric Power Service Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5057",
+   "has_document": false
+  },
+  {
+   "accession": "20260916-5153",
+   "date": "09/16/2026",
+   "party": "Oklahoma Gas and Electric Company",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Oklahoma Gas and Electric Company enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5153",
+   "has_document": false
   }
  ]
 }

@@ -2,6 +2,7 @@
 """PUC tracker - nightly refresh. v1: VA SCC (live), GA PSC (when its search backend is up).
 TX/OH blocked at WAF for server-side fetch - coming via browser-scrape path (weekly, pending plan approval)."""
 import json, os, re, sys, urllib.request, urllib.parse, datetime
+from source_continuity import retain_puc, write_reconciliation
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "puc.json")
 UA = {"User-Agent": "Mozilla/5.0 (tracker.energy research bot)"}
@@ -81,7 +82,7 @@ def georgia():
         for r in items:
             out.append({"state": "GA", "docket": str(r.get("id")), "title": (r.get("title") or "")[:140],
                         "recent_docs": None, "doc_types": [], "matched": ["data center"],
-                        "topics": tags(r.get("title") or ""), 
+                        "topics": tags(r.get("title") or ""),
                         "url": f"https://psc.ga.gov/search/facts-docket/?docketId={r.get('id')}"})
         return out, None if items else "GA search backend returned no data (site-side outage observed 10 Sep 2026)"
     except Exception as e:
@@ -111,6 +112,12 @@ def main():
     dockets += ga
     print(f"  GA: {len(ga)} dockets {note or ''}")
     if note: notes.append(note)
+    previous = []
+    if os.path.exists(OUT):
+        try: previous = json.load(open(OUT)).get("dockets", [])
+        except Exception as e: notes.append(f"Previous PUC continuity read failed: {e}")
+    dockets = retain_puc(dockets, previous, datetime.date.today().isoformat())
+    write_reconciliation(os.path.join(os.path.dirname(OUT), "reconciliation-events.json"), "va-scc", dockets, datetime.date.today().isoformat())
     data = {
         "source": "State PUC docket search (VA SCC DocketSearch API; GA PSC facts-service)",
         "window_days": DAYS,
@@ -119,6 +126,7 @@ def main():
                      "degraded": (["GA"] if note else []),
                      "coming": ["TX", "OH"]},
         "notes": notes,
+        "freshness": {"meaning": "current = returned by this refresh; retained_missing = last-good docket absent from bounded discovery query", "as_of": datetime.date.today().isoformat()},
         "dockets": dockets,
     }
     os.makedirs(os.path.dirname(OUT), exist_ok=True)

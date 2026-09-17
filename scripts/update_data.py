@@ -7,6 +7,7 @@ Outputs: docs/data/battery.json, docs/data/ferc.json, docs/data/meta.json
 """
 import io, json, re, sys, urllib.request, urllib.error
 from datetime import datetime, timezone, timedelta
+from source_continuity import merge_ferc_rows, retain_ferc, write_reconciliation
 import pandas as pd
 
 EIA_BASE = "https://www.eia.gov/electricity/data/eia860m/xls/{}_generator{}.xlsx"
@@ -201,6 +202,11 @@ def build_ferc(days=60):
             print(f"  docket {dk}: {len(dhits)} filings (merged new: {len(added)})")
         except Exception as e:
             print(f"  docket {dk} fetch failed: {e}", file=sys.stderr)
+    prev_path = os.path.join(OUT, 'ferc.json')
+    previous_items = []
+    if os.path.exists(prev_path):
+        try: previous_items = json.load(open(prev_path)).get('items', [])
+        except Exception as e: print(f'  previous FERC continuity read failed: {e}', file=sys.stderr)
     items = []
     for h in hits:
         author = next((a["affiliation"] for a in (h.get("affiliations") or [])
@@ -223,7 +229,6 @@ def build_ferc(days=60):
         except Exception: return datetime.min
     items.sort(key=k, reverse=True)
     KEEP = 30
-    import os
     fdir = f"{OUT}/../docs/filings" if not os.path.isdir("docs") else "docs/filings"
     os.makedirs(fdir, exist_ok=True)
     keep_accs = set()
@@ -234,17 +239,11 @@ def build_ferc(days=60):
     keep_accs |= pinned
     # Pinned filings that fell out of this run's search results are re-inserted
     # from the previous ferc.json so their article pages never 404.
-    prev_path = os.path.join(OUT, "ferc.json")
-    if os.path.exists(prev_path):
-        try:
-            prev = json.load(open(prev_path))
-            have = {(it.get("accession") or "").strip() for it in items}
-            for it in prev.get("items", []):
-                acc = (it.get("accession") or "").strip()
-                if acc in pinned and acc not in have:
-                    items.append(it)
-        except Exception as e:
-            print(f"  prev ferc.json merge failed: {e}", file=sys.stderr)
+    # Deduplicate overlaps between global and docket queries, then retain every
+    # previously seen accession in tracked dockets. Absence is reconciliation
+    # state, not evidence of withdrawal.
+    items = retain_ferc(merge_ferc_rows(items), previous_items, set(HOT_DOCKETS), end.date().isoformat())
+    write_reconciliation(os.path.join(OUT, 'reconciliation-events.json'), 'ferc', items, end.date().isoformat())
     # Mirror the recent global slice plus every filing in product-critical dockets.
     mirror_items = []
     seen_mirror = set()

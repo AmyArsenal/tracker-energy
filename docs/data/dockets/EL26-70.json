@@ -1742,6 +1742,18 @@
    "has_document": true
   },
   {
+   "accession": "20260715-5048",
+   "date": "07/15/2026",
+   "party": "Organization of MISO States, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "Organization of MISO States, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260715-5048",
+   "has_document": false
+  },
+  {
    "accession": "20260716-5122",
    "date": "07/16/2026",
    "party": "Energy Trading Institute",
@@ -1847,18 +1859,6 @@
    "summary": "Motion of Wabash Valley Power Association, Inc. for Request for Issuance of an Errata of the 06/18/2026 Order Instituting Proceedings Under Section 206 of the Federal Power Act under EL26-70.",
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260728-5083",
-   "has_document": true
-  },
-  {
-   "accession": "20260803-5249",
-   "date": "08/03/2026",
-   "party": "Midcontinent Independent System Operator Inc.",
-   "role": "intervenor",
-   "phase": "notices",
-   "filing_type": "Procedural Motion",
-   "summary": "Motion of Midcontinent Independent System Operator Inc. and the MISO Transmission Owners to Hold Proceeding in Abeyance and Request for Shortened Comment Period and Expedited Treatment under EL26-70.",
-   "responds_to": null,
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260803-5249",
    "has_document": true
   },
   {
@@ -2052,6 +2052,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260910-4000",
    "has_document": true
+  },
+  {
+   "accession": "20260915-5107",
+   "date": "09/15/2026",
+   "party": "Iowa Office of Consumer Advocate",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Iowa Office of Consumer Advocate submits request to update the official service list under EL26-70.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5107",
+   "has_document": false
   }
  ]
 }

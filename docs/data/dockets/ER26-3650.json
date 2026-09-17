@@ -312,6 +312,66 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5195",
    "has_document": false
+  },
+  {
+   "accession": "20260915-5032",
+   "date": "09/15/2026",
+   "party": "Association of Businesses Advocating Tariff Equity",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Association of Businesses Advocating Tariff Equity enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5032",
+   "has_document": false
+  },
+  {
+   "accession": "20260915-5044",
+   "date": "09/15/2026",
+   "party": "Michigan Public Service Commission",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Michigan Public Service Commission enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5044",
+   "has_document": false
+  },
+  {
+   "accession": "20260916-5051",
+   "date": "09/16/2026",
+   "party": "American Electric Power Service Corporation",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "American Electric Power Service Corporation enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5051",
+   "has_document": false
+  },
+  {
+   "accession": "20260916-5069",
+   "date": "09/16/2026",
+   "party": "Council of the City New Orleans",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Council of the City New Orleans enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5069",
+   "has_document": false
+  },
+  {
+   "accession": "20260916-5178",
+   "date": "09/16/2026",
+   "party": "DTE Electric Company",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "DTE Electric Company enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5178",
+   "has_document": false
   }
  ]
 }

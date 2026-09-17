@@ -11,11 +11,11 @@ from __future__ import annotations
 import argparse,datetime as dt,json,pathlib,shutil,subprocess,sys,tempfile,time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CONNECTORS=[
- {'id':'ferc','cmd':['python3','scripts/update_data.py'],'outputs':['docs/data/ferc.json','docs/data/battery.json','docs/data/meta.json','docs/data/articles','docs/filings'],'checks':{'docs/data/ferc.json':('items',1)}},
+ {'id':'ferc','cmd':['python3','scripts/update_data.py'],'outputs':['docs/data/ferc.json','docs/data/battery.json','docs/data/meta.json','docs/data/articles','docs/filings','docs/data/reconciliation-events.json'],'checks':{'docs/data/ferc.json':('items',1)}},
  {'id':'pjm','cmd':['python3','scripts/update_pjm.py'],'outputs':['docs/data/pjm.json','docs/filings'],'checks':{'docs/data/pjm.json':('documents',1)}},
  {'id':'miso','cmd':['python3','scripts/update_miso.py'],'outputs':['docs/data/miso.json','docs/data/miso_raw.json'],'checks':{'docs/data/miso.json':('events',1)}},
  {'id':'iso','cmd':['python3','scripts/update_iso.py'],'outputs':['docs/data/iso.json'],'checks':{'docs/data/iso.json':('events',1)}},
- {'id':'puc','cmd':['python3','scripts/update_puc.py'],'outputs':['docs/data/puc.json'],'checks':{'docs/data/puc.json':('dockets',1)}},
+ {'id':'puc','cmd':['python3','scripts/update_puc.py'],'outputs':['docs/data/puc.json','docs/data/reconciliation-events.json'],'checks':{'docs/data/puc.json':('dockets',1)}},
  {'id':'powerplants','cmd':['python3','scripts/build_powerplants.py'],'outputs':['docs/map-data/us-power-plants.geojson'],'checks':{'docs/map-data/us-power-plants.geojson':('features',1)}},
  {'id':'queues','cmd':['python3','scripts/build_iso_queues.py'],'outputs':['docs/map-data/us-iso-queues.json'],'checks':{'docs/map-data/us-iso-queues.json':('records',1)}},
 ]
