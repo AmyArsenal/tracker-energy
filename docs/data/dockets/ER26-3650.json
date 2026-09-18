@@ -372,6 +372,54 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5178",
    "has_document": false
+  },
+  {
+   "accession": "20260917-5265",
+   "date": "09/17/2026",
+   "party": "Texas Industrial Energy Consumers",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Texas Industrial Energy Consumers enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5265",
+   "has_document": false
+  },
+  {
+   "accession": "20260917-5281",
+   "date": "09/17/2026",
+   "party": "Iowa Office of Consumer Advocate",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Iowa Office of Consumer Advocate enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5281",
+   "has_document": false
+  },
+  {
+   "accession": "20260917-5297",
+   "date": "09/17/2026",
+   "party": "Citizens Utility Board of Michigan",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Citizens Utility Board of Michigan enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5297",
+   "has_document": false
+  },
+  {
+   "accession": "20260917-5308",
+   "date": "09/17/2026",
+   "party": "Citizens Utility Board of Wisconsin",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Citizens Utility Board of Wisconsin enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5308",
+   "has_document": false
   }
  ]
 }

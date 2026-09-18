@@ -1668,6 +1668,18 @@
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5145",
    "has_document": true
+  },
+  {
+   "accession": "20260917-5316",
+   "date": "09/17/2026",
+   "party": "PJM Power Providers Group",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Answer of PJM Power Providers Group in response to PJM Interconnection, L.L.C.'s 09/10/2026 Motion for Leave to Answer and Answer under ER26-3380.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5316",
+   "has_document": true
   }
  ]
 }
