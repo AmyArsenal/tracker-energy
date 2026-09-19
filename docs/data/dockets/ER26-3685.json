@@ -120,6 +120,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5262",
    "has_document": false
+  },
+  {
+   "accession": "20260918-5092",
+   "date": "09/18/2026",
+   "party": "Southwest Power Pool Market Monitoring Unit",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Southwest Power Pool Market Monitoring Unit enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5092",
+   "has_document": true
   }
  ]
 }

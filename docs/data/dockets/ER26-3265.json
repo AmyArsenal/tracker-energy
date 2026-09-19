@@ -324,6 +324,18 @@
    "responds_to": "20260724-5251",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260914-5205",
    "has_document": true
+  },
+  {
+   "accession": "20260918-5324",
+   "date": "09/18/2026",
+   "party": "Data Center Coalition",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Data Center Coalition to the Comments, Protests and Answers filed by American Transmission Company LLC et al. under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5324",
+   "has_document": true
   }
  ]
 }

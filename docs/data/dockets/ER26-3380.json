@@ -1680,6 +1680,18 @@
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260917-5316",
    "has_document": true
+  },
+  {
+   "accession": "20260918-5364",
+   "date": "09/18/2026",
+   "party": "East Kentucky Power Cooperative, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion For Leave to File Second Limited Answer and Second Limited Answer of East Kentucky Power Cooperative, Inc. under ER26-3380.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5364",
+   "has_document": true
   }
  ]
 }

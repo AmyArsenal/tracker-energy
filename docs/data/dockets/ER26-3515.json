@@ -1740,6 +1740,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260916-5131",
    "has_document": true
+  },
+  {
+   "accession": "20260918-5262",
+   "date": "09/18/2026",
+   "party": "Buckeye Power, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Buckeye Power, Inc. to certain Comments and Protests re PJM Interconnection, LLC\u2019s proposal to Establish Interim Resources Adequacy, et al. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5262",
+   "has_document": true
+  },
+  {
+   "accession": "20260918-5365",
+   "date": "09/18/2026",
+   "party": "New Jersey Board of Public Utilities",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of the New Jersey Board of Public Utilities to the protests and comments of Buckeye Power, Inc., et al. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5365",
+   "has_document": true
   }
  ]
 }
