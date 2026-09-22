@@ -804,6 +804,42 @@
    "responds_to": "20260828-5278",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397",
    "has_document": true
+  },
+  {
+   "accession": "20260918-5412",
+   "date": "09/18/2026",
+   "party": "Data Center Coalition",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Data Center Coalition enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5412",
+   "has_document": true
+  },
+  {
+   "accession": "20260918-5415",
+   "date": "09/18/2026",
+   "party": "ENVIRONMENTAL LAW & POLICY CENTER",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "ENVIRONMENTAL LAW & POLICY CENTER enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5415",
+   "has_document": false
+  },
+  {
+   "accession": "20260921-5084",
+   "date": "09/21/2026",
+   "party": "Rowan Digital Infrastructure",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Rowan Digital Infrastructure, LLC re the 08/28/2026 filing by Midcontinent Independent System Operator, Inc. proposing Interconnection Reliability Requirements for Large Loads under ER26-3650.",
+   "responds_to": "20260828-5278",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260921-5084",
+   "has_document": false
   }
  ]
 }

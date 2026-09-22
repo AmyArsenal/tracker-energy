@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-21T11:02:24Z",
+ "built_at": "2026-09-22T10:15:31Z",
  "stats": {
-  "docs": 1715,
+  "docs": 1722,
   "venues": 6,
-  "new_7d": 195,
-  "eligible": 1476
+  "new_7d": 197,
+  "eligible": 1482
  },
  "filed": [
   {
@@ -18,16 +18,6 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
   },
   {
-   "id": "ferc:20260918-5346",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
-  },
-  {
    "id": "ferc:20260918-5333",
    "src": "ferc",
    "src_name": "FERC eLibrary",
@@ -36,6 +26,16 @@
    "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
+  },
+  {
+   "id": "ferc:20260918-5346",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-18",
+   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
+   "docket": "ER26-3650-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
   },
   {
    "id": "ferc:20260918-5323",
@@ -60,26 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-customer-user-group-sep-22-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-22",
-   "title": "Interconnection Customer User Group",
-   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-22-2026-0100-pm"
-  },
-  {
-   "id": "caiso:storage-design-and-modeling-sep-22-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-22",
-   "title": "Storage Design and Modeling",
-   "plain": "Storage Design and Modeling will take up storage on the grid.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/storage-design-and-modeling-sep-22-2026-0900-am"
-  },
-  {
    "id": "miso:large-load-working-group-llwg---september-23-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
@@ -88,6 +68,26 @@
    "plain": "Large Load Working Group will take up large-load grid connections.",
    "docket": null,
    "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---september-23-2026/"
+  },
+  {
+   "id": "caiso:comments-due-2027-default-resource-adequacy-values-sep-23-2026-1200-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-23",
+   "title": "Comments due - 2027 Default Resource Adequacy Values",
+   "plain": "Comments due will take up how the grid secures enough capacity.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2027-default-resource-adequacy-values-sep-23-2026-1200-am"
+  },
+  {
+   "id": "caiso:2026-2027-transmission-planning-process-sep-23-2026-0900-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-23",
+   "title": "2026-2027 Transmission Planning Process",
+   "plain": "2026-2027 Transmission Planning Process will take up transmission planning.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-sep-23-2026-0900-am"
   }
  ]
 }
