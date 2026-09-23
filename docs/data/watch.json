@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-22T10:15:31Z",
+ "built_at": "2026-09-23T10:17:46Z",
  "stats": {
-  "docs": 1722,
+  "docs": 1726,
   "venues": 6,
-  "new_7d": 197,
-  "eligible": 1482
+  "new_7d": 189,
+  "eligible": 1485
  },
  "filed": [
   {
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "miso:large-load-working-group-llwg---september-23-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-09-23",
-   "title": "Large Load Working Group (LLWG) - September 23, 2026",
-   "plain": "Large Load Working Group will take up large-load grid connections.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---september-23-2026/"
-  },
-  {
-   "id": "caiso:comments-due-2027-default-resource-adequacy-values-sep-23-2026-1200-am",
+   "id": "caiso:2026-2027-transmission-planning-process-day-2-sep-24-2026-0900-am",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-09-23",
-   "title": "Comments due - 2027 Default Resource Adequacy Values",
-   "plain": "Comments due will take up how the grid secures enough capacity.",
+   "date": "2026-09-24",
+   "title": "2026-2027 Transmission Planning Process Day 2",
+   "plain": "2026-2027 Transmission Planning Process Day 2 will take up transmission planning.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2027-default-resource-adequacy-values-sep-23-2026-1200-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-day-2-sep-24-2026-0900-am"
   },
   {
-   "id": "caiso:2026-2027-transmission-planning-process-sep-23-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-23",
-   "title": "2026-2027 Transmission Planning Process",
-   "plain": "2026-2027 Transmission Planning Process will take up transmission planning.",
+   "id": "ercot:09242026-Batch-1_-and-Comprehensive",
+   "src": "ercot",
+   "src_name": "ERCOT",
+   "date": "2026-09-24",
+   "title": "Batch 1+ and Comprehensive Transmission Planning Workshop #2",
+   "plain": "Black Start Working Group will take up transmission planning.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-sep-23-2026-0900-am"
+   "url": "https://www.ercot.com/calendar/09242026-Batch-1_-and-Comprehensive"
+  },
+  {
+   "id": "pjm:mrc:20260924-agenda-doc.docx",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-09-24",
+   "title": "Markets and Reliability Committee - Agenda (DOCX)",
+   "plain": "Markets and Reliability Committee will take up grid reliability rules.",
+   "docket": "MRC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20260924/20260924-agenda-doc.docx"
   }
  ]
 }

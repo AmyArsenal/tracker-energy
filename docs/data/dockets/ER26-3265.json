@@ -336,6 +336,30 @@
    "responds_to": "20260724-5251",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5324",
    "has_document": true
+  },
+  {
+   "accession": "20260921-5306",
+   "date": "09/21/2026",
+   "party": "American Transmission Company LLC (ATC)",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Reply and Reply of American Transmission Company LLC to the Answers filed by Microsoft Corporation et al. re the 07/24/2026 tariff filing under ER26-3265.",
+   "responds_to": "20260724-5251",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260921-5306",
+   "has_document": true
+  },
+  {
+   "accession": "20260922-3035",
+   "date": "09/22/2026",
+   "party": "OFFICE OF ENERGY MARKET REGULATION",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Deficiency Letter",
+   "summary": "Letter informing American Transmission Company LLC that the 07/24/2026 filing is deficient and requesting additional information to be filed within 30 days to assist in processing etc. under ER26-3265.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260922-3035",
+   "has_document": false
   }
  ]
 }
