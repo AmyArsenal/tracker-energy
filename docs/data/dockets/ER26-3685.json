@@ -132,6 +132,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5092",
    "has_document": true
+  },
+  {
+   "accession": "20260923-5113",
+   "date": "09/23/2026",
+   "party": "ON Energy Storage, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "ON Energy Storage, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260923-5113",
+   "has_document": false
   }
  ]
 }

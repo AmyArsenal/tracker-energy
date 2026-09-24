@@ -1,21 +1,21 @@
 {
- "built_at": "2026-09-23T10:17:46Z",
+ "built_at": "2026-09-24T10:25:01Z",
  "stats": {
-  "docs": 1726,
+  "docs": 1717,
   "venues": 6,
-  "new_7d": 189,
-  "eligible": 1485
+  "new_7d": 185,
+  "eligible": 1481
  },
  "filed": [
   {
-   "id": "ferc:20260918-5397",
+   "id": "ferc:20260918-5346",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-09-18",
-   "title": "Protest of Sierra Club et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "Natural Resources Defense Council challenges MISO's reliability rules for connecting large loads.",
+   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
   },
   {
    "id": "ferc:20260918-5333",
@@ -28,14 +28,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
   },
   {
-   "id": "ferc:20260918-5346",
+   "id": "ferc:20260918-5397",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
+   "title": "Protest of Sierra Club et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "Natural Resources Defense Council challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
   },
   {
    "id": "ferc:20260918-5323",
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "caiso:2026-2027-transmission-planning-process-day-2-sep-24-2026-0900-am",
+   "id": "caiso:comments-due-interconnection-process-enhancements-5-0-draft-tariff-language-sep-",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-09-24",
-   "title": "2026-2027 Transmission Planning Process Day 2",
-   "plain": "2026-2027 Transmission Planning Process Day 2 will take up transmission planning.",
+   "date": "2026-09-28",
+   "title": "Comments due - Interconnection Process Enhancements 5.0 - Draft Tariff Language",
+   "plain": "Comments due will take up grid interconnection rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-day-2-sep-24-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-interconnection-process-enhancements-5-0-draft-tariff-language-sep-28-2026-1200-am"
   },
   {
-   "id": "ercot:09242026-Batch-1_-and-Comprehensive",
-   "src": "ercot",
-   "src_name": "ERCOT",
-   "date": "2026-09-24",
-   "title": "Batch 1+ and Comprehensive Transmission Planning Workshop #2",
-   "plain": "Black Start Working Group will take up transmission planning.",
+   "id": "caiso:extended-day-ahead-market-edam-market-performance-sep-28-2026-0100-pm",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-28",
+   "title": "Extended Day-Ahead Market (EDAM) Market Performance",
+   "plain": "Extended Day-Ahead Market (EDAM) Market Performance will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.ercot.com/calendar/09242026-Batch-1_-and-Comprehensive"
+   "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-market-performance-sep-28-2026-0100-pm"
   },
   {
-   "id": "pjm:mrc:20260924-agenda-doc.docx",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-09-24",
-   "title": "Markets and Reliability Committee - Agenda (DOCX)",
-   "plain": "Markets and Reliability Committee will take up grid reliability rules.",
-   "docket": "MRC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20260924/20260924-agenda-doc.docx"
+   "id": "miso:reliability-subcommittee-rsc---september-29-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-09-29",
+   "title": "Reliability Subcommittee (RSC) - September 29, 2026",
+   "plain": "Reliability Subcommittee will take up grid reliability rules.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/reliability-subcommittee-rsc---september-29-2026/"
   }
  ]
 }
