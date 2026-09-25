@@ -840,6 +840,18 @@
    "responds_to": "20260828-5278",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260921-5084",
    "has_document": true
+  },
+  {
+   "accession": "20260924-5153",
+   "date": "09/24/2026",
+   "party": "ON Energy Storage, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Limited Answer of ON Energy Storage, Inc. in response to comments and protests re Midcontinent Independent System Operator, Inc. proposal to establish Interconnection Reliability Requirements for Large Loads under ER26-3650.",
+   "responds_to": "20260828-5278",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260924-5153",
+   "has_document": true
   }
  ]
 }

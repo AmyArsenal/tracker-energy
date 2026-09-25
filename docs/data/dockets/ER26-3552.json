@@ -624,6 +624,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260911-5203",
    "has_document": true
+  },
+  {
+   "accession": "20260923-5148",
+   "date": "09/23/2026",
+   "party": "Midcontinent Independent System Operator Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Midcontinent Independent System Operator Inc. to the comments and protests in response to the 08/18/2026 proposed tariff revisions under ER26-3552.",
+   "responds_to": "20260818-5152",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260923-5148",
+   "has_document": true
   }
  ]
 }

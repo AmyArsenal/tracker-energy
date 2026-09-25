@@ -1,22 +1,12 @@
 {
- "built_at": "2026-09-24T10:25:01Z",
+ "built_at": "2026-09-25T10:28:55Z",
  "stats": {
-  "docs": 1717,
+  "docs": 1716,
   "venues": 6,
-  "new_7d": 185,
-  "eligible": 1481
+  "new_7d": 183,
+  "eligible": 1479
  },
  "filed": [
-  {
-   "id": "ferc:20260918-5346",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
-  },
   {
    "id": "ferc:20260918-5333",
    "src": "ferc",
@@ -26,6 +16,16 @@
    "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
+  },
+  {
+   "id": "ferc:20260918-5346",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-18",
+   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
+   "docket": "ER26-3650-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
   },
   {
    "id": "ferc:20260918-5397",
