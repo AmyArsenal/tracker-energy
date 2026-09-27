@@ -1752,6 +1752,18 @@
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260923-5149",
    "has_document": true
+  },
+  {
+   "accession": "20260924-5183",
+   "date": "09/24/2026",
+   "party": "New Jersey Board of Public Utilities",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of the New Jersey Board of Public Utilities to the Answer et al. of PJM Interconnection, L.L.C. filed on 09/10/2026 under ER26-3380.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260924-5183",
+   "has_document": true
   }
  ]
 }

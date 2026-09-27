@@ -1776,6 +1776,18 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260923-5114",
    "has_document": true
+  },
+  {
+   "accession": "20260925-5186",
+   "date": "09/25/2026",
+   "party": "American Electric Power Service Corporation",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion for Leave to Reply and Reply Comments of American Electric Power Service Corporation under ER26-3515.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260925-5186",
+   "has_document": true
   }
  ]
 }
