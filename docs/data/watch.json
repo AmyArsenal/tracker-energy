@@ -1,21 +1,21 @@
 {
- "built_at": "2026-09-27T10:42:49Z",
+ "built_at": "2026-09-28T11:56:21Z",
  "stats": {
-  "docs": 1728,
+  "docs": 1725,
   "venues": 6,
   "new_7d": 148,
-  "eligible": 1485
+  "eligible": 1482
  },
  "filed": [
   {
-   "id": "ferc:20260918-5397",
+   "id": "ferc:20260918-5346",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-09-18",
-   "title": "Protest of Sierra Club et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "Natural Resources Defense Council challenges MISO's reliability rules for connecting large loads.",
+   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
   },
   {
    "id": "ferc:20260918-5333",
@@ -28,14 +28,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
   },
   {
-   "id": "ferc:20260918-5346",
+   "id": "ferc:20260918-5397",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
+   "title": "Protest of Sierra Club et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "Natural Resources Defense Council challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
   },
   {
    "id": "ferc:20260918-5323",
@@ -60,24 +60,14 @@
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-interconnection-process-enhancements-5-0-draft-tariff-language-sep-",
+   "id": "caiso:interconnection-customer-user-group-sep-29-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-09-28",
-   "title": "Comments due - Interconnection Process Enhancements 5.0 - Draft Tariff Language",
-   "plain": "Comments due will take up grid interconnection rules.",
+   "date": "2026-09-29",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-interconnection-process-enhancements-5-0-draft-tariff-language-sep-28-2026-1200-am"
-  },
-  {
-   "id": "caiso:extended-day-ahead-market-edam-market-performance-sep-28-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-28",
-   "title": "Extended Day-Ahead Market (EDAM) Market Performance",
-   "plain": "Extended Day-Ahead Market (EDAM) Market Performance will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-market-performance-sep-28-2026-0100-pm"
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-29-2026-0100-pm"
   },
   {
    "id": "miso:reliability-subcommittee-rsc---september-29-2026",
@@ -88,6 +78,16 @@
    "plain": "Reliability Subcommittee will take up grid reliability rules.",
    "docket": null,
    "url": "https://www.misoenergy.org/events/2026/reliability-subcommittee-rsc---september-29-2026/"
+  },
+  {
+   "id": "caiso:interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-09-30",
+   "title": "Interconnection Process Enhancements 5.0 - Draft Tariff Language",
+   "plain": "Interconnection Process Enhancements 5.0 will take up grid interconnection rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-pm"
   }
  ]
 }
