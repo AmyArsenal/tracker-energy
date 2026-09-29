@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-28T11:56:21Z",
+ "built_at": "2026-09-29T11:31:56Z",
  "stats": {
-  "docs": 1725,
+  "docs": 1728,
   "venues": 6,
-  "new_7d": 148,
-  "eligible": 1482
+  "new_7d": 142,
+  "eligible": 1487
  },
  "filed": [
   {
@@ -60,26 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-customer-user-group-sep-29-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-29",
-   "title": "Interconnection Customer User Group",
-   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-sep-29-2026-0100-pm"
-  },
-  {
-   "id": "miso:reliability-subcommittee-rsc---september-29-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-09-29",
-   "title": "Reliability Subcommittee (RSC) - September 29, 2026",
-   "plain": "Reliability Subcommittee will take up grid reliability rules.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/reliability-subcommittee-rsc---september-29-2026/"
-  },
-  {
    "id": "caiso:interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-",
    "src": "caiso",
    "src_name": "California ISO",
@@ -88,6 +68,26 @@
    "plain": "Interconnection Process Enhancements 5.0 will take up grid interconnection rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-pm"
+  },
+  {
+   "id": "miso:resource-adequacy-subcommittee-rasc---september-30-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-09-30",
+   "title": "Resource Adequacy Subcommittee (RASC) - September 30, 2026",
+   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---september-30-2026/"
+  },
+  {
+   "id": "caiso:comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-0",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-01",
+   "title": "Comments due - 2026 Transmission Economic Assessment Methodology (TEAM) Update",
+   "plain": "Comments due will take up transmission planning.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-01-2026-1200-am"
   }
  ]
 }

@@ -1764,6 +1764,30 @@
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260924-5183",
    "has_document": true
+  },
+  {
+   "accession": "20260925-5208",
+   "date": "09/25/2026",
+   "party": "Monitoring Analytics, LLC",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Answer and Motion for Leave to Answer of the Independent Market Monitor for PJM Interconnection, L.L.C. to the Answer of PJM Interconnection, L.L.C. filed on 09/10/2026 under ER26-3380.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260925-5208",
+   "has_document": true
+  },
+  {
+   "accession": "20260928-4001",
+   "date": "09/28/2026",
+   "party": "COMMITTEE ON ENERGY AND COMMERCE",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Congressional Submittal",
+   "summary": "Comments of U.S. House of Representatives Committee on Energy and Commerce Ranking Member Frank Pallone, Jr. urging FERC to make important improvements, approve amended proposals, etc. re energy costs from data centers, under ER26-3380 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260928-4001",
+   "has_document": true
   }
  ]
 }

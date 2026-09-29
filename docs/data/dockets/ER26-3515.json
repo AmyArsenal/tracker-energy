@@ -1788,6 +1788,42 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260925-5186",
    "has_document": true
+  },
+  {
+   "accession": "20260928-4001",
+   "date": "09/28/2026",
+   "party": "COMMITTEE ON ENERGY AND COMMERCE",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Congressional Submittal",
+   "summary": "Comments of U.S. House of Representatives Committee on Energy and Commerce Ranking Member Frank Pallone, Jr. urging FERC to make important improvements, approve amended proposals, etc. re energy costs from data centers, under ER26-3380 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260928-4001",
+   "has_document": true
+  },
+  {
+   "accession": "20260928-5172",
+   "date": "09/28/2026",
+   "party": "Corporate Energy Buyers Association",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Corporate Energy Buyers Association to PJM Interconnection, L.L.C.'s 09/23/2026 Answer re the Establish Interim Resource Adequacy, et al. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260928-5172",
+   "has_document": true
+  },
+  {
+   "accession": "20260928-5175",
+   "date": "09/28/2026",
+   "party": "Vistra Corp.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Vistra Corp. in response to certain pleadings and answers filed under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260928-5175",
+   "has_document": true
   }
  ]
 }
