@@ -1,10 +1,10 @@
 {
- "built_at": "2026-09-29T11:31:56Z",
+ "built_at": "2026-09-30T11:19:53Z",
  "stats": {
-  "docs": 1728,
+  "docs": 1729,
   "venues": 6,
-  "new_7d": 142,
-  "eligible": 1487
+  "new_7d": 154,
+  "eligible": 1497
  },
  "filed": [
   {
@@ -60,26 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-09-30",
-   "title": "Interconnection Process Enhancements 5.0 - Draft Tariff Language",
-   "plain": "Interconnection Process Enhancements 5.0 will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-process-enhancements-5-0-draft-tariff-language-sep-30-2026-0200-pm"
-  },
-  {
-   "id": "miso:resource-adequacy-subcommittee-rasc---september-30-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-09-30",
-   "title": "Resource Adequacy Subcommittee (RASC) - September 30, 2026",
-   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---september-30-2026/"
-  },
-  {
    "id": "caiso:comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-0",
    "src": "caiso",
    "src_name": "California ISO",
@@ -88,6 +68,26 @@
    "plain": "Comments due will take up transmission planning.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-01-2026-1200-am"
+  },
+  {
+   "id": "caiso:market-update-oct-01-2026-1000-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-01",
+   "title": "Market Update",
+   "plain": "Market Update will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/market-update-oct-01-2026-1000-am"
+  },
+  {
+   "id": "miso:market-subcommittee-msc---october-1-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-10-01",
+   "title": "Market Subcommittee (MSC) - October 1, 2026",
+   "plain": "Market Subcommittee will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/market-subcommittee-msc---october-1-2026/"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
  "docket": "ER26-3380",
  "caption": "PJM reliability backstop procurement",
- "status": "Awaiting Commission action",
+ "status": "Commission order issued",
  "updated": "",
  "source": "https://elibrary.ferc.gov/eLibrary/dockets?docket_number=ER26-3380-000",
  "phases": [
@@ -1787,6 +1787,30 @@
    "summary": "Comments of U.S. House of Representatives Committee on Energy and Commerce Ranking Member Frank Pallone, Jr. urging FERC to make important improvements, approve amended proposals, etc. re energy costs from data centers, under ER26-3380 et al.",
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260928-4001",
+   "has_document": true
+  },
+  {
+   "accession": "20260929-3099",
+   "date": "09/29/2026",
+   "party": "COMMISSIONERS AND IMMEDIATE STAFF (THE COMMISSION)",
+   "role": "intervenor",
+   "phase": "order",
+   "filing_type": "Commission Order/Opinion",
+   "summary": "Order Accepting Reliability Backstop Procurement and Establishing Further Procedures re PJM Interconnection, L.L.C. under ER26-3380 et al. Chairman Swett and Commissioners Rosner, See, and LaCerte are concurring with a separate statement attached.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260929-3099",
+   "has_document": false
+  },
+  {
+   "accession": "20260929-5071",
+   "date": "09/29/2026",
+   "party": "Voltus, Inc.",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Supplemental Comments of Voltus, Inc. in response to PJM Interconnection, L.L.C.'s 09/23/2026 et al. Answers re the Proposal to Establish Interim Resource Adequacy, et al. under ER26-3380 et al.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260929-5071",
    "has_document": true
   }
  ]
