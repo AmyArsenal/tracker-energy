@@ -1,22 +1,12 @@
 {
- "built_at": "2026-09-30T11:19:53Z",
+ "built_at": "2026-10-01T11:47:45Z",
  "stats": {
-  "docs": 1729,
+  "docs": 1701,
   "venues": 6,
-  "new_7d": 154,
-  "eligible": 1497
+  "new_7d": 181,
+  "eligible": 1496
  },
  "filed": [
-  {
-   "id": "ferc:20260918-5346",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
-  },
   {
    "id": "ferc:20260918-5333",
    "src": "ferc",
@@ -26,6 +16,16 @@
    "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
+  },
+  {
+   "id": "ferc:20260918-5346",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-18",
+   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
+   "docket": "ER26-3650-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
   },
   {
    "id": "ferc:20260918-5397",
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-0",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-01",
-   "title": "Comments due - 2026 Transmission Economic Assessment Methodology (TEAM) Update",
-   "plain": "Comments due will take up transmission planning.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2026-transmission-economic-assessment-methodology-team-update-oct-01-2026-1200-am"
-  },
-  {
-   "id": "caiso:market-update-oct-01-2026-1000-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-01",
-   "title": "Market Update",
-   "plain": "Market Update will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/market-update-oct-01-2026-1000-am"
-  },
-  {
-   "id": "miso:market-subcommittee-msc---october-1-2026",
+   "id": "miso:transmission-owners-compliance-task-team-toctt---october-2-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-10-01",
-   "title": "Market Subcommittee (MSC) - October 1, 2026",
-   "plain": "Market Subcommittee will take up wholesale-market rules.",
+   "date": "2026-10-02",
+   "title": "Transmission Owners Compliance Task Team (TOCTT) - October 2, 2026",
+   "plain": "Transmission Owners Compliance Task Team will take up transmission planning.",
    "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/market-subcommittee-msc---october-1-2026/"
+   "url": "https://www.misoenergy.org/events/2026/transmission-owners-compliance-task-team-toctt---october-2-2026/"
+  },
+  {
+   "id": "ercot:10062026-SB6-Large-Load-Curtailment_",
+   "src": "ercot",
+   "src_name": "ERCOT",
+   "date": "2026-10-06",
+   "title": "SB6 Large Load Curtailment: Operations Workshop #1",
+   "plain": "Steady State Working Group will take up large-load grid connections.",
+   "docket": null,
+   "url": "https://www.ercot.com/calendar/10062026-SB6-Large-Load-Curtailment_"
+  },
+  {
+   "id": "pjm:pc:20261006-item-09---reliability-compliance-update---presentation.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-10-06",
+   "title": "Planning Committee - Item 09 - Reliability Compliance Update - Presentation (PDF)",
+   "plain": "Planning Committee will take up grid reliability rules.",
+   "docket": "PC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/pc/2026/20261006/20261006-item-09---reliability-compliance-update---presentation.pdf"
   }
  ]
 }

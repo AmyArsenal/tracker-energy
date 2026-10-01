@@ -1848,6 +1848,30 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260929-5145",
    "has_document": true
+  },
+  {
+   "accession": "20260929-5169",
+   "date": "09/29/2026",
+   "party": "Constellation Energy Generation, LLC",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Constellation Energy Generation, LLC to the Answers filed by Pennsylvania Governor Josh Shapiro et al. re the Interim Resource Adequacy Service proposed by PJM Interconnection, L.L.C. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260929-5169",
+   "has_document": true
+  },
+  {
+   "accession": "20260930-5211",
+   "date": "09/30/2026",
+   "party": "Google LLC",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Answer of Google LLC in response to pleadings re PJM Interconnection, L.L.C.\u2019s filing to establish Interim Resource Adequacy Service under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260930-5211",
+   "has_document": true
   }
  ]
 }

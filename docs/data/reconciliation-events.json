@@ -3317,8 +3317,22 @@
       "record_id": "20260623-5084",
       "source": "ferc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:a7b3975ca1f44fef6af0138f2a9ed4c93fbad8007e9cf72bedaece5f8c78882f",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-01",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-09-30",
+      "record_id": "20260623-5063",
+      "source": "ferc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-09-30T11:18:48.436862+00:00",
+  "generated_at": "2026-10-01T11:46:05.689011+00:00",
   "schema_version": "1.0"
 }
