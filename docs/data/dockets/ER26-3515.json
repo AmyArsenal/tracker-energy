@@ -1872,6 +1872,18 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260930-5211",
    "has_document": true
+  },
+  {
+   "accession": "20261001-5356",
+   "date": "10/01/2026",
+   "party": "Data Center Coalition",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Data Center Coalition to the answer of PJM Interconnection, L.L.C. and certain other comments and answers re the proposal to establish Interim Resource Adequacy Service et al. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5356",
+   "has_document": true
   }
  ]
 }

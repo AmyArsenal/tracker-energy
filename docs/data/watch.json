@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-01T11:47:45Z",
+ "built_at": "2026-10-02T11:17:33Z",
  "stats": {
-  "docs": 1701,
+  "docs": 1697,
   "venues": 6,
-  "new_7d": 181,
-  "eligible": 1496
+  "new_7d": 143,
+  "eligible": 1480
  },
  "filed": [
   {
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "miso:transmission-owners-compliance-task-team-toctt---october-2-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-10-02",
-   "title": "Transmission Owners Compliance Task Team (TOCTT) - October 2, 2026",
-   "plain": "Transmission Owners Compliance Task Team will take up transmission planning.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/transmission-owners-compliance-task-team-toctt---october-2-2026/"
-  },
-  {
    "id": "ercot:10062026-SB6-Large-Load-Curtailment_",
    "src": "ercot",
    "src_name": "ERCOT",
@@ -88,6 +78,16 @@
    "plain": "Planning Committee will take up grid reliability rules.",
    "docket": "PC",
    "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/pc/2026/20261006/20261006-item-09---reliability-compliance-update---presentation.pdf"
+  },
+  {
+   "id": "pjm:mic:20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-10-07",
+   "title": "Market Implementation Committee - Item 03-1 - Options <span class='ampersand'>&</span> Packages Matrix - Resource Scheduling Prior to the Day-Ahead Energy Market - Phase 2 - 10.7.2026 (XLS)",
+   "plain": "Market Implementation Committee will take up wholesale-market rules.",
+   "docket": "MIC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261007/20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---1072026.xls"
   }
  ]
 }
