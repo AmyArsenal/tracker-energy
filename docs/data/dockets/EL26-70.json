@@ -2064,6 +2064,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260915-5107",
    "has_document": false
+  },
+  {
+   "accession": "20261001-5390",
+   "date": "10/01/2026",
+   "party": "Individual No Affiliation",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Jessica Kivell asking the Commission to keep transparency, cost responsibility, reliable planning, and protection of existing customers at the center of the proceeding under EL26-70.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5390",
+   "has_document": true
   }
  ]
 }

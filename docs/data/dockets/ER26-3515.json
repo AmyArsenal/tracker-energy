@@ -1884,6 +1884,18 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5356",
    "has_document": true
+  },
+  {
+   "accession": "20261002-5153",
+   "date": "10/02/2026",
+   "party": "FirstEnergy Service Company",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Limited Answer of FirstEnergy Service Company to PJM Interconnection, L.L.C.\u2019s 09/23/2026 Answer re Interim Resource Adequacy Service filing under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5153",
+   "has_document": true
   }
  ]
 }

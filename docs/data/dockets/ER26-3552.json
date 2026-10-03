@@ -636,6 +636,18 @@
    "responds_to": "20260818-5152",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260923-5148",
    "has_document": true
+  },
+  {
+   "accession": "20261002-5040",
+   "date": "10/02/2026",
+   "party": "Michael Best & Friedrich LLP",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Michael Best & Friedrich LLP submits request to update the official service list under EG23-276, et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5040",
+   "has_document": true
   }
  ]
 }

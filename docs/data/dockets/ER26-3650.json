@@ -852,6 +852,18 @@
    "responds_to": "20260828-5278",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260924-5153",
    "has_document": true
+  },
+  {
+   "accession": "20261002-5120",
+   "date": "10/02/2026",
+   "party": "Texas Industrial Energy Consumers",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Coalition of MISO Transmission Customers et al. to the Joint Protest of the Sierra Club et al. under ER26-3650.",
+   "responds_to": "20260828-5278",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120",
+   "has_document": true
   }
  ]
 }
