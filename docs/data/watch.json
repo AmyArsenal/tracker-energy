@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-05T12:33:34Z",
+ "built_at": "2026-10-06T12:12:30Z",
  "stats": {
-  "docs": 1714,
+  "docs": 1715,
   "venues": 6,
-  "new_7d": 150,
-  "eligible": 1486
+  "new_7d": 143,
+  "eligible": 1481
  },
  "filed": [
   {
@@ -60,26 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "ercot:10062026-SB6-Large-Load-Curtailment_",
-   "src": "ercot",
-   "src_name": "ERCOT",
-   "date": "2026-10-06",
-   "title": "SB6 Large Load Curtailment: Operations Workshop #1",
-   "plain": "Steady State Working Group will take up large-load grid connections.",
-   "docket": null,
-   "url": "https://www.ercot.com/calendar/10062026-SB6-Large-Load-Curtailment_"
-  },
-  {
-   "id": "pjm:pc:20261006-item-09---reliability-compliance-update---presentation.pdf",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-10-06",
-   "title": "Planning Committee - Item 09 - Reliability Compliance Update - Presentation (PDF)",
-   "plain": "Planning Committee will take up grid reliability rules.",
-   "docket": "PC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/pc/2026/20261006/20261006-item-09---reliability-compliance-update---presentation.pdf"
-  },
-  {
    "id": "pjm:mic:20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the",
    "src": "pjm",
    "src_name": "PJM Interconnection",
@@ -88,6 +68,26 @@
    "plain": "Market Implementation Committee will take up wholesale-market rules.",
    "docket": "MIC",
    "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261007/20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---1072026.xls"
+  },
+  {
+   "id": "miso:large-load-working-group-llwg---october-8-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-10-08",
+   "title": "Large Load Working Group (LLWG) - October 8, 2026",
+   "plain": "Large Load Working Group will take up large-load grid connections.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---october-8-2026/"
+  },
+  {
+   "id": "caiso:department-of-market-monitoring-2026-second-quarter-report-on-market-issues-and-",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-08",
+   "title": "Department of Market Monitoring 2026 Second Quarter Report on Market Issues and Performance",
+   "plain": "Department of Market Monitoring 2026 Second Quarter Report on Market Issues and Performance will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/department-of-market-monitoring-2026-second-quarter-report-on-market-issues-and-performance-oct-08-2026-1100-am"
   }
  ]
 }
