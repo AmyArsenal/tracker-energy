@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-06T12:12:30Z",
+ "built_at": "2026-10-07T11:58:22Z",
  "stats": {
   "docs": 1715,
   "venues": 6,
-  "new_7d": 143,
-  "eligible": 1481
+  "new_7d": 142,
+  "eligible": 1485
  },
  "filed": [
   {
@@ -18,16 +18,6 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120"
   },
   {
-   "id": "ferc:20260918-5333",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Protest of Iowa Office of Consumer Advocate et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
-  },
-  {
    "id": "ferc:20260918-5346",
    "src": "ferc",
    "src_name": "FERC eLibrary",
@@ -36,6 +26,16 @@
    "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
    "docket": "ER26-3650-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
+  },
+  {
+   "id": "ferc:20260918-5333",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-09-18",
+   "title": "Protest of Iowa Office of Consumer Advocate et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
+   "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
+   "docket": "ER26-3650-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
   },
   {
    "id": "ferc:20260918-5397",
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "pjm:mic:20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-10-07",
-   "title": "Market Implementation Committee - Item 03-1 - Options <span class='ampersand'>&</span> Packages Matrix - Resource Scheduling Prior to the Day-Ahead Energy Market - Phase 2 - 10.7.2026 (XLS)",
-   "plain": "Market Implementation Committee will take up wholesale-market rules.",
-   "docket": "MIC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261007/20261007-item-03-1---options--packages-matrix---resource-scheduling-prior-to-the-day-ahead-energy-market---phase-2---1072026.xls"
-  },
-  {
    "id": "miso:large-load-working-group-llwg---october-8-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
@@ -88,6 +78,16 @@
    "plain": "Department of Market Monitoring 2026 Second Quarter Report on Market Issues and Performance will take up wholesale-market rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/department-of-market-monitoring-2026-second-quarter-report-on-market-issues-and-performance-oct-08-2026-1100-am"
+  },
+  {
+   "id": "pjm:oc:20261008-item-19---reliability-compliance-update---informational-only-posting.pd",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-10-08",
+   "title": "Operating Committee - Item 19 - Reliability Compliance Update - Informational Only Posting (PDF)",
+   "plain": "Operating Committee will take up grid reliability rules.",
+   "docket": "OC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/oc/2026/20261008/20261008-item-19---reliability-compliance-update---informational-only-posting.pdf"
   }
  ]
 }

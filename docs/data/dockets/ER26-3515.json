@@ -1896,6 +1896,18 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5153",
    "has_document": true
+  },
+  {
+   "accession": "20261006-5150",
+   "date": "10/06/2026",
+   "party": "PPL Electric Utilities Corporation",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Limited Answer of PPL Electric Utilities Corporation to the 09/23/2026 Answer et al. of PJM Interconnection, L.L.C. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261006-5150",
+   "has_document": true
   }
  ]
 }
