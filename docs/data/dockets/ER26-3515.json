@@ -1908,6 +1908,30 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261006-5150",
    "has_document": true
+  },
+  {
+   "accession": "20261007-5161",
+   "date": "10/07/2026",
+   "party": "Southern Maryland Electric Cooperative, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to File Limited Answer and Answer of Southern Maryland Electric Cooperative, Inc. to PJM Interconnection, L.L.C.'s 09/23/2026 Answer under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261007-5161",
+   "has_document": true
+  },
+  {
+   "accession": "20261007-5190",
+   "date": "10/07/2026",
+   "party": "East Kentucky Power Cooperative, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to File Answer, and Answer, of East Kentucky Power Cooperative, Inc. to the 09/23/2026 Answer of PJM Interconnection, L.L.C. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261007-5190",
+   "has_document": true
   }
  ]
 }

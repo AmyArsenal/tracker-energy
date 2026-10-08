@@ -1812,6 +1812,18 @@
    "responds_to": "20260731-5214",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260929-5071",
    "has_document": true
+  },
+  {
+   "accession": "20261007-5181",
+   "date": "10/07/2026",
+   "party": "U.S. Department of Energy",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "U.S. Department of Energy enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261007-5181",
+   "has_document": true
   }
  ]
 }
