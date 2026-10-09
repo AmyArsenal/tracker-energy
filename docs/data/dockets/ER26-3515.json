@@ -1932,6 +1932,18 @@
    "responds_to": "20260813-5118",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261007-5190",
    "has_document": true
+  },
+  {
+   "accession": "20261008-5058",
+   "date": "10/08/2026",
+   "party": "Individual No Affiliation",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion for Leave to File Supplemental Comments and Supplemental Comments of Persistence Analytics Group LLC re Validated Project State, Evidentiary Currency, and Revalidation under ER26-3515.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058",
+   "has_document": true
   }
  ]
 }

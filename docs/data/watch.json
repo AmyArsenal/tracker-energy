@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-08T12:13:08Z",
+ "built_at": "2026-10-09T12:16:34Z",
  "stats": {
   "docs": 1718,
   "venues": 6,
-  "new_7d": 142,
-  "eligible": 1494
+  "new_7d": 140,
+  "eligible": 1495
  },
  "filed": [
   {
@@ -50,24 +50,14 @@
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-storage-design-and-modeling-oct-09-2026-1200-am-2",
+   "id": "caiso:interconnection-customer-user-group-oct-13-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-10-09",
-   "title": "Comments due - Storage Design and Modeling",
-   "plain": "Comments due will take up storage on the grid.",
+   "date": "2026-10-13",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-storage-design-and-modeling-oct-09-2026-1200-am-2"
-  },
-  {
-   "id": "caiso:resource-adequacy-modeling-and-program-design-rampd-track-2-oct-09-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-09",
-   "title": "Resource Adequacy Modeling and Program Design (RAMPD) Track 2",
-   "plain": "Resource Adequacy Modeling and Program Design (RAMPD) Track 2 will take up how the grid secures enough capacity.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/resource-adequacy-modeling-and-program-design-rampd-track-2-oct-09-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-oct-13-2026-0100-pm"
   },
   {
    "id": "miso:interconnection-process-working-group-ipwg---october-13-20262",
@@ -78,6 +68,16 @@
    "plain": "Interconnection Process Working Group will take up grid interconnection rules.",
    "docket": null,
    "url": "https://www.misoenergy.org/events/2026/interconnection-process-working-group-ipwg---october-13-20262/"
+  },
+  {
+   "id": "caiso:comments-due-extended-day-ahead-market-edam-performance-meeting-oct-13-2026-1200",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-13",
+   "title": "Comments due - Extended Day-Ahead Market (EDAM) Performance Meeting",
+   "plain": "Comments due will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-extended-day-ahead-market-edam-performance-meeting-oct-13-2026-1200-am"
   }
  ]
 }
