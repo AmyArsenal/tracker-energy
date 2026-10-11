@@ -1,7 +1,7 @@
 {
  "docket": "ER26-3515",
  "caption": "PJM Interim Resource Adequacy Service and Large Load Registry",
- "status": "Awaiting Commission action",
+ "status": "Commission order issued",
  "updated": "",
  "source": "https://elibrary.ferc.gov/eLibrary/dockets?docket_number=ER26-3515-000",
  "phases": [
@@ -1944,6 +1944,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058",
    "has_document": true
+  },
+  {
+   "accession": "20261008-5211",
+   "date": "10/08/2026",
+   "party": "Monitoring Analytics, LLC",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Answer and Motion for Leave to Answer of the Independent Market Monitor for PJM to the 09/23/2026 Answer of PJM Interconnection, L.L.C. under ER26-3515.",
+   "responds_to": "20260813-5118",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5211",
+   "has_document": true
+  },
+  {
+   "accession": "20261009-3055",
+   "date": "10/09/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "order",
+   "filing_type": "Commission Order/Opinion",
+   "summary": "Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part re PJM Interconnection, L.L.C. under ER26-3515. Commissioner Rosner is concurring with a separate statement attached.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-3055",
+   "has_document": false
   }
  ]
 }

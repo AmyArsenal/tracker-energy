@@ -636,6 +636,54 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260819-3024",
    "has_document": false
+  },
+  {
+   "accession": "20261009-5056",
+   "date": "10/09/2026",
+   "party": "Oklahoma Corporation Commission",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Government Agency Submittal",
+   "summary": "Comments of Commissioner Kim David of the Oklahoma Corporation Commission in opposition to Southwest Power Pool Inc.\u2019s Peak Demand Assessment and Demand Response Proposal under ER26-2249.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5056",
+   "has_document": true
+  },
+  {
+   "accession": "20261009-5145",
+   "date": "10/09/2026",
+   "party": "Oklahoma Gas and Electric Company",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Oklahoma Gas and Electric Company in response to Southwest Power Pool, Inc.\u2019s Deficiency Response filed on 09/18/2026 under ER26-2249.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5145",
+   "has_document": true
+  },
+  {
+   "accession": "20261009-5146",
+   "date": "10/09/2026",
+   "party": "Southwest Power Pool Transmission Owner Group",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Protest of Southwest Power Pool Transmission Owner Group to Southwest Power Pool, Inc.\u2019s 09/18/2026 Response to Request for Additional Information et al. under ER26-2249.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5146",
+   "has_document": true
+  },
+  {
+   "accession": "20261009-5149",
+   "date": "10/09/2026",
+   "party": "Southwest Power Pool Market Monitoring Unit",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Protest of the Southwest Power Pool Independent Market Monitoring Unit to Southwest Power Pool\u2019s Deficiency Response under ER26-2249.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5149",
+   "has_document": true
   }
  ]
 }

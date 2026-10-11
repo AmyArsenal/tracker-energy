@@ -1,12 +1,22 @@
 {
- "built_at": "2026-10-09T12:16:34Z",
+ "built_at": "2026-10-11T11:34:43Z",
  "stats": {
-  "docs": 1718,
+  "docs": 1729,
   "venues": 6,
-  "new_7d": 140,
-  "eligible": 1495
+  "new_7d": 145,
+  "eligible": 1504
  },
  "filed": [
+  {
+   "id": "ferc:20261009-3055",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-10-09",
+   "title": "Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part re PJM Interconnection, L.L.C. under ER26-3515. Commissioner Rosner is concurring with a separate statement attached.",
+   "plain": "FERC acts on PJM's data-center resource-adequacy fast track.",
+   "docket": "ER26-3515-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-3055"
+  },
   {
    "id": "ferc:20261002-5120",
    "src": "ferc",
@@ -18,34 +28,24 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120"
   },
   {
-   "id": "ferc:20260918-5333",
+   "id": "ferc:20261008-5058",
    "src": "ferc",
    "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Protest of Iowa Office of Consumer Advocate et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "Iowa Office of Consumer Advocate challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5333"
+   "date": "2026-10-08",
+   "title": "Motion for Leave to File Supplemental Comments and Supplemental Comments of Persistence Analytics Group LLC re Validated Project State, Evidentiary Currency, and Revalidation under ER26-3515.",
+   "plain": "Individual No Affiliation comments on PJM's data-center resource-adequacy fast track.",
+   "docket": "ER26-3515-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058"
   },
   {
-   "id": "ferc:20260918-5346",
+   "id": "ferc:20261001-5356",
    "src": "ferc",
    "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Joint Comments, Request for Clarification and Limited Protest of Coalition of MISO Transmission Customers et al. to Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "CMTC et al. challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5346"
-  },
-  {
-   "id": "ferc:20260918-5397",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-09-18",
-   "title": "Protest of Sierra Club et al. re Midcontinent Independent System Operator, Inc.'s 08/28/2026 filing under ER26-3650.",
-   "plain": "Natural Resources Defense Council challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260918-5397"
+   "date": "2026-10-01",
+   "title": "Motion for Leave to Answer and Answer of Data Center Coalition to the answer of PJM Interconnection, L.L.C. and certain other comments and answers re the proposal to establish Interim Resource Adequacy Service et al. under ER26-3515.",
+   "plain": "Data Center Coalition responds on PJM's data-center resource-adequacy fast track.",
+   "docket": "ER26-3515-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5356"
   }
  ],
  "calendar": [
