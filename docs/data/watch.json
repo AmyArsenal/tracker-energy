@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-12T13:26:43Z",
+ "built_at": "2026-10-13T13:00:04Z",
  "stats": {
-  "docs": 1733,
+  "docs": 1736,
   "venues": 6,
-  "new_7d": 147,
-  "eligible": 1498
+  "new_7d": 150,
+  "eligible": 1501
  },
  "filed": [
   {
@@ -50,34 +50,34 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-customer-user-group-oct-13-2026-0100-pm",
+   "id": "caiso:comments-due-large-loads-draft-final-proposal-and-draft-tariff-language-oct-15-2",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-10-13",
-   "title": "Interconnection Customer User Group",
-   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
+   "date": "2026-10-15",
+   "title": "Comments due - Large Loads - Draft final proposal and draft tariff language",
+   "plain": "Comments due will take up large-load grid connections.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-oct-13-2026-0100-pm"
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-large-loads-draft-final-proposal-and-draft-tariff-language-oct-15-2026-1200-am"
   },
   {
-   "id": "miso:interconnection-process-working-group-ipwg---october-13-20262",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-10-13",
-   "title": "Interconnection Process Working Group (IPWG) - October 13, 2026",
-   "plain": "Interconnection Process Working Group will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/interconnection-process-working-group-ipwg---october-13-20262/"
-  },
-  {
-   "id": "caiso:comments-due-extended-day-ahead-market-edam-performance-meeting-oct-13-2026-1200",
+   "id": "caiso:transmission-maintenance-coordination-committee-meeting-oct-15-2026-oct-15-2026-",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-10-13",
-   "title": "Comments due - Extended Day-Ahead Market (EDAM) Performance Meeting",
-   "plain": "Comments due will take up wholesale-market rules.",
+   "date": "2026-10-15",
+   "title": "Transmission Maintenance Coordination Committee Meeting - Oct 15, 2026",
+   "plain": "Transmission Maintenance Coordination Committee Meeting will take up transmission planning.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-extended-day-ahead-market-edam-performance-meeting-oct-13-2026-1200-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/transmission-maintenance-coordination-committee-meeting-oct-15-2026-oct-15-2026-0900-am"
+  },
+  {
+   "id": "ercot:10192026-Advanced-Transmission-Technologies-Workshop",
+   "src": "ercot",
+   "src_name": "ERCOT",
+   "date": "2026-10-19",
+   "title": "Advanced Transmission Technologies Workshop",
+   "plain": "IBRWG Inverter-Based Resource Working Group will take up transmission planning.",
+   "docket": null,
+   "url": "https://www.ercot.com/calendar/10192026-Advanced-Transmission-Technologies-Workshop"
   }
  ]
 }

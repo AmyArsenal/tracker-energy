@@ -4031,8 +4031,50 @@
       "record_id": "20260910-5296",
       "source": "ferc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:544d659be6d7ba0f78e2a7ed50e7998b66c86484ae6c32973cf562328257c002",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-13",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-10-12",
+      "record_id": "PUR-2026-00068",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:56d6e42c1dd1c8afd205926152a9986cd4b56c5658ef7a6157479d391e62232a",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-13",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-10-12",
+      "record_id": "PUR-2026-00066",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:bf7e0697febbb40be858bf661bd0f3ddd4c917dd2212bb94230fae0b220aa428",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-13",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-10-12",
+      "record_id": "PUR-2026-00020",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-10-12T13:25:33.747950+00:00",
+  "generated_at": "2026-10-13T12:54:20.973258+00:00",
   "schema_version": "1.0"
 }

@@ -684,6 +684,18 @@
    "responds_to": "20260417-5228",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5149",
    "has_document": true
+  },
+  {
+   "accession": "20261009-5179",
+   "date": "10/09/2026",
+   "party": "Voltus, Inc.",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Voltus, Inc. to Southwest Power Pool, Inc.\u2019s 09/18/2026 Response to Request for Additional Information et al. under ER26-2249.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5179",
+   "has_document": true
   }
  ]
 }
