@@ -1824,6 +1824,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261007-5181",
    "has_document": true
+  },
+  {
+   "accession": "20261013-5141",
+   "date": "10/13/2026",
+   "party": "PJM Interconnection, L.L.C.",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion for Abeyance of PJM Interconnection, L.L.C. under EL26-108, et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5141",
+   "has_document": true
   }
  ]
 }

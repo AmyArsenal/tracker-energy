@@ -2064,6 +2064,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260824-5023",
    "has_document": true
+  },
+  {
+   "accession": "20261013-5136",
+   "date": "10/13/2026",
+   "party": "Advantage Capital Renewables, LLC",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "Advantage Capital Renewables, LLC enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5136",
+   "has_document": false
   }
  ]
 }
