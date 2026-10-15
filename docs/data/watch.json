@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-14T10:39:34Z",
+ "built_at": "2026-10-15T10:18:30Z",
  "stats": {
-  "docs": 1736,
+  "docs": 1742,
   "venues": 6,
-  "new_7d": 127,
-  "eligible": 1499
+  "new_7d": 96,
+  "eligible": 1505
  },
  "filed": [
   {
@@ -28,6 +28,16 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120"
   },
   {
+   "id": "ferc:20261013-5440",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-10-13",
+   "title": "Motion for Leave to Answer and Answer of Midcontinent Independent System Operator Inc. to the Comments and Protests re the proposal to establish Interconnection Reliability Requirements for Large Loads under ER26-3650.",
+   "plain": "Midcontinent Independent System Operator responds on MISO's reliability rules for connecting large loads.",
+   "docket": "ER26-3650-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5440"
+  },
+  {
    "id": "ferc:20261008-5058",
    "src": "ferc",
    "src_name": "FERC eLibrary",
@@ -36,38 +46,18 @@
    "plain": "Individual No Affiliation comments on PJM's data-center resource-adequacy fast track.",
    "docket": "ER26-3515-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058"
-  },
-  {
-   "id": "ferc:20261001-5356",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-10-01",
-   "title": "Motion for Leave to Answer and Answer of Data Center Coalition to the answer of PJM Interconnection, L.L.C. and certain other comments and answers re the proposal to establish Interim Resource Adequacy Service et al. under ER26-3515.",
-   "plain": "Data Center Coalition responds on PJM's data-center resource-adequacy fast track.",
-   "docket": "ER26-3515-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5356"
   }
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-large-loads-draft-final-proposal-and-draft-tariff-language-oct-15-2",
+   "id": "caiso:large-loads-draft-tariff-language-oct-19-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-10-15",
-   "title": "Comments due - Large Loads - Draft final proposal and draft tariff language",
-   "plain": "Comments due will take up large-load grid connections.",
+   "date": "2026-10-19",
+   "title": "Large Loads - Draft Tariff Language",
+   "plain": "Large Loads will take up large-load grid connections.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-large-loads-draft-final-proposal-and-draft-tariff-language-oct-15-2026-1200-am"
-  },
-  {
-   "id": "caiso:transmission-maintenance-coordination-committee-meeting-oct-15-2026-oct-15-2026-",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-15",
-   "title": "Transmission Maintenance Coordination Committee Meeting - Oct 15, 2026",
-   "plain": "Transmission Maintenance Coordination Committee Meeting will take up transmission planning.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/transmission-maintenance-coordination-committee-meeting-oct-15-2026-oct-15-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/large-loads-draft-tariff-language-oct-19-2026-0100-pm"
   },
   {
    "id": "ercot:10192026-Advanced-Transmission-Technologies-Workshop",
@@ -78,6 +68,16 @@
    "plain": "IBRWG Inverter-Based Resource Working Group will take up transmission planning.",
    "docket": null,
    "url": "https://www.ercot.com/calendar/10192026-Advanced-Transmission-Technologies-Workshop"
+  },
+  {
+   "id": "miso:resource-adequacy-subcommittee-rasc---october-20-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-10-20",
+   "title": "Resource Adequacy Subcommittee (RASC) - October 20, 2026",
+   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---october-20-2026/"
   }
  ]
 }

@@ -864,6 +864,18 @@
    "responds_to": "20260828-5278",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120",
    "has_document": true
+  },
+  {
+   "accession": "20261013-5440",
+   "date": "10/13/2026",
+   "party": "Midcontinent Independent System Operator Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Midcontinent Independent System Operator Inc. to the Comments and Protests re the proposal to establish Interconnection Reliability Requirements for Large Loads under ER26-3650.",
+   "responds_to": "20260828-5278",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5440",
+   "has_document": true
   }
  ]
 }

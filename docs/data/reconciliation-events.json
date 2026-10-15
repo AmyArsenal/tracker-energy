@@ -4101,8 +4101,36 @@
       "record_id": "20260727-5238",
       "source": "ferc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:889d582683bd272fa76478208e4d9cdf5aa63096b673a3b5964b539666c99911",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-15",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-10-14",
+      "record_id": "20260915-5145",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:7de90ce71a5dad62bc50b4e9ed28a563986f56912d48a60f43736f61262cc618",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-10-15",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-10-14",
+      "record_id": "20260910-5296",
+      "source": "ferc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-10-14T10:29:23.848501+00:00",
+  "generated_at": "2026-10-15T10:13:01.024308+00:00",
   "schema_version": "1.0"
 }
