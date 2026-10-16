@@ -1836,6 +1836,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5141",
    "has_document": true
+  },
+  {
+   "accession": "20261014-5184",
+   "date": "10/14/2026",
+   "party": "Northern Virginia Electric Cooperative, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Answer of Northern Virginia Electric Cooperative, Inc. in Support of PJM Interconnection, L.L.C.\u2019s Motion for Abeyance filed on 10/13/2026 under ER26-3380, et al.",
+   "responds_to": "20260731-5214",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261014-5184",
+   "has_document": true
+  },
+  {
+   "accession": "20261015-5085",
+   "date": "10/15/2026",
+   "party": "Pennsylvania Public Utility Commission",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Pennsylvania Public Utility Commission submits request to update the service list under AD16-16 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261015-5085",
+   "has_document": true
   }
  ]
 }

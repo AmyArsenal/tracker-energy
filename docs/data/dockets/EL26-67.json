@@ -2076,6 +2076,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5136",
    "has_document": false
+  },
+  {
+   "accession": "20261015-5085",
+   "date": "10/15/2026",
+   "party": "Pennsylvania Public Utility Commission",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Pennsylvania Public Utility Commission submits request to update the service list under AD16-16 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261015-5085",
+   "has_document": true
   }
  ]
 }
