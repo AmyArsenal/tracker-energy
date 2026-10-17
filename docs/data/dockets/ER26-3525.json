@@ -192,6 +192,18 @@
    "responds_to": "20260814-5186",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261001-5379",
    "has_document": true
+  },
+  {
+   "accession": "20261016-5081",
+   "date": "10/16/2026",
+   "party": "Towering Concerns, LLC",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion to Respond of Towering Concerns, LLC to the Motion for Leave to Answer and Limited Answer of PJM Interconnection, L.L.C. filed on 10/01/2026 under ER26-3525.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261016-5081",
+   "has_document": true
   }
  ]
 }

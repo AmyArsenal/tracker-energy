@@ -1860,6 +1860,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261015-5085",
    "has_document": true
+  },
+  {
+   "accession": "20261016-3047",
+   "date": "10/16/2026",
+   "party": "SECRETARY OF THE COMMISSION, FERC",
+   "role": "commission",
+   "phase": "notices",
+   "filing_type": "Formal Notice",
+   "summary": "Notice Establishing Answer Period re PJM Interconnection, L.L.C. under ER26-3380 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261016-3047",
+   "has_document": false
   }
  ]
 }
