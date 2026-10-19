@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-18T09:49:45Z",
+ "built_at": "2026-10-19T11:07:43Z",
  "stats": {
-  "docs": 1745,
+  "docs": 1749,
   "venues": 6,
   "new_7d": 81,
-  "eligible": 1508
+  "eligible": 1507
  },
  "filed": [
   {
@@ -50,26 +50,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:large-loads-draft-tariff-language-oct-19-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-19",
-   "title": "Large Loads - Draft Tariff Language",
-   "plain": "Large Loads will take up large-load grid connections.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/large-loads-draft-tariff-language-oct-19-2026-0100-pm"
-  },
-  {
-   "id": "ercot:10192026-Advanced-Transmission-Technologies-Workshop",
-   "src": "ercot",
-   "src_name": "ERCOT",
-   "date": "2026-10-19",
-   "title": "Advanced Transmission Technologies Workshop",
-   "plain": "Advanced Transmission Technologies Workshop will take up transmission planning.",
-   "docket": null,
-   "url": "https://www.ercot.com/calendar/10192026-Advanced-Transmission-Technologies-Workshop"
-  },
-  {
    "id": "miso:resource-adequacy-subcommittee-rasc---october-20-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
@@ -78,6 +58,26 @@
    "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
    "docket": null,
    "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---october-20-2026/"
+  },
+  {
+   "id": "caiso:joint-market-seams-workshop-oct-22-2026-0800-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-22",
+   "title": "Joint Market Seams Workshop",
+   "plain": "Joint Market Seams Workshop will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/joint-market-seams-workshop-oct-22-2026-0800-am"
+  },
+  {
+   "id": "caiso:training-for-dame-transitional-measures-and-overlapping-capacity-oct-22-2026-013",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-22",
+   "title": "Training for DAME Transitional Measures and Overlapping Capacity",
+   "plain": "Training for DAME Transitional Measures and Overlapping Capacity will take up how the grid secures enough capacity.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/training-for-dame-transitional-measures-and-overlapping-capacity-oct-22-2026-0130-pm"
   }
  ]
 }
