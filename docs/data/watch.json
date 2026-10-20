@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-19T11:07:43Z",
+ "built_at": "2026-10-20T10:20:37Z",
  "stats": {
-  "docs": 1749,
+  "docs": 1761,
   "venues": 6,
-  "new_7d": 81,
-  "eligible": 1507
+  "new_7d": 85,
+  "eligible": 1519
  },
  "filed": [
   {
@@ -50,16 +50,6 @@
  ],
  "calendar": [
   {
-   "id": "miso:resource-adequacy-subcommittee-rasc---october-20-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-10-20",
-   "title": "Resource Adequacy Subcommittee (RASC) - October 20, 2026",
-   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---october-20-2026/"
-  },
-  {
    "id": "caiso:joint-market-seams-workshop-oct-22-2026-0800-am",
    "src": "caiso",
    "src_name": "California ISO",
@@ -78,6 +68,16 @@
    "plain": "Training for DAME Transitional Measures and Overlapping Capacity will take up how the grid secures enough capacity.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/training-for-dame-transitional-measures-and-overlapping-capacity-oct-22-2026-0130-pm"
+  },
+  {
+   "id": "pjm:mc:20261028-notice-of-pjm-transmission-owners-consultation-with-the-members-committ",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-10-28",
+   "title": "Notice of PJM Transmission Owners Consultation with the Members Committee - Informational Posting Only (PDF)",
+   "plain": "Members Committee will take up transmission planning.",
+   "docket": "MC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mc/2026/20261028/20261028-notice-of-pjm-transmission-owners-consultation-with-the-members-committee---informational-posting-only.pdf"
   }
  ]
 }
