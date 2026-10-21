@@ -1872,6 +1872,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261016-3047",
    "has_document": false
+  },
+  {
+   "accession": "20261020-5159",
+   "date": "10/20/2026",
+   "party": "Tesla, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Tesla, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159",
+   "has_document": true
   }
  ]
 }
