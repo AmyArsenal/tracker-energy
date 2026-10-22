@@ -156,6 +156,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20260910-5169",
    "has_document": false
+  },
+  {
+   "accession": "20261021-3034",
+   "date": "10/21/2026",
+   "party": "OFFICE OF ENERGY MARKET REGULATION",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Deficiency Letter",
+   "summary": "Letter informing Southwest Power Pool, Inc. that the 08/24/2026 filing of revisions to its Open Access Transmission Tariff etc. is deficient and requesting additional information within 30 days under ER26-3591.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261021-3034",
+   "has_document": false
   }
  ]
 }
