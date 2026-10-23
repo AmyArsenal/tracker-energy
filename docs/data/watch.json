@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-22T10:29:53Z",
+ "built_at": "2026-10-23T10:26:44Z",
  "stats": {
-  "docs": 1765,
+  "docs": 1781,
   "venues": 6,
-  "new_7d": 122,
-  "eligible": 1508
+  "new_7d": 131,
+  "eligible": 1534
  },
  "filed": [
   {
@@ -46,19 +46,19 @@
    "plain": "Individual No Affiliation comments on PJM's data-center resource-adequacy fast track.",
    "docket": "ER26-3515-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058"
+  },
+  {
+   "id": "va-scc:PUR-2026-00163:docket",
+   "src": "va-scc",
+   "src_name": "Virginia State Corporation Commission",
+   "date": "2026-10-16",
+   "title": "Commonwealth of Virginia, ex rel. State Corporation Commission, In re: Virginia Electric and Power Company's 2026 Integrated Resource Plan",
+   "plain": "A Virginia utility asks Virginia regulators to approve the rates and rules for grid service.",
+   "docket": "PUR-2026-00163",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00163"
   }
  ],
  "calendar": [
-  {
-   "id": "caiso:resource-adequacy-modeling-and-program-design-rampd-track-2-oct-23-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-23",
-   "title": "Resource Adequacy Modeling and Program Design (RAMPD) Track 2",
-   "plain": "Resource Adequacy Modeling and Program Design (RAMPD) Track 2 will take up how the grid secures enough capacity.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/resource-adequacy-modeling-and-program-design-rampd-track-2-oct-23-2026-0900-am"
-  },
   {
    "id": "caiso:market-performance-and-planning-forum-q4-oct-26-2026-0900-am",
    "src": "caiso",
@@ -70,14 +70,24 @@
    "url": "https://www.caiso.com/meetings-events/calendar/market-performance-and-planning-forum-q4-oct-26-2026-0900-am"
   },
   {
-   "id": "pjm:mrc:20261028-item-03---2-interconnection-security-requirements---issue-charge.pdf",
+   "id": "caiso:interconnection-customer-user-group-oct-27-2026-0100-pm",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-27",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-oct-27-2026-0100-pm"
+  },
+  {
+   "id": "pjm:mrc:20261028-item-06---large-load-show-cause-response---presentation.pdf",
    "src": "pjm",
    "src_name": "PJM Interconnection",
    "date": "2026-10-28",
-   "title": "Markets and Reliability Committee - Item 03 - 2 Interconnection Security Requirements - Issue Charge (PDF)",
-   "plain": "Markets and Reliability Committee will take up grid interconnection rules.",
+   "title": "Markets and Reliability Committee - Item 06 - Large Load Show Cause Response - Presentation (PDF)",
+   "plain": "Markets and Reliability Committee will take up MISO's reliability rules for connecting large loads.",
    "docket": "MRC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-03---2-interconnection-security-requirements---issue-charge.pdf"
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20261028/20261028-item-06---large-load-show-cause-response---presentation.pdf"
   }
  ]
 }
