@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-23T10:26:44Z",
+ "built_at": "2026-10-24T09:47:12Z",
  "stats": {
-  "docs": 1781,
+  "docs": 1797,
   "venues": 6,
-  "new_7d": 131,
-  "eligible": 1534
+  "new_7d": 144,
+  "eligible": 1553
  },
  "filed": [
   {
@@ -16,16 +16,6 @@
    "plain": "FERC acts on PJM's data-center resource-adequacy fast track.",
    "docket": "ER26-3515-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-3055"
-  },
-  {
-   "id": "ferc:20261002-5120",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-10-02",
-   "title": "Motion for Leave to Answer and Answer of Coalition of MISO Transmission Customers et al. to the Joint Protest of the Sierra Club et al. under ER26-3650.",
-   "plain": "Texas Industrial Energy Consumers challenges MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261002-5120"
   },
   {
    "id": "ferc:20261013-5440",
@@ -46,6 +36,16 @@
    "plain": "Individual No Affiliation comments on PJM's data-center resource-adequacy fast track.",
    "docket": "ER26-3515-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058"
+  },
+  {
+   "id": "ferc:20261020-5159",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-10-20",
+   "title": "Motion to Intervene and Protest of Tesla, Inc. et al. re the Section 206 investigation re PJM Interconnection\u2019s Reliability Backstop Procurement framework under EL26-108.",
+   "plain": "Tesla challenges grid interconnection rules.",
+   "docket": "EL26-108-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
   },
   {
    "id": "va-scc:PUR-2026-00163:docket",
