@@ -1,10 +1,10 @@
 {
- "built_at": "2026-10-25T10:03:30Z",
+ "built_at": "2026-10-26T11:26:55Z",
  "stats": {
-  "docs": 1795,
+  "docs": 1798,
   "venues": 6,
-  "new_7d": 144,
-  "eligible": 1556
+  "new_7d": 146,
+  "eligible": 1553
  },
  "filed": [
   {
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:market-performance-and-planning-forum-q4-oct-26-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-26",
-   "title": "Market Performance and Planning Forum Q4",
-   "plain": "Market Performance and Planning Forum Q4 will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/market-performance-and-planning-forum-q4-oct-26-2026-0900-am"
-  },
-  {
    "id": "caiso:interconnection-customer-user-group-oct-27-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
@@ -78,6 +68,16 @@
    "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-oct-27-2026-0100-pm"
+  },
+  {
+   "id": "caiso:2027-grid-management-charge-revenue-requirement-project-budget-and-rates-oct-27-",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-10-27",
+   "title": "2027 Grid Management Charge Revenue Requirement, Project Budget, and Rates",
+   "plain": "2027 Grid Management Charge Revenue Requirement, Project Budget, and Rates will take up the rates and rules for grid service.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/2027-grid-management-charge-revenue-requirement-project-budget-and-rates-oct-27-2026-1000-am"
   },
   {
    "id": "pjm:mrc:20261028-item-06---large-load-show-cause-response---presentation.pdf",
