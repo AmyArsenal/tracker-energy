@@ -1344,6 +1344,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261016-5182",
    "has_document": true
+  },
+  {
+   "accession": "20261026-4001",
+   "date": "10/26/2026",
+   "party": "NATIONAL CONGRESS OF AMERICAN INDIANS",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of the National Congress of American Indians urging FERC for a Moratorium on Hyperscale Data Center Approvals Pending Comprehensive Grid Reliability and Ratepayer Impact Assessments under EL26-67 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261026-4001",
+   "has_document": true
   }
  ]
 }

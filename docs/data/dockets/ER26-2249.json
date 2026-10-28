@@ -696,6 +696,18 @@
    "responds_to": "20260417-5228",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-5179",
    "has_document": true
+  },
+  {
+   "accession": "20261026-5123",
+   "date": "10/26/2026",
+   "party": "Southwest Power Pool, Inc.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of Southwest Power Pool, Inc. in response to comments and protests under ER26-2249 et al.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261026-5123",
+   "has_document": true
   }
  ]
 }
