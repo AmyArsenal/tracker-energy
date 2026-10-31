@@ -1,22 +1,12 @@
 {
- "built_at": "2026-10-28T12:09:01Z",
+ "built_at": "2026-10-31T11:06:18Z",
  "stats": {
-  "docs": 1792,
+  "docs": 1803,
   "venues": 6,
-  "new_7d": 156,
-  "eligible": 1561
+  "new_7d": 191,
+  "eligible": 1562
  },
  "filed": [
-  {
-   "id": "ferc:20261009-3055",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-10-09",
-   "title": "Order Accepting Tariff Revisions in Part and Rejecting Tariff Revisions in Part re PJM Interconnection, L.L.C. under ER26-3515. Commissioner Rosner is concurring with a separate statement attached.",
-   "plain": "FERC acts on PJM's data-center resource-adequacy fast track.",
-   "docket": "ER26-3515-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261009-3055"
-  },
   {
    "id": "ferc:20261013-5440",
    "src": "ferc",
@@ -28,14 +18,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5440"
   },
   {
-   "id": "ferc:20261008-5058",
+   "id": "ferc:20261029-5265",
    "src": "ferc",
    "src_name": "FERC eLibrary",
-   "date": "2026-10-08",
-   "title": "Motion for Leave to File Supplemental Comments and Supplemental Comments of Persistence Analytics Group LLC re Validated Project State, Evidentiary Currency, and Revalidation under ER26-3515.",
-   "plain": "Individual No Affiliation comments on PJM's data-center resource-adequacy fast track.",
-   "docket": "ER26-3515-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261008-5058"
+   "date": "2026-10-29",
+   "title": "The Indicated PJM Transmission Owners submit Request for Rehearing of the 09/29/2026 Order under ER26-3380, et al.",
+   "plain": "FERC acts on transmission planning.",
+   "docket": "ER26-3380-001",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261029-5265"
   },
   {
    "id": "ferc:20261023-5195",
@@ -46,6 +36,16 @@
    "plain": "Bloom Energy challenges large-load grid connections.",
    "docket": "ER27-25-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261023-5195"
+  },
+  {
+   "id": "ferc:20261020-5159",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-10-20",
+   "title": "Motion to Intervene and Protest of Tesla, Inc. et al. re the Section 206 investigation re PJM Interconnection\u2019s Reliability Backstop Procurement framework under EL26-108.",
+   "plain": "Tesla challenges grid interconnection rules.",
+   "docket": "EL26-108-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
   },
   {
    "id": "va-scc:PUR-2026-00163:docket",
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "miso:large-load-working-group-llwg---october-29-2026",
+   "id": "caiso:2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-02-",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-02",
+   "title": "2028 Local Capacity Technical Study Criteria, Methodology and Assumptions",
+   "plain": "2028 Local Capacity Technical Study Criteria, Methodology and Assumptions will take up how the grid secures enough capacity.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-02-2026-0900-am"
+  },
+  {
+   "id": "caiso:greenhouse-gas-ghg-readiness-pre-market-simulation-training-nov-02-2026-0130-pm",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-02",
+   "title": "Greenhouse Gas (GHG) Readiness: Pre-Market Simulation Training",
+   "plain": "Greenhouse Gas (GHG) Readiness: Pre-Market Simulation Training will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/greenhouse-gas-ghg-readiness-pre-market-simulation-training-nov-02-2026-0130-pm"
+  },
+  {
+   "id": "miso:commercially-significant-voltage-and-local-reliability-csvlr-closed---november-2-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-10-29",
-   "title": "Large Load Working Group (LLWG) - October 29, 2026",
-   "plain": "Large Load Working Group will take up large-load grid connections.",
+   "date": "2026-11-02",
+   "title": "Commercially Significant Voltage and Local Reliability (CSVLR) Closed - November 2, 2026",
+   "plain": "Commercially Significant Voltage and Local Reliability will take up grid reliability rules.",
    "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---october-29-2026/"
-  },
-  {
-   "id": "caiso:market-update-oct-29-2026-1000-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-29",
-   "title": "Market Update",
-   "plain": "Market Update will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/market-update-oct-29-2026-1000-am"
-  },
-  {
-   "id": "caiso:department-of-market-monitoring-oversight-committee-executive-session-oct-29-202",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-10-29",
-   "title": "Department of Market Monitoring Oversight Committee Executive Session",
-   "plain": "Department of Market Monitoring Oversight Committee Executive Session will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/department-of-market-monitoring-oversight-committee-executive-session-oct-29-2026-0300-pm"
+   "url": "https://www.misoenergy.org/events/2026/commercially-significant-voltage-and-local-reliability-csvlr-closed---november-2-2026/"
   }
  ]
 }
