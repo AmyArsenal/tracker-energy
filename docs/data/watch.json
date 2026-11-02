@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-01T11:59:30Z",
+ "built_at": "2026-11-02T13:47:20Z",
  "stats": {
-  "docs": 1794,
+  "docs": 1797,
   "venues": 6,
   "new_7d": 201,
-  "eligible": 1561
+  "eligible": 1567
  },
  "filed": [
   {
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "caiso:2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-02-",
+   "id": "caiso:comments-due-gas-resource-management-draft-tariff-language-for-after-the-fact-co",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-02",
-   "title": "2028 Local Capacity Technical Study Criteria, Methodology and Assumptions",
-   "plain": "2028 Local Capacity Technical Study Criteria, Methodology and Assumptions will take up how the grid secures enough capacity.",
+   "date": "2026-11-03",
+   "title": "Comments due - Gas Resource Management - Draft Tariff Language for After-the-Fact Cost Recovery for Natural Gas Resources",
+   "plain": "Comments due will take up the rates and rules for grid service.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-02-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-gas-resource-management-draft-tariff-language-for-after-the-fact-cost-recovery-for-natural-gas-resources-nov-03-2026-1200-am"
   },
   {
-   "id": "caiso:greenhouse-gas-ghg-readiness-pre-market-simulation-training-nov-02-2026-0130-pm",
+   "id": "pjm:mic:20261104-mic-work-plan.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-11-04",
+   "title": "Market Implementation Committee - MIC Work Plan (PDF)",
+   "plain": "Market Implementation Committee will take up wholesale-market rules.",
+   "docket": "MIC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261104/20261104-mic-work-plan.pdf"
+  },
+  {
+   "id": "caiso:comments-due-joint-market-seams-workshop-nov-05-2026-1200-am",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-02",
-   "title": "Greenhouse Gas (GHG) Readiness: Pre-Market Simulation Training",
-   "plain": "Greenhouse Gas (GHG) Readiness: Pre-Market Simulation Training will take up wholesale-market rules.",
+   "date": "2026-11-05",
+   "title": "Comments due - Joint Market Seams Workshop",
+   "plain": "Comments due will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/greenhouse-gas-ghg-readiness-pre-market-simulation-training-nov-02-2026-0130-pm"
-  },
-  {
-   "id": "miso:commercially-significant-voltage-and-local-reliability-csvlr-closed---november-2-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-11-02",
-   "title": "Commercially Significant Voltage and Local Reliability (CSVLR) Closed - November 2, 2026",
-   "plain": "Commercially Significant Voltage and Local Reliability will take up grid reliability rules.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/commercially-significant-voltage-and-local-reliability-csvlr-closed---november-2-2026/"
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-joint-market-seams-workshop-nov-05-2026-1200-am"
   }
  ]
 }
