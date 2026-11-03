@@ -708,6 +708,18 @@
    "responds_to": "20260417-5228",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261026-5123",
    "has_document": true
+  },
+  {
+   "accession": "20261102-5297",
+   "date": "11/02/2026",
+   "party": "Southwest Power Pool Transmission Owner Group",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Answer/Response to a Pleading/Motion",
+   "summary": "Motion for Leave to Answer and Answer of the Southwest Power Pool Transmission Owner Group in response to the 10/26/2026 Motion for Leave to Answer and Answer of Southwest Power Pool, Inc. under ER26-2249.",
+   "responds_to": "20260417-5228",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5297",
+   "has_document": true
   }
  ]
 }

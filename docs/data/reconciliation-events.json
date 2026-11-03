@@ -9617,8 +9617,50 @@
       "record_id": "20260626-5053",
       "source": "ferc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:e1901105622ce67cce2bba6f79a7c823afff14ddc9f0af36600ad9ee2a4b5c65",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-03",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-02",
+      "record_id": "20260727-5237",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:2a98e63d7ba692158536301c13d5fea1b7555dca1bca4ad47f27d6bbce2214cf",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-03",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-02",
+      "record_id": "20260623-5084",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:b2d3f4cde83c605ea6ca81c611fea0fbb3ec5c145f30a855ee08b970b4d5859b",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-03",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-02",
+      "record_id": "PUR-2026-00091",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-11-02T13:45:42.745463+00:00",
+  "generated_at": "2026-11-03T12:57:54.172390+00:00",
   "schema_version": "1.0"
 }

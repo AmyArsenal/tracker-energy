@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-02T13:47:20Z",
+ "built_at": "2026-11-03T12:59:40Z",
  "stats": {
-  "docs": 1797,
+  "docs": 1805,
   "venues": 6,
-  "new_7d": 201,
-  "eligible": 1567
+  "new_7d": 204,
+  "eligible": 1570
  },
  "filed": [
   {
@@ -48,36 +48,36 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
   },
   {
-   "id": "va-scc:PUR-2026-00163:docket",
+   "id": "va-scc:PUR-2026-00174:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
-   "date": "2026-10-16",
-   "title": "Commonwealth of Virginia, ex rel. State Corporation Commission, In re: Virginia Electric and Power Company's 2026 Integrated Resource Plan",
+   "date": "2026-11-02",
+   "title": "Appalachian Power Company - For approval of a rate adjustment clause to recover costs related to construction of a small modular nuclear reactor",
    "plain": "A Virginia utility asks Virginia regulators to approve the rates and rules for grid service.",
-   "docket": "PUR-2026-00163",
-   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00163"
+   "docket": "PUR-2026-00174",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00174"
   }
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-gas-resource-management-draft-tariff-language-for-after-the-fact-co",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-11-03",
-   "title": "Comments due - Gas Resource Management - Draft Tariff Language for After-the-Fact Cost Recovery for Natural Gas Resources",
-   "plain": "Comments due will take up the rates and rules for grid service.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-gas-resource-management-draft-tariff-language-for-after-the-fact-cost-recovery-for-natural-gas-resources-nov-03-2026-1200-am"
-  },
-  {
-   "id": "pjm:mic:20261104-mic-work-plan.pdf",
+   "id": "pjm:mic:20261104-informational-only---stability-limit-report---october-2026.xlsx",
    "src": "pjm",
    "src_name": "PJM Interconnection",
    "date": "2026-11-04",
-   "title": "Market Implementation Committee - MIC Work Plan (PDF)",
+   "title": "Market Implementation Committee - Informational Only - Stability Limit Report - October 2026 (XLSX)",
    "plain": "Market Implementation Committee will take up wholesale-market rules.",
    "docket": "MIC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261104/20261104-mic-work-plan.pdf"
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261104/20261104-informational-only---stability-limit-report---october-2026.xlsx"
+  },
+  {
+   "id": "caiso:comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-05",
+   "title": "Comments due - Draft 2027-2029 market policy roadmap",
+   "plain": "Comments due will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am"
   },
   {
    "id": "caiso:comments-due-joint-market-seams-workshop-nov-05-2026-1200-am",
