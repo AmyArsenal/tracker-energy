@@ -2112,6 +2112,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261027-5036",
    "has_document": true
+  },
+  {
+   "accession": "20261102-5317",
+   "date": "11/02/2026",
+   "party": "Sidley Austin LLP",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Sidley Austin LLP submits request to update the service lists under QF20-670 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5317",
+   "has_document": true
   }
  ]
 }

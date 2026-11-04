@@ -1,22 +1,12 @@
 {
- "built_at": "2026-11-03T12:59:40Z",
+ "built_at": "2026-11-04T13:15:04Z",
  "stats": {
-  "docs": 1805,
+  "docs": 1809,
   "venues": 6,
-  "new_7d": 204,
-  "eligible": 1570
+  "new_7d": 214,
+  "eligible": 1583
  },
  "filed": [
-  {
-   "id": "ferc:20261013-5440",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-10-13",
-   "title": "Motion for Leave to Answer and Answer of Midcontinent Independent System Operator Inc. to the Comments and Protests re the proposal to establish Interconnection Reliability Requirements for Large Loads under ER26-3650.",
-   "plain": "Midcontinent Independent System Operator responds on MISO's reliability rules for connecting large loads.",
-   "docket": "ER26-3650-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261013-5440"
-  },
   {
    "id": "ferc:20261029-5265",
    "src": "ferc",
@@ -48,6 +38,16 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
   },
   {
+   "id": "ferc:20261103-5114",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-11-03",
+   "title": "Comments of the Office of the Ohio Consumers\u2019 Counsel for consumer protection re PJM Interconnection, L.L.C.\u2019s Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
+   "plain": "Office of the Ohio Consumers' Counsel comments on grid interconnection rules.",
+   "docket": "ER27-126-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5114"
+  },
+  {
    "id": "va-scc:PUR-2026-00174:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
@@ -60,14 +60,14 @@
  ],
  "calendar": [
   {
-   "id": "pjm:mic:20261104-informational-only---stability-limit-report---october-2026.xlsx",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-11-04",
-   "title": "Market Implementation Committee - Informational Only - Stability Limit Report - October 2026 (XLSX)",
-   "plain": "Market Implementation Committee will take up wholesale-market rules.",
-   "docket": "MIC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261104/20261104-informational-only---stability-limit-report---october-2026.xlsx"
+   "id": "caiso:comments-due-joint-market-seams-workshop-nov-05-2026-1200-am",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-05",
+   "title": "Comments due - Joint Market Seams Workshop",
+   "plain": "Comments due will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-joint-market-seams-workshop-nov-05-2026-1200-am"
   },
   {
    "id": "caiso:comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am",
@@ -80,14 +80,14 @@
    "url": "https://www.caiso.com/meetings-events/calendar/comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am"
   },
   {
-   "id": "caiso:comments-due-joint-market-seams-workshop-nov-05-2026-1200-am",
-   "src": "caiso",
-   "src_name": "California ISO",
+   "id": "pjm:oc:20261105-item-05---2---capacity-alert---issue-charge.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
    "date": "2026-11-05",
-   "title": "Comments due - Joint Market Seams Workshop",
-   "plain": "Comments due will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-joint-market-seams-workshop-nov-05-2026-1200-am"
+   "title": "Operating Committee - Item 05 - 2 - Capacity Alert - Issue Charge (PDF)",
+   "plain": "Operating Committee will take up how the grid secures enough capacity.",
+   "docket": "OC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/oc/2026/20261105/20261105-item-05---2---capacity-alert---issue-charge.pdf"
   }
  ]
 }

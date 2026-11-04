@@ -9659,8 +9659,22 @@
       "record_id": "PUR-2026-00091",
       "source": "va-scc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:2f52064f02cc800529e9fb2a6f529dcff327a8ded14952b83b9bd4b462153684",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-04",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-03",
+      "record_id": "20260727-5238",
+      "source": "ferc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-11-03T12:57:54.172390+00:00",
+  "generated_at": "2026-11-04T13:13:19.037910+00:00",
   "schema_version": "1.0"
 }
