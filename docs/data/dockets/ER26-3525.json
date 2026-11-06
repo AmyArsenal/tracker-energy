@@ -204,6 +204,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261016-5081",
    "has_document": true
+  },
+  {
+   "accession": "20261105-3032",
+   "date": "11/05/2026",
+   "party": "OFFICE OF ENERGY MARKET REGULATION",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Deficiency Letter",
+   "summary": "Letter informing PJM Interconnection, L.L.C. that the 08/14/2026 filing is deficient and requesting additional information to be filed within 30 days to assist in processing its revised Tariff records etc. under ER26-3525.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261105-3032",
+   "has_document": false
   }
  ]
 }

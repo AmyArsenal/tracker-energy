@@ -2136,6 +2136,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5317",
    "has_document": true
+  },
+  {
+   "accession": "20261104-5112",
+   "date": "11/04/2026",
+   "party": "VIRGINIA DIVISION OF CONSUMER COUNSEL",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "The Virginia Office of the Attorney General, Division of Consumer Counsel submits request to update the service list under EC26-131 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261104-5112",
+   "has_document": true
   }
  ]
 }

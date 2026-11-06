@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-04T13:15:04Z",
+ "built_at": "2026-11-06T13:11:38Z",
  "stats": {
-  "docs": 1809,
+  "docs": 1810,
   "venues": 6,
-  "new_7d": 214,
-  "eligible": 1583
+  "new_7d": 151,
+  "eligible": 1591
  },
  "filed": [
   {
@@ -38,56 +38,56 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
   },
   {
-   "id": "ferc:20261103-5114",
+   "id": "ferc:20261103-5172",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-11-03",
-   "title": "Comments of the Office of the Ohio Consumers\u2019 Counsel for consumer protection re PJM Interconnection, L.L.C.\u2019s Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
-   "plain": "Office of the Ohio Consumers' Counsel comments on grid interconnection rules.",
+   "title": "Comments of Ohio Environmental Council re PJM Interconnection, L.L.C.\u2019s 10/13/2026 Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
+   "plain": "Ohio Environmental Council comments on grid interconnection rules.",
    "docket": "ER27-126-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5114"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5172"
   },
   {
-   "id": "va-scc:PUR-2026-00174:docket",
+   "id": "va-scc:PUR-2026-00184:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
-   "date": "2026-11-02",
-   "title": "Appalachian Power Company - For approval of a rate adjustment clause to recover costs related to construction of a small modular nuclear reactor",
-   "plain": "A Virginia utility asks Virginia regulators to approve the rates and rules for grid service.",
-   "docket": "PUR-2026-00174",
-   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00174"
+   "date": "2026-11-05",
+   "title": "Virginia Electric & Power Co. - For approval & certification electric transmission facilities: 500-230 kV North Anna - Thornburg Line #5010, et al. & Valley Lin",
+   "plain": "A Virginia utility asks Virginia regulators to approve transmission planning.",
+   "docket": "PUR-2026-00184",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00184"
   }
  ],
  "calendar": [
   {
-   "id": "caiso:comments-due-joint-market-seams-workshop-nov-05-2026-1200-am",
+   "id": "caiso:extended-day-ahead-market-congestion-revenue-allocation-nov-09-2026-0900-am",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-05",
-   "title": "Comments due - Joint Market Seams Workshop",
-   "plain": "Comments due will take up wholesale-market rules.",
+   "date": "2026-11-09",
+   "title": "Extended Day-Ahead Market Congestion Revenue Allocation",
+   "plain": "Extended Day-Ahead Market Congestion Revenue Allocation will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-joint-market-seams-workshop-nov-05-2026-1200-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-congestion-revenue-allocation-nov-09-2026-0900-am"
   },
   {
-   "id": "caiso:comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am",
+   "id": "caiso:interconnection-customer-user-group-nov-10-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-05",
-   "title": "Comments due - Draft 2027-2029 market policy roadmap",
-   "plain": "Comments due will take up wholesale-market rules.",
+   "date": "2026-11-10",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-draft-2027-2029-market-policy-roadmap-nov-05-2026-1200-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-10-2026-0100-pm"
   },
   {
-   "id": "pjm:oc:20261105-item-05---2---capacity-alert---issue-charge.pdf",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-11-05",
-   "title": "Operating Committee - Item 05 - 2 - Capacity Alert - Issue Charge (PDF)",
-   "plain": "Operating Committee will take up how the grid secures enough capacity.",
-   "docket": "OC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/oc/2026/20261105/20261105-item-05---2---capacity-alert---issue-charge.pdf"
+   "id": "miso:market-subcommittee-msc---november-10-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-11-10",
+   "title": "Market Subcommittee (MSC) - November 10, 2026",
+   "plain": "Market Subcommittee will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/market-subcommittee-msc---november-10-2026/"
   }
  ]
 }
