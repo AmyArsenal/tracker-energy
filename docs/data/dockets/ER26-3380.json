@@ -1896,6 +1896,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261023-3114",
    "has_document": false
+  },
+  {
+   "accession": "20261106-5009",
+   "date": "11/06/2026",
+   "party": "Trans-Allegheny Interstate Line Company",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "American Transmission Systems, Inc. et al. submit request to update the service list under ER26-3380 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261106-5009",
+   "has_document": true
   }
  ]
 }
