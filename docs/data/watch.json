@@ -1,7 +1,7 @@
 {
- "built_at": "2026-11-07T11:54:45Z",
+ "built_at": "2026-11-09T14:14:56Z",
  "stats": {
-  "docs": 1809,
+  "docs": 1811,
   "venues": 6,
   "new_7d": 148,
   "eligible": 1591
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "caiso:extended-day-ahead-market-congestion-revenue-allocation-nov-09-2026-0900-am",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-11-09",
-   "title": "Extended Day-Ahead Market Congestion Revenue Allocation",
-   "plain": "Extended Day-Ahead Market Congestion Revenue Allocation will take up wholesale-market rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-congestion-revenue-allocation-nov-09-2026-0900-am"
-  },
-  {
    "id": "caiso:interconnection-customer-user-group-nov-10-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
@@ -78,6 +68,16 @@
    "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-10-2026-0100-pm"
+  },
+  {
+   "id": "caiso:comments-due-2027-grid-management-charge-revenue-requirement-project-budget-and-",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-10",
+   "title": "Comments due - 2027 Grid Management Charge Revenue Requirement, Project Budget, and Rates",
+   "plain": "Comments due will take up the rates and rules for grid service.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2027-grid-management-charge-revenue-requirement-project-budget-and-rates-nov-10-2026-1200-am"
   },
   {
    "id": "miso:market-subcommittee-msc---november-10-2026",
