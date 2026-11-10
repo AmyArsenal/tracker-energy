@@ -9827,8 +9827,22 @@
       "record_id": "20260727-5238",
       "source": "ferc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:12d8abac4aa6799573b75a2f539c4bade45be33b0de3b1b6a2cc25e630270bf1",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-10",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-09",
+      "record_id": "PUR-2026-00041",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-11-09T14:13:46.917214+00:00",
+  "generated_at": "2026-11-10T13:43:43.168576+00:00",
   "schema_version": "1.0"
 }

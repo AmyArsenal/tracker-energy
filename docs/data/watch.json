@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-09T14:14:56Z",
+ "built_at": "2026-11-10T13:45:21Z",
  "stats": {
-  "docs": 1811,
+  "docs": 1817,
   "venues": 6,
-  "new_7d": 148,
-  "eligible": 1591
+  "new_7d": 143,
+  "eligible": 1598
  },
  "filed": [
   {
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "caiso:interconnection-customer-user-group-nov-10-2026-0100-pm",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-11-10",
-   "title": "Interconnection Customer User Group",
-   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-10-2026-0100-pm"
-  },
-  {
-   "id": "caiso:comments-due-2027-grid-management-charge-revenue-requirement-project-budget-and-",
-   "src": "caiso",
-   "src_name": "California ISO",
-   "date": "2026-11-10",
-   "title": "Comments due - 2027 Grid Management Charge Revenue Requirement, Project Budget, and Rates",
-   "plain": "Comments due will take up the rates and rules for grid service.",
-   "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2027-grid-management-charge-revenue-requirement-project-budget-and-rates-nov-10-2026-1200-am"
-  },
-  {
-   "id": "miso:market-subcommittee-msc---november-10-2026",
+   "id": "miso:resource-adequacy-subcommittee-rasc---november-11-2026",
    "src": "miso",
    "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-11-10",
-   "title": "Market Subcommittee (MSC) - November 10, 2026",
-   "plain": "Market Subcommittee will take up wholesale-market rules.",
+   "date": "2026-11-11",
+   "title": "Resource Adequacy Subcommittee (RASC) - November 11, 2026",
+   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
    "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/market-subcommittee-msc---november-10-2026/"
+   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---november-11-2026/"
+  },
+  {
+   "id": "caiso:comments-due-market-performance-and-planning-forum-extended-day-ahead-market-eda",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-12",
+   "title": "Comments due - Market Performance and Planning Forum - Extended Day-Ahead Market (EDAM) Market Performance Meeting",
+   "plain": "Comments due will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-market-performance-and-planning-forum-extended-day-ahead-market-edam-market-performance-meeting-nov-12-2026-1200-am"
+  },
+  {
+   "id": "caiso:market-simulation-extended-day-ahead-market-enhancements-2026-nov-12-2026-1000-a",
+   "src": "caiso",
+   "src_name": "California ISO",
+   "date": "2026-11-12",
+   "title": "Market Simulation - Extended Day-Ahead Market Enhancements 2026",
+   "plain": "Market Simulation will take up wholesale-market rules.",
+   "docket": null,
+   "url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-enhancements-2026-nov-12-2026-1000-am"
   }
  ]
 }
