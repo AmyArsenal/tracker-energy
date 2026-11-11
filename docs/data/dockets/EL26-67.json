@@ -2148,6 +2148,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261104-5112",
    "has_document": true
+  },
+  {
+   "accession": "20261110-4002",
+   "date": "11/10/2026",
+   "party": "US HOUSE OF REPRESENTATIVES",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of U.S House of Representatives Victoria Spartz urging FERC to address issues on Large-Load Projects, Grid Reliability, Transmission Competition, etc. under EL26-67.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002",
+   "has_document": true
   }
  ]
 }

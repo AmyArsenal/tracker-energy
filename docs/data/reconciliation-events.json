@@ -9841,8 +9841,204 @@
       "record_id": "PUR-2026-00041",
       "source": "va-scc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:11e3c64bde72fad047713a236dbf657c2fa409a26715767f4d4ad2f862872b14",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260903-5157",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:4e8d75eb42595d832bfb505f1f800e493ea654be88541607779223d90ae58634",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260903-5125",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:4f3e44becaf7a9c6fb7ee6302c298dc4157a6b504d62097dbc6f04917d0512f3",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260821-5263",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:03321621988f76fb6cfd220f25892cb73b7094b849d8728e769976eedfe4b744",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260624-5188",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:e2455f03d71341bcea630f69c442da20f66c5f465a1d9cdcfb8116c9588a8f0d",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260623-5113",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:ae5e770ffa7f6b983455968c03ed8b6b4e14c501113705cb7ca8b1af6ea181af",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260622-5138",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:8b791def8a258839191aa506a779783c7ed25ab101586df8327143ecc7729293",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260622-5094",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:8e2e780cadcd2958725ebd20016c0aeea075f5c500d877bb9e2c11b727978b7b",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260622-5057",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:9477837a9d51f2b9634b38e7113ca4a344f87f55bd26ea0de4cfd75adc5b716c",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "20260618-3111",
+      "source": "ferc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:0df0a118461c18ded3e3a633a619b0638b058e6af2eff28f585e6b47570da55b",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "42310",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:3a4620c6a3a06080a5f0f8bd2537db6e7dceddedb991f18bfd224ff15ed3c527",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "38619",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:742e83960620177b0b4e395e673849d6f58076e855c40e33955517450adab0d9",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "15392",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:b6a8a8ca109f812994522973c2f211b71a972e17b3f9a212812e142736e0bc9c",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "15393",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:1d491fe3e90872879296fbbd1d7566975cd0d0091555050ca77041a480d2bb72",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-11",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-10",
+      "record_id": "16573",
+      "source": "va-scc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-11-10T13:43:43.168576+00:00",
+  "generated_at": "2026-11-11T12:54:40.835690+00:00",
   "schema_version": "1.0"
 }

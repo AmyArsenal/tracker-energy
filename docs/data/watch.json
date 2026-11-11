@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-10T13:45:21Z",
+ "built_at": "2026-11-11T12:56:00Z",
  "stats": {
-  "docs": 1817,
+  "docs": 1815,
   "venues": 6,
-  "new_7d": 143,
-  "eligible": 1598
+  "new_7d": 135,
+  "eligible": 1599
  },
  "filed": [
   {
@@ -28,47 +28,37 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261023-5195"
   },
   {
-   "id": "ferc:20261020-5159",
+   "id": "ferc:20261110-4002",
    "src": "ferc",
    "src_name": "FERC eLibrary",
-   "date": "2026-10-20",
-   "title": "Motion to Intervene and Protest of Tesla, Inc. et al. re the Section 206 investigation re PJM Interconnection\u2019s Reliability Backstop Procurement framework under EL26-108.",
-   "plain": "Tesla challenges grid interconnection rules.",
-   "docket": "EL26-108-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261020-5159"
+   "date": "2026-11-10",
+   "title": "Comments of U.S House of Representatives Victoria Spartz urging FERC to address issues on Large-Load Projects, Grid Reliability, Transmission Competition, etc. under EL26-67.",
+   "plain": "US HOUSE OF REPRESENTATIVES comments on transmission planning.",
+   "docket": "EL26-67-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002"
   },
   {
-   "id": "ferc:20261103-5172",
+   "id": "ferc:20261103-5114",
    "src": "ferc",
    "src_name": "FERC eLibrary",
    "date": "2026-11-03",
-   "title": "Comments of Ohio Environmental Council re PJM Interconnection, L.L.C.\u2019s 10/13/2026 Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
-   "plain": "Ohio Environmental Council comments on grid interconnection rules.",
+   "title": "Comments of the Office of the Ohio Consumers\u2019 Counsel for consumer protection re PJM Interconnection, L.L.C.\u2019s Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
+   "plain": "Office of the Ohio Consumers' Counsel comments on grid interconnection rules.",
    "docket": "ER27-126-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5172"
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5114"
   },
   {
-   "id": "va-scc:PUR-2026-00184:docket",
+   "id": "va-scc:PUR-2026-00194:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
-   "date": "2026-11-05",
-   "title": "Virginia Electric & Power Co. - For approval & certification electric transmission facilities: 500-230 kV North Anna - Thornburg Line #5010, et al. & Valley Lin",
+   "date": "2026-11-10",
+   "title": "Virginia Electric and Power Company - For Approval and Certification of Electric Transmission Facilities: Elmont - Fredericksburg Rebuild Project.",
    "plain": "A Virginia utility asks Virginia regulators to approve transmission planning.",
-   "docket": "PUR-2026-00184",
-   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00184"
+   "docket": "PUR-2026-00194",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00194"
   }
  ],
  "calendar": [
-  {
-   "id": "miso:resource-adequacy-subcommittee-rasc---november-11-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-11-11",
-   "title": "Resource Adequacy Subcommittee (RASC) - November 11, 2026",
-   "plain": "Resource Adequacy Subcommittee will take up how the grid secures enough capacity.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/resource-adequacy-subcommittee-rasc---november-11-2026/"
-  },
   {
    "id": "caiso:comments-due-market-performance-and-planning-forum-extended-day-ahead-market-eda",
    "src": "caiso",
@@ -80,14 +70,24 @@
    "url": "https://www.caiso.com/meetings-events/calendar/comments-due-market-performance-and-planning-forum-extended-day-ahead-market-edam-market-performance-meeting-nov-12-2026-1200-am"
   },
   {
-   "id": "caiso:market-simulation-extended-day-ahead-market-enhancements-2026-nov-12-2026-1000-a",
+   "id": "caiso:market-update-nov-12-2026-nov-12-2026-1000-am",
    "src": "caiso",
    "src_name": "California ISO",
    "date": "2026-11-12",
-   "title": "Market Simulation - Extended Day-Ahead Market Enhancements 2026",
-   "plain": "Market Simulation will take up wholesale-market rules.",
+   "title": "Market Update - Nov 12, 2026",
+   "plain": "Market Update will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-enhancements-2026-nov-12-2026-1000-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/market-update-nov-12-2026-nov-12-2026-1000-am"
+  },
+  {
+   "id": "miso:reliability-subcommittee-rsc---november-12-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-11-12",
+   "title": "Reliability Subcommittee (RSC) - November 12, 2026",
+   "plain": "Reliability Subcommittee will take up grid reliability rules.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/reliability-subcommittee-rsc---november-12-2026/"
   }
  ]
 }
