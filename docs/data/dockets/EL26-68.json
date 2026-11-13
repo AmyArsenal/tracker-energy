@@ -1860,6 +1860,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5317",
    "has_document": true
+  },
+  {
+   "accession": "20261112-5166",
+   "date": "11/12/2026",
+   "party": "Southwest Power Pool, Inc.",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Southwest Power Pool, Inc. submits request to update the service list under EL26-68.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5166",
+   "has_document": true
   }
  ]
 }

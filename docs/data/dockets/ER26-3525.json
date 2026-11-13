@@ -216,6 +216,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261105-3032",
    "has_document": false
+  },
+  {
+   "accession": "20261112-5098",
+   "date": "11/12/2026",
+   "party": "PJM Interconnection, L.L.C.",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "PJM Interconnection, L.L.C. submits request to update the service list under EL15-18 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5098",
+   "has_document": true
   }
  ]
 }

@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-12T13:58:33Z",
+ "built_at": "2026-11-13T13:35:04Z",
  "stats": {
-  "docs": 1816,
+  "docs": 1814,
   "venues": 6,
-  "new_7d": 124,
-  "eligible": 1580
+  "new_7d": 118,
+  "eligible": 1582
  },
  "filed": [
   {
@@ -16,16 +16,6 @@
    "plain": "FERC acts on transmission planning.",
    "docket": "ER26-3380-001",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261029-5265"
-  },
-  {
-   "id": "ferc:20261023-5195",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-10-23",
-   "title": "Limited Protest of Bloom Energy Corporation re Midcontinent Independent System Operator, Inc.\u2019s 10/02/2026 proposal to establish the Large Load Additional Resource Study under ER27-25.",
-   "plain": "Bloom Energy challenges large-load grid connections.",
-   "docket": "ER27-25-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261023-5195"
   },
   {
    "id": "ferc:20261110-4002",
@@ -46,6 +36,16 @@
    "plain": "Ohio Environmental Council comments on grid interconnection rules.",
    "docket": "ER27-126-000",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5172"
+  },
+  {
+   "id": "ferc:20261103-5114",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-11-03",
+   "title": "Comments of the Office of the Ohio Consumers\u2019 Counsel for consumer protection re PJM Interconnection, L.L.C.\u2019s Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
+   "plain": "Office of the Ohio Consumers' Counsel comments on grid interconnection rules.",
+   "docket": "ER27-126-000",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5114"
   },
   {
    "id": "va-scc:PUR-2026-00194:docket",
