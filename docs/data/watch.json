@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-13T13:35:04Z",
+ "built_at": "2026-11-14T12:28:11Z",
  "stats": {
-  "docs": 1814,
+  "docs": 1823,
   "venues": 6,
-  "new_7d": 118,
-  "eligible": 1582
+  "new_7d": 125,
+  "eligible": 1591
  },
  "filed": [
   {
@@ -18,6 +18,26 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261029-5265"
   },
   {
+   "id": "ferc:20261112-5342",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-11-12",
+   "title": "Supplemental Comments of Citizens Utility Board of Wisconsin in response to American Transmission Company's 10/22/2026 Deficiency Response and Substitute Agreements filing under ER26-3265.",
+   "plain": "Citizens Utility Board of Wisconsin comments on transmission planning.",
+   "docket": "ER26-3265-001",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5342"
+  },
+  {
+   "id": "ferc:20261112-5336",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-11-12",
+   "title": "Comments of Wisconsin Electric Power Company in support of American Transmission Company LLC's Amended Large Load Project Commitment Agreements et al. under ER26-3265.",
+   "plain": "Wisconsin Electric Power supports large-load grid connections.",
+   "docket": "ER26-3265-001",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5336"
+  },
+  {
    "id": "ferc:20261110-4002",
    "src": "ferc",
    "src_name": "FERC eLibrary",
@@ -28,34 +48,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002"
   },
   {
-   "id": "ferc:20261103-5172",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-11-03",
-   "title": "Comments of Ohio Environmental Council re PJM Interconnection, L.L.C.\u2019s 10/13/2026 Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
-   "plain": "Ohio Environmental Council comments on grid interconnection rules.",
-   "docket": "ER27-126-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5172"
-  },
-  {
-   "id": "ferc:20261103-5114",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-11-03",
-   "title": "Comments of the Office of the Ohio Consumers\u2019 Counsel for consumer protection re PJM Interconnection, L.L.C.\u2019s Study Agreement in Furtherance of the State of Ohio\u2019s State Agreement Approach Request under ER27-126.",
-   "plain": "Office of the Ohio Consumers' Counsel comments on grid interconnection rules.",
-   "docket": "ER27-126-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261103-5114"
-  },
-  {
-   "id": "va-scc:PUR-2026-00194:docket",
+   "id": "va-scc:PUR-2026-00179:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
-   "date": "2026-11-10",
-   "title": "Virginia Electric and Power Company - For Approval and Certification of Electric Transmission Facilities: Elmont - Fredericksburg Rebuild Project.",
+   "date": "2026-11-13",
+   "title": "Virginia Electric and Power Co.- For Approval and Certification of Electric Transmission Facilities: Chickahominy to Bermuda Hundred to Darbytown Corridors 230 ",
    "plain": "A Virginia utility asks Virginia regulators to approve transmission planning.",
-   "docket": "PUR-2026-00194",
-   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00194"
+   "docket": "PUR-2026-00179",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00179"
   }
  ],
  "calendar": [

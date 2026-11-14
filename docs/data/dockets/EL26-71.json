@@ -1428,6 +1428,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5317",
    "has_document": true
+  },
+  {
+   "accession": "20261113-5103",
+   "date": "11/13/2026",
+   "party": "Valley Electric Association, Inc.",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion to Rescind Show Cause Order and Conditional Request for Extension of Time of Valley Electric Association, Inc. under EL26-71.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261113-5103",
+   "has_document": true
   }
  ]
 }
