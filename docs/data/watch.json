@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-14T12:28:11Z",
+ "built_at": "2026-11-16T13:56:56Z",
  "stats": {
-  "docs": 1823,
+  "docs": 1827,
   "venues": 6,
-  "new_7d": 125,
-  "eligible": 1591
+  "new_7d": 126,
+  "eligible": 1592
  },
  "filed": [
   {
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "miso:large-load-working-group-llwg---november-16-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-11-16",
-   "title": "Large Load Working Group (LLWG) - November 16, 2026",
-   "plain": "Large Load Working Group will take up large-load grid connections.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/large-load-working-group-llwg---november-16-2026/"
+   "id": "pjm:mrc:20261118-item-03b---manual-xx---large-load-registry.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-11-18",
+   "title": "Markets and Reliability Committee - Item 03B - Manual XX - Large Load Registry (PDF)",
+   "plain": "Markets and Reliability Committee will take up MISO's reliability rules for connecting large loads.",
+   "docket": "MRC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20261118/20261118-item-03b---manual-xx---large-load-registry.pdf"
   },
   {
-   "id": "caiso:business-practice-manual-bpm-change-management-resource-interconnection-standard",
+   "id": "caiso:market-simulation-extended-day-ahead-market-enhancements-2026-nov-18-2026-0900-a",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-16",
-   "title": "Business Practice Manual (BPM) Change Management Resource Interconnection Standards - Session 3",
-   "plain": "Business Practice Manual (BPM) Change Management Resource Interconnection Standards will take up grid interconnection rules.",
+   "date": "2026-11-18",
+   "title": "Market Simulation - Extended Day-Ahead Market Enhancements 2026",
+   "plain": "Market Simulation will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/business-practice-manual-bpm-change-management-resource-interconnection-standards-session-3-nov-16-2026-1230-pm"
+   "url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-enhancements-2026-nov-18-2026-0900-am"
   },
   {
-   "id": "caiso:comments-due-2028-local-capacity-technical-study-criteria-methodology-and-assump",
+   "id": "caiso:2026-2027-transmission-planning-process-nov-18-2026-0900-am",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-16",
-   "title": "Comments due - 2028 Local Capacity Technical Study Criteria, Methodology and Assumptions",
-   "plain": "Comments due will take up how the grid secures enough capacity.",
+   "date": "2026-11-18",
+   "title": "2026-2027 Transmission Planning Process",
+   "plain": "2026-2027 Transmission Planning Process will take up transmission planning.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/comments-due-2028-local-capacity-technical-study-criteria-methodology-and-assumptions-nov-16-2026-1200-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-nov-18-2026-0900-am"
   }
  ]
 }
