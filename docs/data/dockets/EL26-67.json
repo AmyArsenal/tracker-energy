@@ -2160,6 +2160,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002",
    "has_document": true
+  },
+  {
+   "accession": "20261116-5143",
+   "date": "11/16/2026",
+   "party": "Panattoni Development Company, Inc.",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion to Intervene Out of Time",
+   "summary": "Panattoni Development Company, Inc. enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261116-5143",
+   "has_document": false
   }
  ]
 }

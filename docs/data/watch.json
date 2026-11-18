@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-16T13:56:56Z",
+ "built_at": "2026-11-18T14:29:43Z",
  "stats": {
-  "docs": 1827,
+  "docs": 1828,
   "venues": 6,
-  "new_7d": 126,
-  "eligible": 1592
+  "new_7d": 123,
+  "eligible": 1596
  },
  "filed": [
   {
@@ -16,6 +16,16 @@
    "plain": "FERC acts on transmission planning.",
    "docket": "ER26-3380-001",
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261029-5265"
+  },
+  {
+   "id": "ferc:20261112-5364",
+   "src": "ferc",
+   "src_name": "FERC eLibrary",
+   "date": "2026-11-12",
+   "title": "Protest and Motion for Hearing of Microsoft Corporation to 10/22/2026 American Transmission Company LLC Deficiency Response under ER26-3265.",
+   "plain": "Microsoft challenges transmission planning.",
+   "docket": "ER26-3265-001",
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5364"
   },
   {
    "id": "ferc:20261112-5342",
@@ -38,16 +48,6 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5336"
   },
   {
-   "id": "ferc:20261110-4002",
-   "src": "ferc",
-   "src_name": "FERC eLibrary",
-   "date": "2026-11-10",
-   "title": "Comments of U.S House of Representatives Victoria Spartz urging FERC to address issues on Large-Load Projects, Grid Reliability, Transmission Competition, etc. under EL26-67.",
-   "plain": "US HOUSE OF REPRESENTATIVES comments on transmission planning.",
-   "docket": "EL26-67-000",
-   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002"
-  },
-  {
    "id": "va-scc:PUR-2026-00179:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
@@ -60,34 +60,34 @@
  ],
  "calendar": [
   {
-   "id": "pjm:mrc:20261118-item-03b---manual-xx---large-load-registry.pdf",
-   "src": "pjm",
-   "src_name": "PJM Interconnection",
-   "date": "2026-11-18",
-   "title": "Markets and Reliability Committee - Item 03B - Manual XX - Large Load Registry (PDF)",
-   "plain": "Markets and Reliability Committee will take up MISO's reliability rules for connecting large loads.",
-   "docket": "MRC",
-   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mrc/2026/20261118/20261118-item-03b---manual-xx---large-load-registry.pdf"
+   "id": "miso:corporate-governance-and-strategic-planning-committee-of-the-board-of-directors---november-19-2026",
+   "src": "miso",
+   "src_name": "Midcontinent Independent System Operator",
+   "date": "2026-11-19",
+   "title": "Corporate Governance and Strategic Planning Committee of the Board of Directors - November 19, 2026",
+   "plain": "Corporate Governance and Strategic Planning Committee will take up the rates and rules for grid service.",
+   "docket": null,
+   "url": "https://www.misoenergy.org/events/2026/corporate-governance-and-strategic-planning-committee-of-the-board-of-directors---november-19-2026/"
   },
   {
-   "id": "caiso:market-simulation-extended-day-ahead-market-enhancements-2026-nov-18-2026-0900-a",
+   "id": "caiso:interconnection-customer-user-group-nov-24-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-18",
-   "title": "Market Simulation - Extended Day-Ahead Market Enhancements 2026",
-   "plain": "Market Simulation will take up wholesale-market rules.",
+   "date": "2026-11-24",
+   "title": "Interconnection Customer User Group",
+   "plain": "Interconnection Customer User Group will take up grid interconnection rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/market-simulation-extended-day-ahead-market-enhancements-2026-nov-18-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/interconnection-customer-user-group-nov-24-2026-0100-pm"
   },
   {
-   "id": "caiso:2026-2027-transmission-planning-process-nov-18-2026-0900-am",
+   "id": "caiso:extended-day-ahead-market-edam-performance-nov-24-2026-0900-am",
    "src": "caiso",
    "src_name": "California ISO",
-   "date": "2026-11-18",
-   "title": "2026-2027 Transmission Planning Process",
-   "plain": "2026-2027 Transmission Planning Process will take up transmission planning.",
+   "date": "2026-11-24",
+   "title": "Extended Day-Ahead Market (EDAM) Performance",
+   "plain": "Extended Day-Ahead Market (EDAM) Performance will take up wholesale-market rules.",
    "docket": null,
-   "url": "https://www.caiso.com/meetings-events/calendar/2026-2027-transmission-planning-process-nov-18-2026-0900-am"
+   "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-performance-nov-24-2026-0900-am"
   }
  ]
 }
