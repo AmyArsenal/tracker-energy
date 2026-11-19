@@ -1,9 +1,9 @@
 {
- "built_at": "2026-11-18T14:29:43Z",
+ "built_at": "2026-11-19T14:40:55Z",
  "stats": {
-  "docs": 1828,
+  "docs": 1823,
   "venues": 6,
-  "new_7d": 123,
+  "new_7d": 125,
   "eligible": 1596
  },
  "filed": [
@@ -60,16 +60,6 @@
  ],
  "calendar": [
   {
-   "id": "miso:corporate-governance-and-strategic-planning-committee-of-the-board-of-directors---november-19-2026",
-   "src": "miso",
-   "src_name": "Midcontinent Independent System Operator",
-   "date": "2026-11-19",
-   "title": "Corporate Governance and Strategic Planning Committee of the Board of Directors - November 19, 2026",
-   "plain": "Corporate Governance and Strategic Planning Committee will take up the rates and rules for grid service.",
-   "docket": null,
-   "url": "https://www.misoenergy.org/events/2026/corporate-governance-and-strategic-planning-committee-of-the-board-of-directors---november-19-2026/"
-  },
-  {
    "id": "caiso:interconnection-customer-user-group-nov-24-2026-0100-pm",
    "src": "caiso",
    "src_name": "California ISO",
@@ -88,6 +78,16 @@
    "plain": "Extended Day-Ahead Market (EDAM) Performance will take up wholesale-market rules.",
    "docket": null,
    "url": "https://www.caiso.com/meetings-events/calendar/extended-day-ahead-market-edam-performance-nov-24-2026-0900-am"
+  },
+  {
+   "id": "pjm:mic:20261202-draft-minutes---mic---1142026.pdf",
+   "src": "pjm",
+   "src_name": "PJM Interconnection",
+   "date": "2026-12-02",
+   "title": "Market Implementation Committee - Draft Minutes - MIC - 11.4.2026 (PDF)",
+   "plain": "Market Implementation Committee will take up wholesale-market rules.",
+   "docket": "MIC",
+   "url": "https://www.pjm.com//-/media/DotCom/committees-groups/committees/mic/2026/20261202/20261202-draft-minutes---mic---1142026.pdf"
   }
  ]
 }

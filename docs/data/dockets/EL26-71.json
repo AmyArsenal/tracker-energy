@@ -1440,6 +1440,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261113-5103",
    "has_document": true
+  },
+  {
+   "accession": "20261116-5387",
+   "date": "11/16/2026",
+   "party": "Southern California Edison Company",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Deficiency Letter/Data Response",
+   "summary": "Response to 11/16/2026, Show Cause Order of Southern California Edison Company under ER27-508, et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261116-5387",
+   "has_document": true
+  },
+  {
+   "accession": "20261116-5388",
+   "date": "11/16/2026",
+   "party": "DCR Transmission, L.L.C.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Deficiency Letter/Data Response",
+   "summary": "Response to 06/18/2026, Show Cause Order of California Independent System Operator Corporation, et. al., under ER27-512, et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261116-5388",
+   "has_document": true
   }
  ]
 }
