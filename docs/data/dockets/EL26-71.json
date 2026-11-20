@@ -1464,6 +1464,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261116-5388",
    "has_document": true
+  },
+  {
+   "accession": "20261116-5399",
+   "date": "11/16/2026",
+   "party": "Startrans IO, L.L.C.",
+   "role": "intervenor",
+   "phase": "answers",
+   "filing_type": "Deficiency Letter/Data Response",
+   "summary": "Response to June 18, 2026, Show Cause Order of California Independent System Operator Corporation under EL26-71.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261116-5399",
+   "has_document": true
   }
  ]
 }
