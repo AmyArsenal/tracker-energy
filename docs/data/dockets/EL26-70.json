@@ -2124,6 +2124,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261102-5317",
    "has_document": true
+  },
+  {
+   "accession": "20261110-4002",
+   "date": "11/10/2026",
+   "party": "US HOUSE OF REPRESENTATIVES",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of U.S House of Representatives Victoria Spartz urging FERC to address issues on Large-Load Projects, Grid Reliability, Transmission Competition, etc. under EL26-67.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002",
+   "has_document": true
+  },
+  {
+   "accession": "20261120-5248",
+   "date": "11/20/2026",
+   "party": "Individual No Affiliation",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Olabanji John Ogunyemi on the Midcontinent Independent System Operator, Inc.\u2019s 11/16/2026 Large Load filing and the 06/18/2026 Show Cause Order under ER27-526 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261120-5248",
+   "has_document": true
   }
  ]
 }

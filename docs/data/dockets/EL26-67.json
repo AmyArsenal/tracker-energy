@@ -2174,6 +2174,18 @@
    "has_document": false
   },
   {
+   "accession": "20261118-5286",
+   "date": "11/18/2026",
+   "party": "PJM Interconnection L.L.C",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "General Correspondence",
+   "summary": "PJM Interconnection L.L.C. submits Notice of Filing related to the 11/16/2026 Proposal to Address Operational Requirements for Large Computational Load and Establish an Annual Transmission Service Reporting Requirement et al. under ER17-522 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261118-5286",
+   "has_document": true
+  },
+  {
    "accession": "20261119-5133",
    "date": "11/19/2026",
    "party": "Individual No Affiliation",
