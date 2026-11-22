@@ -1,10 +1,10 @@
 {
- "built_at": "2026-11-21T13:42:22Z",
+ "built_at": "2026-11-22T13:33:57Z",
  "stats": {
-  "docs": 1822,
+  "docs": 1826,
   "venues": 6,
-  "new_7d": 119,
-  "eligible": 1602
+  "new_7d": 88,
+  "eligible": 1563
  },
  "filed": [
   {
@@ -48,14 +48,14 @@
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5336"
   },
   {
-   "id": "va-scc:PUR-2026-00179:docket",
+   "id": "va-scc:PUR-2026-00196:docket",
    "src": "va-scc",
    "src_name": "Virginia State Corporation Commission",
-   "date": "2026-11-13",
-   "title": "Virginia Electric and Power Co.- For Approval and Certification of Electric Transmission Facilities: Chickahominy to Bermuda Hundred to Darbytown Corridors 230 ",
-   "plain": "A Virginia utility asks Virginia regulators to approve transmission planning.",
-   "docket": "PUR-2026-00179",
-   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00179"
+   "date": "2026-11-16",
+   "title": "Blackwater Solar LLC - Application for a CPCN for a solar generating facility, battery energy storage facility, and associated interconnection facilities in Sus",
+   "plain": "A Virginia utility asks Virginia regulators to approve grid interconnection rules.",
+   "docket": "PUR-2026-00196",
+   "url": "https://www.scc.virginia.gov/docketsearch#/caseDetails/PUR-2026-00196"
   }
  ],
  "calendar": [

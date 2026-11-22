@@ -18171,8 +18171,22 @@
       "record_id": "41253",
       "source": "va-scc",
       "source_presence": "retained_missing"
+    },
+    {
+      "confidence": {
+        "band": "high",
+        "basis": "deterministic source reconciliation"
+      },
+      "event_id": "reconciliation:62e146d6e76097bf0baaa9a53da46a79405b298be9df695523339aef40a8a63e",
+      "event_type": "source.record_missing_from_bounded_discovery",
+      "first_missing_date": "2026-11-22",
+      "interpretation": "Absence from this bounded query is not evidence of withdrawal, closure, or deletion.",
+      "last_seen_date": "2026-11-21",
+      "record_id": "20260709-5008",
+      "source": "ferc",
+      "source_presence": "retained_missing"
     }
   ],
-  "generated_at": "2026-11-21T13:40:36.925213+00:00",
+  "generated_at": "2026-11-22T13:32:42.296847+00:00",
   "schema_version": "1.0"
 }
