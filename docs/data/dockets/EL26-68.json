@@ -1884,6 +1884,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261112-5166",
    "has_document": true
+  },
+  {
+   "accession": "20261120-5341",
+   "date": "11/20/2026",
+   "party": "NorthWestern Corporation",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "NorthWestern Corporation submits request to update the service list under ER18-2511 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261120-5341",
+   "has_document": true
   }
  ]
 }
