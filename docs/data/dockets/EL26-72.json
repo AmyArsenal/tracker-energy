@@ -1380,6 +1380,18 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261110-4002",
    "has_document": true
+  },
+  {
+   "accession": "20261123-5193",
+   "date": "11/23/2026",
+   "party": "Individual No Affiliation",
+   "role": "protestor",
+   "phase": "protests",
+   "filing_type": "Comment on Filing",
+   "summary": "Comments of Anthony Salisbury in support of the direction of ISO New England Inc.'s revisions related to the Integration of Large Loads to the Transmission System under ER27-484 et al.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261123-5193",
+   "has_document": false
   }
  ]
 }

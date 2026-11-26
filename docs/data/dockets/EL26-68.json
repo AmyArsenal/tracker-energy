@@ -1896,6 +1896,30 @@
    "responds_to": null,
    "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261120-5341",
    "has_document": true
+  },
+  {
+   "accession": "20261124-5230",
+   "date": "11/24/2026",
+   "party": "Advanced Power Alliance",
+   "role": "intervenor",
+   "phase": "interventions",
+   "filing_type": "Motion/Notice of Intervention",
+   "summary": "Advanced Power Alliance enters the docket as a party without stating a merits position.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261124-5230",
+   "has_document": false
+  },
+  {
+   "accession": "20261124-5265",
+   "date": "11/24/2026",
+   "party": "Natural Resources Defense Council",
+   "role": "intervenor",
+   "phase": "notices",
+   "filing_type": "Procedural Motion",
+   "summary": "Motion of Natural Resources Defense Council et al. for Extension of Comment Deadline until 01/15/2027 for Southwest Power Pool, Inc.'s 11/20/2026 filing et al. under EL26-68.",
+   "responds_to": null,
+   "url": "https://elibrary.ferc.gov/eLibrary/docinfo?accession_number=20261124-5265",
+   "has_document": true
   }
  ]
 }
